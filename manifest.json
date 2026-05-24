@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-23T18:19:10.846Z",
-  "count": 161,
+  "generated": "2026-05-24T13:05:00.196Z",
+  "count": 168,
   "images": [
     {
       "filename": "DSC03274_web.jpg",
@@ -12,7 +12,6 @@
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
         "Joonas Riippa",
-        "Keywords",
         "People"
       ],
       "orientation": "landscape",
@@ -28,7 +27,6 @@
       "keywords": [
         "JOONAS HAAVISTO TRIO",
         "Joonas Riippa",
-        "Keywords",
         "People"
       ],
       "orientation": "portrait",
@@ -44,13 +42,12 @@
       "keywords": [
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Keywords",
         "People"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 60%"
+      "facePosition": "center 3%"
     },
     {
       "filename": "DSC03311_web.jpg",
@@ -60,7 +57,6 @@
       "keywords": [
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Keywords",
         "People"
       ],
       "orientation": "portrait",
@@ -76,13 +72,12 @@
       "keywords": [
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Keywords",
         "People"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 39%"
+      "facePosition": "center 35%"
     },
     {
       "filename": "DSC03505_web.jpg",
@@ -93,7 +88,6 @@
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
         "Joonas Riippa",
-        "Keywords",
         "People"
       ],
       "orientation": "portrait",
@@ -111,7 +105,6 @@
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
         "Joonas Riippa",
-        "Keywords",
         "People"
       ],
       "orientation": "landscape",
@@ -127,7 +120,6 @@
       "keywords": [
         "JOONAS HAAVISTO TRIO",
         "Joonas Riippa",
-        "Keywords",
         "People"
       ],
       "orientation": "landscape",
@@ -143,7 +135,6 @@
       "keywords": [
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
-        "Keywords",
         "People"
       ],
       "orientation": "landscape",
@@ -159,7 +150,6 @@
       "keywords": [
         "JOONAS HAAVISTO TRIO",
         "Joonas Riippa",
-        "Keywords",
         "People"
       ],
       "orientation": "landscape",
@@ -175,13 +165,12 @@
       "keywords": [
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
-        "Keywords",
         "People"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 51%"
+      "facePosition": "center 52%"
     },
     {
       "filename": "DSC02772_web.jpg",
@@ -190,7 +179,8 @@
       "artist": "MAX LIGHT QUINTET",
       "keywords": [
         "MAX LIGHT QUINTET",
-        "Max Light"
+        "Max Light",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -204,7 +194,8 @@
       "artist": "Caleb Curtis",
       "keywords": [
         "Caleb Curtis",
-        "MAX LIGHT QUINTET"
+        "MAX LIGHT QUINTET",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -218,7 +209,8 @@
       "artist": "MAX LIGHT QUINTET",
       "keywords": [
         "MAX LIGHT QUINTET",
-        "Max Light"
+        "Max Light",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -233,12 +225,13 @@
       "keywords": [
         "Kaisa Mäensivu",
         "MAX LIGHT QUINTET",
-        "People"
+        "People",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 44%"
+      "facePosition": "center 17%"
     },
     {
       "filename": "DSC02896_web.jpg",
@@ -247,7 +240,8 @@
       "artist": "Joe Peri",
       "keywords": [
         "Joe Peri",
-        "MAX LIGHT QUINTET"
+        "MAX LIGHT QUINTET",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -261,7 +255,8 @@
       "artist": "MAX LIGHT QUINTET",
       "keywords": [
         "MAX LIGHT QUINTET",
-        "Max Light"
+        "Max Light",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -275,7 +270,9 @@
       "artist": "Julian Shore",
       "keywords": [
         "Julian Shore",
-        "MAX LIGHT QUINTET"
+        "Keywords",
+        "MAX LIGHT QUINTET",
+        "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -290,12 +287,13 @@
       "keywords": [
         "Kaisa Mäensivu",
         "MAX LIGHT QUINTET",
-        "People"
+        "People",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 24%"
+      "facePosition": "center 2%"
     },
     {
       "filename": "DSC03038_web.jpg",
@@ -305,12 +303,13 @@
       "keywords": [
         "Caleb Curtis",
         "MAX LIGHT QUINTET",
-        "Max Light"
+        "Max Light",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 16%"
+      "facePosition": "center 37%"
     },
     {
       "filename": "DSC03087_web.jpg",
@@ -320,7 +319,8 @@
       "keywords": [
         "Kaisa Mäensivu",
         "MAX LIGHT QUINTET",
-        "People"
+        "People",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -335,7 +335,8 @@
       "keywords": [
         "Caleb Curtis",
         "MAX LIGHT QUINTET",
-        "Max Light"
+        "Max Light",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -349,7 +350,8 @@
       "artist": "Joe Peri",
       "keywords": [
         "Joe Peri",
-        "MAX LIGHT QUINTET"
+        "MAX LIGHT QUINTET",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -363,7 +365,8 @@
       "artist": "Joe Peri",
       "keywords": [
         "Joe Peri",
-        "MAX LIGHT QUINTET"
+        "MAX LIGHT QUINTET",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -396,7 +399,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 24%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC01148_web.jpg",
@@ -424,7 +427,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 25%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC00627_web.jpg",
@@ -496,7 +499,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 26%"
+      "facePosition": "center 27%"
     },
     {
       "filename": "DSC09853_web.jpg",
@@ -541,7 +544,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 7%"
+      "facePosition": "center 26%"
     },
     {
       "filename": "DSC09908_web.jpg",
@@ -556,7 +559,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 42%"
+      "facePosition": "center 18%"
     },
     {
       "filename": "DSC09454_web.jpg",
@@ -602,6 +605,22 @@
       "facePosition": "center 60%"
     },
     {
+      "filename": "DSC07947_web.jpg",
+      "src": "images/DSC07947_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Filemon von Numers",
+      "keywords": [
+        "Filemon von Numers",
+        "Max Zenger",
+        "RUNON JAZZBRUNSSI: MAX ZENGER 3 PLAYS JIMMY GIUFFRE 3",
+        "Rene Willman"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 23%"
+    },
+    {
       "filename": "DSC08044_web.jpg",
       "src": "images/DSC08044_web.jpg",
       "date": "2025-09-27",
@@ -642,7 +661,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 34%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC08430_web.jpg",
@@ -687,6 +706,26 @@
       "facePosition": "center 19%"
     },
     {
+      "filename": "DSC08577_web.jpg",
+      "src": "images/DSC08577_web.jpg",
+      "date": "2025-09-27",
+      "artist": "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+      "keywords": [
+        "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+        "Felix Zenger",
+        "Jay L",
+        "Johannes Granroth",
+        "People",
+        "Rafa Postel",
+        "Tapio Backlund",
+        "Tommy Lindgren"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
       "filename": "DSC08607_web.jpg",
       "src": "images/DSC08607_web.jpg",
       "date": "2025-09-27",
@@ -700,6 +739,36 @@
       "width": 2000,
       "height": 2000,
       "facePosition": null
+    },
+    {
+      "filename": "DSC08637_web.jpg",
+      "src": "images/DSC08637_web.jpg",
+      "date": "2025-09-27",
+      "artist": "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+      "keywords": [
+        "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+        "Felix Zenger",
+        "Tommy Lindgren"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 31%"
+    },
+    {
+      "filename": "DSC08720_web.jpg",
+      "src": "images/DSC08720_web.jpg",
+      "date": "2025-09-27",
+      "artist": "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+      "keywords": [
+        "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+        "Jay L",
+        "Rafa Postel"
+      ],
+      "orientation": "portrait",
+      "width": 1892,
+      "height": 2000,
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC08747_web.jpg",
@@ -729,7 +798,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 23%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC07105_web.jpg",
@@ -787,7 +856,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 60%"
+      "facePosition": "center 55%"
     },
     {
       "filename": "DSC07212_web.jpg",
@@ -862,6 +931,22 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 60%"
+    },
+    {
+      "filename": "DSC09919-Pano-2_LR_web.jpg",
+      "src": "images/DSC09919-Pano-2_LR_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "Sam Ospovat",
+        "Simon Jermyn"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 908,
+      "facePosition": null
     },
     {
       "filename": "DSC00476_web.jpg",
@@ -946,7 +1031,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 7%"
+      "facePosition": "center 16%"
     },
     {
       "filename": "DSC00072_BW_web.jpg",
@@ -1115,7 +1200,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 21%"
+      "facePosition": "center 22%"
     },
     {
       "filename": "DSC07736_web.jpg",
@@ -1144,7 +1229,22 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 32%"
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC06844_web.jpg",
+      "src": "images/DSC06844_web.jpg",
+      "date": "2023-10-01",
+      "artist": "MIKKO IIVANAINEN SOLO",
+      "keywords": [
+        "MIKKO IIVANAINEN SOLO",
+        "Mikko Iivanainen",
+        "People"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC06903_web.jpg",
@@ -1188,7 +1288,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 60%"
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC05461_web.jpg",
@@ -1231,7 +1331,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 40%"
+      "facePosition": "center 26%"
     },
     {
       "filename": "DSC05531_web.jpg",
@@ -1259,7 +1359,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 13%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC05860_web.jpg",
@@ -1411,7 +1511,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 20%"
+      "facePosition": "center 36%"
     },
     {
       "filename": "DSC03220_web.jpg",
@@ -1426,7 +1526,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 47%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC03258_web.jpg",
@@ -1522,7 +1622,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 37%"
+      "facePosition": "center 36%"
     },
     {
       "filename": "DSC02158_web.jpg",
@@ -1539,6 +1639,22 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 23%"
+    },
+    {
+      "filename": "DSC01445_web.jpg",
+      "src": "images/DSC01445_web.jpg",
+      "date": "2023-03-04",
+      "artist": "Porvoo Jazz Club",
+      "keywords": [
+        "Porvoo Jazz Club",
+        "SEIM/HENRIKSEN/JORMIN/OUNASKARI",
+        "Trygve Seim",
+        "saksofoni"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC01538_web.jpg",
@@ -1587,7 +1703,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 51%"
+      "facePosition": "center 23%"
     },
     {
       "filename": "DSC01258_web.jpg",
@@ -1603,7 +1719,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 36%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC07049_web.jpg",
@@ -1617,7 +1733,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 5%"
+      "facePosition": "center 6%"
     },
     {
       "filename": "DSC07253_web.jpg",
@@ -1676,7 +1792,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 2%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC07958_web.jpg",
@@ -1706,7 +1822,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 48%"
+      "facePosition": "center 31%"
     },
     {
       "filename": "DSC08298_web.jpg",
@@ -1750,7 +1866,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 17%"
+      "facePosition": "center 16%"
     },
     {
       "filename": "DSC08511_web.jpg",
@@ -1776,7 +1892,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 43%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC08928_web.jpg",
@@ -1940,7 +2056,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 41%"
+      "facePosition": "center 25%"
     },
     {
       "filename": "DSC06672_web.jpg",
@@ -1955,7 +2071,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 6%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC06838_web.jpg",
@@ -2033,7 +2149,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 13%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC02643_web.jpg",
@@ -2126,7 +2242,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 52%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC03236_web.jpg",
@@ -2222,7 +2338,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 42%"
+      "facePosition": "center 43%"
     },
     {
       "filename": "DSC02370_web.jpg",
@@ -2253,7 +2369,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 35%"
+      "facePosition": "center 56%"
     },
     {
       "filename": "DSC02401_web.jpg",
@@ -2268,7 +2384,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 60%"
+      "facePosition": "center 58%"
     },
     {
       "filename": "DSC02439_web.jpg",
@@ -2386,7 +2502,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 43%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC05761_web.jpg",
