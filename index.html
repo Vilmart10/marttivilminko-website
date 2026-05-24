@@ -507,18 +507,20 @@ nav.solid { background:rgba(8,8,8,.97); }
 .prints-search-clear {
   position:absolute; right:.7rem;
   background:none; border:none;
-  color:var(--dim); font-size:1rem;
+  color:var(--light); font-size:1rem;
   cursor:none; opacity:0;
   transition:opacity .2s, color .2s;
   padding:0; line-height:1;
+  pointer-events:all;
+  z-index:10;
 }
 .prints-search-clear.visible { opacity:1; }
 .prints-search-clear:hover { color:var(--gold); }
 
 .prints-search-hint {
   font-family:'Space Mono', monospace;
-  font-size:.55rem; letter-spacing:.12em;
-  color:var(--dim);
+  font-size:.68rem; letter-spacing:.12em;
+  color:var(--light);
 }
 
 .prints-grid {
@@ -1430,8 +1432,8 @@ function buildPrints(filter = '') {
     : [...IMAGES];
 
   hint.textContent = q
-    ? `${printsFiltered.length} tulos${printsFiltered.length !== 1 ? 'ta' : ''}`
-    : `${IMAGES.length} kuvaa kokoelmassa`;
+    ? `${printsFiltered.length} tulosta`
+    : `${IMAGES.length} kuvaa kokoelmassa · tuoreimmasta vanhimpaan`;
 
   if (q) printsPage = 0;
   renderPrintsPage();
@@ -1755,7 +1757,7 @@ if (window.location.hash) {
     printsFiltered = [...IMAGES];
     buildHero();
     buildMarquee();
-    renderPrintsPage();
+    buildPrints();
     observeReveals();
   } catch(e) {
     console.error('Init error:', e.message, e.stack);
