@@ -1030,6 +1030,19 @@ img {
 
 <!-- ═══ JAVASCRIPT ═══════════════════════════════════════════════════════ -->
 <script>
+// ── Salasanasuojaus (poista kun sivusto valmis julkaistavaksi) ────────────
+(function() {
+  const PASS = 'jazz2026'; // vaihda haluamaksesi
+  const key  = 'mv_access';
+  if (sessionStorage.getItem(key) !== '1') {
+    const input = prompt('Syötä salasana:');
+    if (input !== PASS) {
+      document.body.innerHTML = '<div style="background:#080808;color:#c8c0b0;font-family:monospace;display:flex;align-items:center;justify-content:center;height:100vh;font-size:.9rem;letter-spacing:.1em">Väärä salasana</div>';
+      throw new Error('Access denied');
+    }
+    sessionStorage.setItem(key, '1');
+  }
+})();
 // ── State ────────────────────────────────────────────────────────────────
 let IMAGES       = [];   // full manifest array
 let heroImages   = [];   // shuffled subset for slideshow
