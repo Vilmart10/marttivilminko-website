@@ -1,0 +1,12 @@
+{
+  "name": "jazz-portfolio",
+  "version": "1.0.0",
+  "description": "Jazz photography portfolio",
+  "scripts": {
+    "build": "node generate-manifest.js",
+    "dev": "node generate-manifest.js && npx live-server --port=3000"
+  },
+  "dependencies": {
+    "exiftool-vendored": "^28.0.0"
+  }
+}

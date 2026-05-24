@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Martti Vilminko · Jazz Photography</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ── RESET & TOKENS ─────────────────────────────────────────────────────── */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+
+:root {
+  --black:    #080808;
+  --deep:     #0f0f0f;
+  --dark:     #181818;
+  --mid:      #3a3a3a;
+  --dim:      #888;
+  --light:    #c8c0b0;
+  --cream:    #e8e0d0;
+  --white:    #f5f2ed;
+  --gold:     #c9a84c;
+  --gold-dim: #8a6e2a;
+  --nav-h:    72px;
+}
+
+body {
+  background: var(--black);
+  color: var(--cream);
+  font-family: 'Cormorant Garamond', serif;
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* ── CURSOR ─────────────────────────────────────────────────────────────── */
+.cursor      { width:10px; height:10px; background:var(--gold); border-radius:50%; position:fixed; pointer-events:none; z-index:9999; transform:translate(-50%,-50%); }
+.cursor-ring { display:none; }
+
+/* ── GRAIN ──────────────────────────────────────────────────────────────── */
+.grain {
+  position:fixed; inset:0; pointer-events:none; z-index:500; opacity:.04;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:200px;
+}
+
+/* ── NAV ────────────────────────────────────────────────────────────────── */
+nav {
+  position:fixed; top:0; left:0; right:0; height:var(--nav-h);
+  z-index:400;
+  display:flex; align-items:center; justify-content:space-between;
+  padding:0 3rem;
+  background:linear-gradient(to bottom, rgba(8,8,8,.96) 0%, transparent 100%);
+  transition:background .4s;
+}
+nav.solid { background:rgba(8,8,8,.97); }
+
+.nav-logo {
+  font-family:'Space Mono', monospace;
+  font-size:.7rem; letter-spacing:.3em;
+  color:var(--gold); text-transform:uppercase;
+  text-decoration:none;
+}
+.nav-logo span { color:var(--light); }
+
+/* Large logo overlay on hero */
+.hero-logo {
+  position:absolute;
+  top:50%; left:50%;
+  transform:translate(-50%, -50%);
+  z-index:5;
+  text-align:center;
+  pointer-events:none;
+  opacity:0;
+  animation:fadeUp 1.2s .4s forwards;
+}
+.hero-logo-text {
+  font-family:'Space Mono', monospace;
+  font-size:clamp(1.2rem, 3vw, 2.2rem);
+  letter-spacing:.35em;
+  color:var(--white);
+  text-transform:uppercase;
+  text-shadow:0 2px 20px rgba(0,0,0,.8);
+}
+.hero-logo-text span {
+  color:rgba(201,168,76,.8);
+  margin:0 .5em;
+}
+.hero-logo-sub {
+  font-family:'Cormorant Garamond', serif;
+  font-size:clamp(.8rem, 1.5vw, 1.1rem);
+  font-style:italic;
+  letter-spacing:.2em;
+  color:rgba(200,192,176,.6);
+  margin-top:.5rem;
+}
+
+
+.nav-links { display:flex; gap:2.5rem; }
+.nav-links a {
+  font-family:'Space Mono', monospace;
+  font-size:.6rem; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--light); text-decoration:none;
+  transition:color .3s;
+}
+.nav-links a:hover, .nav-links a.active { color:var(--gold); }
+
+/* ── HERO SLIDESHOW ─────────────────────────────────────────────────────── */
+#hero {
+  position:relative;
+  height:100vh; width:100%;
+  overflow:hidden;
+  background:var(--black);
+}
+
+.slide {
+  position:absolute; inset:0;
+  opacity:0;
+  transition:opacity 1.4s ease-in-out;
+  will-change:opacity;
+}
+.slide.active   { opacity:1; z-index:2; }
+.slide.prev     { opacity:0; z-index:1; }
+
+.slide img {
+  width:100%; height:100%;
+  object-fit:cover;
+  display:block;
+  /* orient portrait vs landscape */
+}
+.slide.portrait img  { object-position:center top; }
+.slide.landscape img { object-position:center center; }
+
+/* Dark vignette over slide */
+.slide::after {
+  content:'';
+  position:absolute; inset:0;
+  background:
+    linear-gradient(to top,  rgba(8,8,8,.75) 0%, transparent 45%),
+    linear-gradient(to right, rgba(8,8,8,.35) 0%, transparent 40%);
+  z-index:1;
+}
+
+/* Slide caption */
+.slide-caption {
+  position:absolute; bottom:3.5rem; left:3rem;
+  z-index:3;
+  opacity:0; transform:translateY(12px);
+  transition:opacity .6s .4s, transform .6s .4s;
+}
+.slide.active .slide-caption { opacity:1; transform:translateY(0); }
+
+.slide-caption-date {
+  font-family:'Playfair Display', serif;
+  font-size:clamp(1.8rem, 4vw, 3.2rem);
+  font-style:italic; font-weight:700;
+  color:var(--white);
+  line-height:1.1;
+}
+.slide-caption-artist {
+  font-family:'Space Mono', monospace;
+  font-size:.62rem; letter-spacing:.18em;
+  color:var(--gold);
+  text-transform:uppercase;
+  margin-top:.5rem;
+}
+.slide-caption-keywords {
+  font-family:'Space Mono', monospace;
+  font-size:.55rem; letter-spacing:.14em;
+  color:var(--light);
+  text-transform:uppercase;
+  margin-top:.25rem;
+  opacity:.75;
+}
+
+/* Arrow buttons */
+.hero-arrow {
+  position:absolute; top:50%; z-index:10;
+  transform:translateY(-50%);
+  width:52px; height:52px;
+  border:1px solid rgba(201,168,76,.3);
+  background:rgba(8,8,8,.5);
+  color:var(--gold);
+  font-size:1.2rem; line-height:1;
+  display:flex; align-items:center; justify-content:center;
+  cursor:none;
+  transition:border-color .3s, background .3s;
+  backdrop-filter:blur(4px);
+}
+.hero-arrow:hover { border-color:var(--gold); background:rgba(8,8,8,.8); }
+.hero-arrow.left  { left:2rem; }
+.hero-arrow.right { right:2rem; }
+
+/* Slide counter */
+.hero-counter {
+  position:fixed; bottom:2.8rem; right:3rem; z-index:51;
+  font-family:'Space Mono', monospace;
+  font-size:.6rem; letter-spacing:.2em;
+  color:rgba(201,168,76,.6);
+}
+
+/* Slide keywords above dots */
+.hero-keywords {
+  position:fixed; bottom:4rem; left:50%; z-index:51;
+  transform:translateX(-50%);
+  display:flex; flex-wrap:wrap; gap:.4rem;
+  justify-content:center;
+  width:90vw;
+  max-width:900px;
+  pointer-events:all;
+}
+.hero-kw {
+  font-family:'Space Mono', monospace;
+  font-size:.5rem; letter-spacing:.12em;
+  color:rgba(201,168,76,.7);
+  border:1px solid rgba(201,168,76,.25);
+  padding:.2rem .55rem;
+  text-transform:uppercase;
+  cursor:none;
+  transition:color .2s, border-color .2s, background .2s;
+  white-space:nowrap;
+}
+.hero-kw:hover {
+  color:var(--gold);
+  border-color:var(--gold);
+  background:rgba(201,168,76,.08);
+}
+/* Dot indicators */
+.hero-dots {
+  position:fixed; bottom:2.8rem; left:50%; z-index:52;
+  transform:translateX(-50%);
+  display:flex; gap:.5rem;
+}
+.hero-dot {
+  width:24px; height:2px;
+  background:rgba(255,255,255,.2);
+  cursor:none;
+  transition:background .3s, width .3s;
+}
+.hero-dot.active { background:var(--gold); width:36px; }
+
+/* ── MARQUEE ────────────────────────────────────────────────────────────── */
+.marquee-bar {
+  position:fixed; bottom:0; left:0; right:0;
+  z-index:50;
+  border-top:1px solid rgba(201,168,76,.12);
+  padding:.6rem 0; overflow:hidden;
+  background:rgba(10,10,10,.92);
+  backdrop-filter:blur(6px);
+}
+.marquee-bar.hidden { display:none; }
+.marquee-track {
+  display:flex; gap:3rem; white-space:nowrap;
+  animation:marquee 40s linear infinite;
+  will-change:transform;
+}
+.marquee-item {
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.25em; text-transform:uppercase;
+  color:var(--mid); flex-shrink:0;
+}
+.marquee-item .dot { color:var(--gold); margin:0 1.2rem; }
+
+/* ── SECTION COMMONS ────────────────────────────────────────────────────── */
+.section-header {
+  display:flex; align-items:baseline; gap:1.5rem;
+  margin-bottom:3.5rem;
+}
+.section-num {
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.2em;
+  color:var(--gold-dim);
+}
+.section-title {
+  font-family:'Playfair Display', serif;
+  font-size:clamp(1.8rem, 3.5vw, 3rem);
+  font-weight:700; color:var(--white);
+}
+.section-line {
+  flex:1; height:1px;
+  background:linear-gradient(to right, rgba(201,168,76,.25), transparent);
+}
+
+.reveal { opacity:0; transform:translateY(36px); transition:opacity .8s ease, transform .8s ease; }
+.reveal.visible { opacity:1; transform:translateY(0); }
+
+/* ── GALLERY ────────────────────────────────────────────────────────────── */
+#galleria { padding:7rem 3rem; display:none; }
+#galleria.open { display:block; }
+
+.gallery-controls {
+  display:flex; gap:1rem; align-items:center;
+  margin-bottom:2.5rem; flex-wrap:wrap;
+}
+.gallery-count {
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.15em;
+  color:var(--dim); margin-left:auto;
+}
+
+/* Noppanappula */
+.gallery-shuffle {
+  background:none; border:none;
+  font-size:1.4rem;
+  color:var(--gold-dim);
+  cursor:none;
+  transform:rotate(-15deg);
+  transition:transform .3s ease, color .3s;
+  position:relative;
+  margin-left:1rem;
+  line-height:1;
+}
+.gallery-shuffle:hover {
+  color:var(--gold);
+  transform:rotate(15deg) scale(1.2);
+}
+
+/* Tooltip */
+.gallery-shuffle::after {
+  content: attr(title);
+  position:absolute;
+  bottom:calc(100% + 8px);
+  right:0;
+  white-space:nowrap;
+  font-family:'Space Mono', monospace;
+  font-size:.52rem; letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--cream);
+  background:rgba(20,20,20,.95);
+  border:1px solid rgba(201,168,76,.25);
+  padding:.35rem .7rem;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .2s;
+}
+.gallery-shuffle:hover::after { opacity:1; }
+
+/* Masonry */
+.gallery-grid { columns:3; column-gap:1.2rem; }
+@media(max-width:900px){ .gallery-grid { columns:2; } }
+@media(max-width:560px){ .gallery-grid { columns:1; } }
+
+.gallery-item {
+  break-inside:avoid; margin-bottom:1.2rem;
+  position:relative; overflow:hidden; cursor:none;
+  outline:1px solid #606060;
+}
+.gallery-item img {
+  width:100%; display:block;
+  filter:grayscale(8%);
+}
+
+.gallery-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(to top, rgba(0,0,0,.82) 0%, transparent 55%);
+  opacity:0; transition:opacity .4s;
+  display:flex; flex-direction:column;
+  justify-content:flex-end; padding:1.2rem;
+}
+.gallery-item:hover .gallery-overlay { opacity:1; }
+
+.g-date {
+  font-family:'Playfair Display', serif;
+  font-size:1.3rem; font-style:italic; font-weight:700;
+  color:var(--white);
+  transform:translateY(8px); transition:transform .35s;
+}
+.gallery-item:hover .g-date { transform:translateY(0); }
+
+.g-artist {
+  font-family:'Playfair Display', serif;
+  font-size:1rem; font-style:italic;
+  color:var(--cream);
+  transform:translateY(8px); transition:transform .35s;
+}
+.gallery-item:hover .g-artist { transform:translateY(0); }
+
+.g-keywords {
+  display:flex; flex-wrap:wrap; gap:.3rem; margin-top:.4rem;
+  transform:translateY(8px); transition:transform .35s .05s;
+}
+.gallery-item:hover .g-keywords { transform:translateY(0); }
+
+.g-kw {
+  font-family:'Space Mono', monospace;
+  font-size:.5rem; letter-spacing:.1em;
+  color:var(--gold-dim);
+  border:1px solid rgba(138,110,42,.4);
+  padding:.15rem .5rem;
+  text-transform:uppercase;
+  cursor:none;
+  transition:border-color .2s, color .2s, background .2s;
+}
+.g-kw:hover {
+  color:var(--gold); border-color:var(--gold);
+  background:rgba(201,168,76,.1);
+}
+
+/* ── LIGHTBOX ───────────────────────────────────────────────────────────── */
+#lightbox {
+  position:fixed; inset:0; z-index:800;
+  background:rgba(0,0,0,.96);
+  display:none; flex-direction:column;
+  align-items:center; justify-content:center;
+  gap:1.2rem;
+  padding:5rem 2rem 2rem;
+}
+#lightbox.open { display:flex; }
+
+.lb-img-wrap {
+  position:relative;
+  display:flex; align-items:center; justify-content:center;
+  max-width:88vw; max-height:72vh;
+}
+
+#lbImg {
+  max-width:88vw; max-height:72vh;
+  object-fit:contain; display:block;
+  outline:1px solid #606060;
+}
+
+/* Arrows fixed to viewport sides */
+.lb-arrow {
+  position:fixed; top:50%;
+  transform:translateY(-50%);
+  width:44px; height:44px;
+  background:rgba(8,8,8,.6);
+  border:1px solid rgba(201,168,76,.3);
+  color:var(--gold); font-size:1.1rem;
+  display:flex; align-items:center; justify-content:center;
+  cursor:none; backdrop-filter:blur(4px);
+  transition:border-color .3s, background .3s;
+  z-index:810;
+}
+.lb-arrow:hover { border-color:var(--gold); background:rgba(8,8,8,.9); }
+.lb-arrow.left  { left:1rem; }
+.lb-arrow.right { right:1rem; }
+
+.lb-close {
+  position:absolute; top:1.5rem; right:2rem;
+  font-family:'Space Mono', monospace;
+  font-size:.65rem; letter-spacing:.2em;
+  color:var(--light); cursor:none;
+  background:none; border:none;
+  transition:color .3s;
+}
+.lb-close:hover { color:var(--gold); }
+
+.lb-caption {
+  text-align:left;
+  width:100%; max-width:88vw;
+}
+.lb-caption-date {
+  font-family:'Playfair Display', serif;
+  font-size:1.2rem; font-style:italic; font-weight:700;
+  color:var(--white);
+}
+.lb-caption-keywords {
+  display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.5rem;
+}
+.lb-kw {
+  font-family:'Space Mono', monospace;
+  font-size:.5rem; letter-spacing:.1em;
+  color:var(--gold-dim);
+  border:1px solid rgba(138,110,42,.4);
+  padding:.15rem .5rem;
+  text-transform:uppercase;
+  cursor:none;
+  transition:border-color .2s, color .2s, background .2s;
+}
+.lb-kw:hover { color:var(--gold); border-color:var(--gold); background:rgba(201,168,76,.1); }
+.lb-counter {
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.15em;
+  color:var(--dim); margin-top:.4rem;
+}
+
+/* ── PRINTS SHOP ────────────────────────────────────────────────────────── */
+#printit {
+  padding:7rem 3rem;
+  background:var(--deep);
+  position:relative;
+}
+#printit::before {
+  content:''; position:absolute; top:0; left:0; right:0;
+  height:1px;
+  background:linear-gradient(to right, transparent, var(--gold-dim), transparent);
+}
+
+.prints-search-wrap {
+  display:flex; gap:1rem; align-items:center;
+  margin-bottom:3rem; flex-wrap:wrap;
+}
+.prints-search-inner {
+  position:relative; display:flex; align-items:center;
+}
+.prints-search {
+  background:transparent;
+  border:1px solid rgba(255,255,255,.1);
+  padding:.7rem 2.4rem .7rem 1.2rem;
+  font-family:'Cormorant Garamond', serif;
+  font-size:1rem; color:var(--cream);
+  outline:none; width:280px;
+  transition:border-color .3s;
+}
+.prints-search::placeholder { color:var(--mid); font-style:italic; }
+.prints-search:focus { border-color:var(--gold-dim); }
+.prints-search-clear {
+  position:absolute; right:.7rem;
+  background:none; border:none;
+  color:var(--dim); font-size:1rem;
+  cursor:none; opacity:0;
+  transition:opacity .2s, color .2s;
+  padding:0; line-height:1;
+}
+.prints-search-clear.visible { opacity:1; }
+.prints-search-clear:hover { color:var(--gold); }
+
+.prints-search-hint {
+  font-family:'Space Mono', monospace;
+  font-size:.55rem; letter-spacing:.12em;
+  color:var(--dim);
+}
+
+.prints-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  gap:2rem;
+}
+
+.print-card {
+  background:var(--dark);
+  border:1px solid rgba(255,255,255,.05);
+  overflow:hidden;
+  transition:border-color .3s, transform .4s;
+}
+.print-card:hover {
+  border-color:rgba(201,168,76,.3);
+  transform:translateY(-4px);
+}
+
+.print-img-wrap {
+  position:relative;
+  background:var(--black);
+  cursor:none;
+  padding:16px;  /* musta ulkokehys */
+}
+.print-img-frame {
+  background:white;
+  padding:16px;  /* tasainen valkoinen kehys joka suunnalla */
+  display:flex; align-items:center; justify-content:center;
+}
+.print-img-wrap img {
+  width:100%; display:block;
+  object-fit:contain;
+}
+
+.print-badge {
+  position:absolute; top:1rem; right:1rem;
+  background:var(--black);
+  border:1px solid var(--gold-dim);
+  padding:.25rem .65rem;
+  font-family:'Space Mono', monospace;
+  font-size:.52rem; letter-spacing:.12em;
+  color:var(--gold); text-transform:uppercase;
+}
+
+.print-info { padding:1.4rem; }
+.print-nro {
+  font-family:'Space Mono', monospace;
+  font-size:.62rem; letter-spacing:.15em;
+  color:var(--white); margin-bottom:.6rem;
+  text-transform:uppercase;
+}
+.print-date {
+  font-family:'Space Mono', monospace;
+  font-size:.55rem; letter-spacing:.12em;
+  color:rgba(201,168,76,.6);
+  text-transform:uppercase;
+  margin-top:.6rem; margin-bottom:1rem;
+}
+.print-keywords {
+  display:flex; flex-wrap:wrap; gap:.4rem;
+  margin-bottom:1.2rem;
+}
+.print-kw {
+  font-family:'Space Mono', monospace;
+  font-size:.5rem; letter-spacing:.1em;
+  color:var(--gold-dim);
+  border:1px solid rgba(138,110,42,.3);
+  padding:.15rem .5rem;
+  text-transform:uppercase;
+  cursor:none;
+  transition:border-color .3s, color .3s;
+}
+.print-kw:hover { color:var(--gold); border-color:var(--gold); }
+
+.size-rows { display:flex; flex-direction:column; gap:.4rem; margin-bottom:1.2rem; }
+.size-row {
+  display:flex; justify-content:space-between; align-items:center;
+  padding:.4rem 0;
+  border-bottom:1px solid rgba(255,255,255,.04);
+}
+.size-label {
+  font-family:'Cormorant Garamond', serif;
+  font-size:.95rem; color:var(--light);
+}
+.size-price {
+  font-family:'Space Mono', monospace;
+  font-size:.72rem; color:var(--gold);
+}
+.btn-zoom {
+  position:absolute; bottom:.8rem; right:.8rem;
+  width:34px; height:34px;
+  background:rgba(8,8,8,.75);
+  border:1px solid rgba(201,168,76,.4);
+  color:var(--gold);
+  font-size:.85rem; line-height:1;
+  display:flex; align-items:center; justify-content:center;
+  cursor:none; opacity:0;
+  transition:opacity .3s, border-color .3s;
+  backdrop-filter:blur(4px);
+}
+.print-card:hover .btn-zoom { opacity:1; }
+.btn-zoom:hover { border-color:var(--gold); }
+
+/* Prints pagination */
+.prints-pagination {
+  display:flex; align-items:center; justify-content:center;
+  gap:1.5rem; margin-top:3rem;
+}
+.prints-page-btn {
+  padding:.7rem 1.6rem;
+  background:transparent;
+  border:1px solid rgba(201,168,76,.3);
+  color:var(--gold);
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.18em; text-transform:uppercase;
+  cursor:none;
+  transition:background .3s, color .3s, border-color .3s;
+}
+.prints-page-btn:hover:not(:disabled) { background:var(--gold); color:var(--black); border-color:var(--gold); }
+.prints-page-btn:disabled { opacity:.25; cursor:default; }
+.prints-page-info {
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.15em;
+  color:var(--dim);
+}
+
+/* Print lightbox (zoom) */
+#printLightbox {
+  position:fixed; inset:0; z-index:900;
+  background:rgba(0,0,0,.97);
+  display:none; flex-direction:column;
+  align-items:center; justify-content:center;
+  gap:1rem;
+}
+#printLightbox.open { display:flex; }
+.plb-frame {
+  background:white;
+  padding:32px;
+  display:flex; align-items:center; justify-content:center;
+  max-width:90vw; max-height:82vh;
+  box-sizing:border-box;
+}
+#printLightbox img {
+  max-width:calc(90vw - 64px);
+  max-height:calc(82vh - 64px);
+  object-fit:contain; display:block;
+  transition:transform .25s ease;
+  cursor:zoom-in;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+.plb-close {
+  position:absolute; top:1.5rem; right:2rem;
+  font-family:'Space Mono', monospace;
+  font-size:.65rem; letter-spacing:.2em;
+  color:var(--light); cursor:none;
+  background:none; border:none;
+  transition:color .3s;
+}
+.plb-close:hover { color:var(--gold); }
+.plb-arrow {
+  position:fixed; top:50%;
+  transform:translateY(-50%);
+  width:44px; height:44px;
+  background:rgba(8,8,8,.6);
+  border:1px solid rgba(201,168,76,.3);
+  color:var(--gold); font-size:1.1rem;
+  display:flex; align-items:center; justify-content:center;
+  cursor:none; backdrop-filter:blur(4px);
+  transition:border-color .3s, background .3s;
+  z-index:910;
+}
+.plb-arrow:hover { border-color:var(--gold); background:rgba(8,8,8,.9); }
+.plb-arrow.left  { left:1rem; }
+.plb-arrow.right { right:1rem; }
+.plb-hint {
+  font-family:'Space Mono', monospace;
+  font-size:.55rem; letter-spacing:.18em;
+  color:var(--dim); text-transform:uppercase;
+}
+.plb-counter {
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.15em;
+  color:var(--dim);
+}
+.btn-order {
+  width:100%; padding:.9rem;
+  background:transparent;
+  border:1px solid var(--gold-dim);
+  color:var(--gold);
+  font-family:'Space Mono', monospace;
+  font-size:.6rem; letter-spacing:.2em; text-transform:uppercase;
+  cursor:none;
+  transition:background .3s, color .3s, border-color .3s;
+}
+.btn-order:hover { background:var(--gold); color:var(--black); border-color:var(--gold); }
+
+.prints-empty {
+  font-family:'Cormorant Garamond', serif;
+  font-size:1.1rem; font-style:italic;
+  color:var(--dim); padding:3rem 0;
+  display:none;
+}
+
+/* ── ABOUT ──────────────────────────────────────────────────────────────── */
+#tietoa {
+  padding:7rem 3rem;
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:6rem; align-items:center;
+}
+@media(max-width:768px){ #tietoa { grid-template-columns:1fr; gap:3rem; } }
+
+.about-img-wrap { position:relative; }
+.about-img-wrap img { width:100%; display:block; aspect-ratio:4/5; object-fit:cover; }
+.about-img-wrap::before {
+  content:''; position:absolute; inset:-1rem;
+  border:1px solid rgba(201,168,76,.18);
+  pointer-events:none;
+  transform:translate(1.5rem, 1.5rem);
+}
+
+.about-body { font-size:1.05rem; line-height:1.9; color:var(--light); font-weight:300; }
+.about-body p+p { margin-top:1.2rem; }
+.about-body em { color:var(--gold); font-style:italic; }
+
+.about-stats {
+  display:grid; grid-template-columns:repeat(3,1fr);
+  gap:2rem; margin-top:3rem; padding-top:2.5rem;
+  border-top:1px solid rgba(255,255,255,.06);
+}
+.stat-num {
+  font-family:'Playfair Display', serif;
+  font-size:2.4rem; font-weight:700;
+  color:var(--white); line-height:1;
+}
+.stat-label {
+  font-family:'Space Mono', monospace;
+  font-size:.52rem; letter-spacing:.14em;
+  color:var(--mid); text-transform:uppercase;
+  margin-top:.3rem;
+}
+
+/* ── CONTACT ────────────────────────────────────────────────────────────── */
+#yhteys {
+  padding:7rem 3rem; background:var(--deep);
+  text-align:center; position:relative; overflow:hidden;
+}
+#yhteys::before {
+  content:'JAZZ';
+  position:absolute; font-family:'Playfair Display', serif;
+  font-size:28vw; font-weight:900;
+  color:rgba(255,255,255,.013);
+  top:50%; left:50%; transform:translate(-50%,-50%);
+  pointer-events:none; line-height:1; letter-spacing:-.05em;
+}
+.contact-inner { position:relative; max-width:560px; margin:0 auto; }
+.contact-title {
+  font-family:'Playfair Display', serif;
+  font-size:clamp(2rem,5vw,3.8rem);
+  font-weight:700; font-style:italic; color:var(--white);
+  margin-bottom:1.2rem;
+}
+.contact-sub {
+  font-size:1.05rem; font-weight:300; font-style:italic;
+  color:var(--light); line-height:1.7; margin-bottom:2.5rem;
+}
+.contact-links { display:flex; gap:1.2rem; justify-content:center; flex-wrap:wrap; }
+.contact-link {
+  padding:.85rem 1.8rem;
+  font-family:'Space Mono', monospace;
+  font-size:.58rem; letter-spacing:.18em; text-transform:uppercase;
+  text-decoration:none; transition:all .3s;
+}
+.contact-link.primary {
+  background:var(--gold); color:var(--black);
+  border:1px solid var(--gold);
+}
+.contact-link.primary:hover { background:transparent; color:var(--gold); }
+.contact-link.secondary {
+  background:transparent; color:var(--light);
+  border:1px solid rgba(255,255,255,.14);
+}
+.contact-link.secondary:hover { border-color:var(--gold-dim); color:var(--gold); }
+
+/* ── FOOTER ─────────────────────────────────────────────────────────────── */
+footer {
+  padding:1.8rem 3rem;
+  border-top:1px solid rgba(255,255,255,.05);
+  display:flex; justify-content:space-between; align-items:center;
+  flex-wrap:wrap; gap:1rem;
+}
+.footer-logo { font-family:'Space Mono', monospace; font-size:.62rem; letter-spacing:.28em; color:var(--gold); text-transform:uppercase; }
+.footer-copy { font-family:'Space Mono', monospace; font-size:.62rem; letter-spacing:.12em; color:var(--light); }
+
+/* ── TEKIJÄNOIKEUSSUOJA ─────────────────────────────────────────────────── */
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none; /* estää iOS pitkän painalluksen tallennusvalikon */
+  pointer-events: none;
+}
+.gallery-item, .lb-img-wrap, .print-img-wrap, #printLightbox {
+  pointer-events: all;
+}
+.gallery-item img, .print-img-wrap img, #lbImg {
+  pointer-events: none;
+  -webkit-touch-callout: none;
+}
+#plbImg {
+  pointer-events: all;
+  -webkit-touch-callout: none; /* estää iOS tallennusvalikon myös zoomatessa */
+  -webkit-user-select: none;
+}
+@keyframes marquee {
+  from { transform:translateX(0); }
+  to   { transform:translateX(-33.333%); }
+}
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(28px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+/* Loading state */
+#loading {
+  position:fixed; inset:0; z-index:999;
+  background:var(--black);
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:2rem;
+  transition:opacity .8s ease;
+}
+#loading.hidden { opacity:0; pointer-events:none; }
+.loading-logo {
+  font-family:'Space Mono', monospace;
+  font-size:.9rem; letter-spacing:.3em;
+  color:var(--gold); text-transform:uppercase;
+  text-align:center;
+}
+.loading-logo span { color:var(--light); }
+.loading-sub { display:none; }
+.loading-bar-wrap {
+  width:160px; height:1px;
+  background:rgba(255,255,255,.1);
+  overflow:hidden;
+}
+.loading-bar {
+  height:100%; width:0;
+  background:var(--gold);
+  animation:loadBar 1.2s ease forwards;
+}
+@keyframes loadBar {
+  to { width:100%; }
+}
+</style>
+</head>
+<body>
+
+<!-- Loading screen -->
+<div id="loading">
+  <div class="loading-logo">MARTTI VILMINKO<span> | PHOTOGRAPHY</span></div>
+  <div class="loading-sub">Jazz Photography</div>
+  <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+</div>
+
+<div class="grain"></div>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo" id="logoBtn">MARTTI VILMINKO<span> | PHOTOGRAPHY</span></a>
+  <div class="nav-links">
+    <a href="#" id="navHome"   class="active">Etusivu</a>
+    <a href="#" id="navGallery">Galleria</a>
+    <a href="#printit">Printit</a>
+    <a href="#tietoa">Tietoa</a>
+    <a href="#yhteys">Yhteys</a>
+  </div>
+</nav>
+
+<!-- HERO SLIDESHOW -->
+<section id="hero">
+  <!-- Slides injected by JS -->
+  <button class="hero-arrow left"  id="arrowLeft"  aria-label="Edellinen">&#8592;</button>
+  <button class="hero-arrow right" id="arrowRight" aria-label="Seuraava">&#8594;</button>
+  <div class="hero-keywords" id="heroKeywords"></div>
+  <div class="hero-dots" id="heroDots"></div>
+  <div class="hero-counter" id="heroCounter"></div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-bar">
+  <div class="marquee-track" id="marqueeTrack">
+    <!-- filled by JS from keywords -->
+  </div>
+</div>
+
+<!-- GALLERY (hidden until nav click) -->
+<section id="galleria">
+  <div class="section-header reveal">
+    <span class="section-num">01</span>
+    <h2 class="section-title">Galleria</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="gallery-controls reveal">
+    <span class="gallery-count" id="galleryCount"></span>
+    <button class="gallery-shuffle" id="galleryShuffle" title="Arvo uusi galleria">⚄</button>
+  </div>
+  <div class="gallery-grid" id="galleryGrid"></div>
+</section>
+
+<!-- PRINTS -->
+<section id="printit">
+  <div class="prints-search-wrap reveal">
+    <div class="prints-search-inner">
+      <input
+        type="text"
+        class="prints-search"
+        id="printsSearch"
+        placeholder="Hae artistin nimellä tai avainsanalla…"
+        autocomplete="off"
+      >
+      <button class="prints-search-clear" id="printsClear" title="Tyhjennä">✕</button>
+    </div>
+    <span class="prints-search-hint" id="printsHint"></span>
+  </div>
+
+  <div class="prints-pagination-top" id="printsPaginationTop"></div>
+  <div class="prints-grid" id="printsGrid"></div>
+  <div class="prints-empty" id="printsEmpty">Hakusanalla ei löytynyt kuvia.</div>
+  <div class="prints-pagination-top" id="printsPaginationBottom"></div>
+  <div id="printsPagination" style="display:none"></div>
+  <span id="printsPrev" style="display:none"></span>
+  <span id="printsPageInfo" style="display:none"></span>
+  <span id="printsNext" style="display:none"></span>
+</section>
+
+<!-- ABOUT -->
+<section id="tietoa">
+  <div class="about-img-wrap reveal">
+    <!-- Vaihda src omaan kuvaan -->
+    <div style="width:100%;aspect-ratio:4/5;background:linear-gradient(160deg,#151515 0%,#2a2a2a 50%,#0f0f0f 100%);display:flex;align-items:center;justify-content:center;">
+      <span style="font-family:'Space Mono',monospace;font-size:.55rem;letter-spacing:.2em;color:rgba(255,255,255,.1);text-transform:uppercase;">Lisää oma kuva tähän</span>
+    </div>
+  </div>
+  <div class="about-text reveal">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Tietoa</h2>
+    </div>
+    <div class="about-body">
+      <p>Kuvaan jazz-musiikkia, koska se elää <em>hetkessä</em> — soolon huippukohta, muusikon suljetut silmät, valon ja varjon vuoropuhelu lavalla. Mustavalkoinen valokuvaus soveltuu täydellisesti genreen, jossa kontrasti on kaikki.</p>
+      <p>Olen seurannut Helsinki-alueen jazzkenttää yli kymmenen vuoden ajan, kamerana Sony Alpha ja linsseinä 70–180 mm. Kuvaan harvoin salamalla — oikea valo löytyy aina lavalta.</p>
+    </div>
+    <div class="about-stats">
+      <div><div class="stat-num">10+</div><div class="stat-label">Vuotta</div></div>
+      <div><div class="stat-num">200+</div><div class="stat-label">Keikkaa</div></div>
+      <div><div class="stat-num">30</div><div class="stat-label">Ed. per kuva</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="yhteys">
+  <div class="contact-inner reveal">
+    <h2 class="contact-title">Otetaan yhteyttä</h2>
+    <p class="contact-sub">Kiinnostaako tilata vedos, lisensoida kuva tai tehdä yhteistyötä?</p>
+    <div class="contact-links">
+      <a href="mailto:martti@esimerkki.fi" class="contact-link primary">Lähetä sähköposti</a>
+      <a href="https://instagram.com/" target="_blank" class="contact-link secondary">Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">MARTTI VILMINKO | PHOTOGRAPHY</div>
+  <div class="footer-copy"><span style="font-size:1.1rem;vertical-align:middle;line-height:1">&copy;</span> <span id="copyrightYear"></span> Martti Vilminko · Kaikki oikeudet pidätetään · Kuvien luvaton käyttö, kopiointi tai jakelu on kielletty</div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <button class="lb-close" id="lbClose">SULJE ✕</button>
+  <div class="lb-img-wrap">
+    <button class="lb-arrow left"  id="lbPrev">&#8592;</button>
+    <img id="lbImg" src="" alt="">
+    <button class="lb-arrow right" id="lbNext">&#8594;</button>
+  </div>
+  <div class="lb-caption">
+    <div class="lb-caption-date" id="lbDate"></div>
+    <div class="lb-caption-keywords" id="lbKeywords"></div>
+    <div class="lb-counter" id="lbCounter"></div>
+  </div>
+</div>
+
+<!-- PRINT LIGHTBOX -->
+<div id="printLightbox">
+  <button class="plb-close" id="plbClose">SULJE ✕</button>
+  <button class="plb-arrow left"  id="plbPrev">&#8592;</button>
+  <button class="plb-arrow right" id="plbNext">&#8594;</button>
+  <div class="plb-frame">
+    <img id="plbImg" src="" alt="">
+  </div>
+  <div class="plb-hint">Klikkaa kuvaa suurentaaksesi · vedä siirtyäksesi</div>
+  <div class="plb-counter" id="plbCounter"></div>
+</div>
+
+<!-- ═══ JAVASCRIPT ═══════════════════════════════════════════════════════ -->
+<script>
+// ── State ────────────────────────────────────────────────────────────────
+let IMAGES       = [];   // full manifest array
+let heroImages   = [];   // shuffled subset for slideshow
+let heroIdx      = 0;
+let slideTimer   = null;
+let galleryOpen  = false;
+
+const PRINTS_COUNT    = 6;    // how many images to show per page
+const HERO_COUNT      = 10;   // max images in slideshow
+const SLIDE_INTERVAL  = 5000; // ms
+
+// ── Helpers ──────────────────────────────────────────────────────────────
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function formatDate(iso) {
+  if (!iso) return null;
+  const [y, m, d] = iso.split('-');
+  return `${d}.${m}.${y}`;
+}
+
+// ── Load manifest ────────────────────────────────────────────────────────
+async function loadManifest() {
+  try {
+    const res  = await fetch('manifest.json?v=' + Date.now());
+    const data = await res.json();
+    IMAGES     = data.images || [];
+  } catch (e) {
+    console.warn('manifest.json ei löydy — käytetään esimerkkidataa');
+    // Demo data when running without manifest
+    IMAGES = [
+      { filename:'DSC08298.jpg', src:'images/DSC08298.jpg', artist:'Markku Ounaskari', date:'2022-09-24', keywords:['People','REIMAGINING JOHN\'S SONS'], orientation:'landscape', width:1500, height:1000 },
+    ];
+  }
+}
+
+// ── Build slideshow ───────────────────────────────────────────────────────
+function buildHero() {
+  heroImages = shuffle(IMAGES).slice(0, Math.min(HERO_COUNT, IMAGES.length));
+  heroIdx = 0;
+  buildHeroSlides();
+}
+
+function buildHeroSlides() {
+  const hero  = document.getElementById('hero');
+  const dots  = document.getElementById('heroDots');
+
+  heroImages.forEach((img, i) => {
+    const slide = document.createElement('div');
+    slide.className = 'slide' + (img.orientation === 'portrait' ? ' portrait' : ' landscape');
+    if (i === 0) slide.classList.add('active');
+
+    const im = document.createElement('img');
+    im.src = img.src;
+    im.alt = img.artist || '';
+    im.loading = i === 0 ? 'eager' : 'lazy';
+    if (img.facePosition && img.orientation === 'portrait') {
+      // Pystykuvalle: käytetään vain Y-koordinaattia, X pysyy keskellä
+      const yVal = img.facePosition.split(' ')[1] || '15%';
+      im.style.objectPosition = `center ${yVal}`;
+    }
+    slide.appendChild(im);
+
+    hero.insertBefore(slide, document.getElementById('arrowLeft'));
+
+    // Dot
+    const dot = document.createElement('div');
+    dot.className = 'hero-dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goToSlide(i));
+    dots.appendChild(dot);
+  });
+
+  updateCounter();
+  startSlideTimer();
+}
+
+function goToSlide(idx) {
+  const slides = document.querySelectorAll('.slide');
+  const dots   = document.querySelectorAll('.hero-dot');
+  slides[heroIdx].classList.remove('active');
+  slides[heroIdx].classList.add('prev');
+  dots[heroIdx].classList.remove('active');
+  setTimeout(() => slides[heroIdx < slides.length ? heroIdx : 0]?.classList.remove('prev'), 1600);
+
+  heroIdx = (idx + heroImages.length) % heroImages.length;
+  slides[heroIdx].classList.add('active');
+  dots[heroIdx].classList.add('active');
+  updateCounter();
+}
+
+function updateCounter() {
+  document.getElementById('heroCounter').textContent =
+    String(heroIdx + 1).padStart(2, '0') + ' / ' + String(heroImages.length).padStart(2, '0');
+
+  // Päivitä avainsanat
+  const kwWrap = document.getElementById('heroKeywords');
+  if (!kwWrap) return;
+  const img = heroImages[heroIdx];
+  const kws = (img.keywords || []).filter(k => !k.startsWith('http'));
+  kwWrap.innerHTML = kws.map(k =>
+    `<span class="hero-kw" data-kw="${k}">${k}</span>`
+  ).join('');
+
+  // Klikkaus vie Printit-osioon suodatettuna
+  kwWrap.querySelectorAll('.hero-kw').forEach(el => {
+    el.addEventListener('click', () => {
+      document.getElementById('printsSearch').value = el.dataset.kw;
+      document.getElementById('printsClear').classList.add('visible');
+      printsPage = 0;
+      buildPrints(el.dataset.kw);
+      window.scrollTo({top: document.getElementById('printit').offsetTop - 80, behavior:'smooth'});
+    });
+  });
+}
+
+function startSlideTimer() {
+  clearInterval(slideTimer);
+  slideTimer = setInterval(() => goToSlide(heroIdx + 1), SLIDE_INTERVAL);
+}
+
+// ── Kioskimoodi: uusi kuvasetti 10 min välein ─────────────────────────────
+setInterval(() => {
+  // Näytä loading-logo uudelleen
+  const loadingHtml = `
+    <div id="loading">
+      <div class="loading-logo">MARTTI VILMINKO<span> | PHOTOGRAPHY</span></div>
+      <div class="loading-sub">Jazz Photography</div>
+      <div class="loading-bar-wrap"><div class="loading-bar"></div></div>
+    </div>`;
+  document.body.insertAdjacentHTML('afterbegin', loadingHtml);
+
+  // Palaa alkuun ja sulje galleria
+  toggleGallery(false);
+  window.scrollTo(0, 0);
+
+  // Pysäytä ja tyhjennä slideshow
+  clearInterval(slideTimer);
+  document.querySelectorAll('.slide').forEach(s => s.remove());
+  document.getElementById('heroDots').innerHTML = '';
+
+  // Arvo uusi setti ja rakenna — pienen viiveen jälkeen
+  setTimeout(() => {
+    heroImages = shuffle(IMAGES).slice(0, Math.min(HERO_COUNT, IMAGES.length));
+    heroIdx = 0;
+    buildHeroSlides();
+    buildMarquee();
+
+    // Piilota loading-logo
+    const l = document.getElementById('loading');
+    if (l) {
+      l.classList.add('hidden');
+      setTimeout(() => l.remove(), 900);
+    }
+  }, 1400);
+
+}, 10 * 60 * 1000); // 10 minuuttia
+
+document.getElementById('arrowLeft').addEventListener('click',  () => { goToSlide(heroIdx - 1); startSlideTimer(); });
+document.getElementById('arrowRight').addEventListener('click', () => { goToSlide(heroIdx + 1); startSlideTimer(); });
+
+function buildMarquee() {
+  const allKw = [...new Set(
+    heroImages.flatMap(img => (img.keywords || []).filter(k => !k.startsWith('http')))
+  )];
+  const track = document.getElementById('marqueeTrack');
+  track.innerHTML = '';
+  // Kolme kopiota — animoidaan -33.33% jolloin looppi on saumaton
+  [...allKw, ...allKw, ...allKw].forEach(kw => {
+    const span = document.createElement('span');
+    span.className = 'marquee-item';
+    span.innerHTML = `${kw}<span class="dot">◆</span>`;
+    track.appendChild(span);
+  });
+  // Aseta nopeus — alkuperäinen nopea tempo
+  setTimeout(() => {
+    const trackW = track.scrollWidth / 3;
+    const speed  = 120; // pikseliä sekunnissa — nopeampi
+    const dur    = Math.max(8, Math.round(trackW / speed));
+    track.style.animationDuration = `${dur}s`;
+  }, 100);
+}
+
+// ── Gallery ───────────────────────────────────────────────────────────────
+function buildGallery() {
+  const grid   = document.getElementById('galleryGrid');
+  const count  = document.getElementById('galleryCount');
+  const all    = shuffle([...IMAGES]);
+  const images = all.slice(0, 10);
+
+  grid.innerHTML = '';
+  count.textContent = `10 / ${all.length} kuvaa`;
+
+  images.forEach(img => {
+    const item = document.createElement('div');
+    item.className = 'gallery-item';
+
+    const kwBoxes = (img.keywords || [])
+      .map(k => `<span class="g-kw" data-kw="${k}">${k}</span>`)
+      .join('');
+
+    item.innerHTML = `
+      <img src="${img.src}" alt="${img.artist || ''}" loading="lazy">
+      <div class="gallery-overlay">
+        ${img.date ? `<div class="g-date">${formatDate(img.date)}</div>` : ''}
+        ${kwBoxes ? `<div class="g-keywords">${kwBoxes}</div>` : ''}
+      </div>
+    `;
+
+    // Avainsana → Printit-osio suodatettuna
+    item.querySelectorAll('.g-kw').forEach(kwEl => {
+      kwEl.addEventListener('click', e => {
+        e.stopPropagation();
+        const kw = kwEl.dataset.kw;
+        toggleGallery(false);
+        document.getElementById('printsSearch').value = kw;
+        document.getElementById('printsClear').classList.add('visible');
+        printsPage = 0;
+        buildPrints(kw);
+        setTimeout(() => {
+          document.getElementById('printit').scrollIntoView({ behavior:'smooth' });
+        }, 100);
+      });
+    });
+
+    item.addEventListener('click', () => openLightbox(img, images));
+    grid.appendChild(item);
+  });
+}
+
+// ── Nav toggling ──────────────────────────────────────────────────────────
+document.getElementById('navGallery').addEventListener('click', e => {
+  e.preventDefault();
+  toggleGallery(true);
+});
+document.getElementById('navHome').addEventListener('click', e => {
+  e.preventDefault();
+  toggleGallery(false);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+document.getElementById('logoBtn').addEventListener('click', e => {
+  e.preventDefault();
+  toggleGallery(false);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+function toggleGallery(open) {
+  galleryOpen = open;
+  const sec  = document.getElementById('galleria');
+  const hero = document.getElementById('hero');
+  const marq = document.querySelector('.marquee-bar');
+  const dots = document.getElementById('heroDots');
+  const counter = document.getElementById('heroCounter');
+  const navHome    = document.getElementById('navHome');
+  const navGallery = document.getElementById('navGallery');
+
+  if (open) {
+    sec.classList.add('open');
+    hero.style.display    = 'none';
+    marq.classList.add('hidden');
+    dots.style.display    = 'none';
+    counter.style.display = 'none';
+    const kwWrap = document.getElementById('heroKeywords');
+    if (kwWrap) kwWrap.style.display = 'none';
+    navHome.classList.remove('active');
+    navGallery.classList.add('active');
+    buildGallery();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setTimeout(() => {
+      sec.querySelectorAll('.reveal').forEach(el => el.classList.add('visible'));
+    }, 100);
+  } else {
+    sec.classList.remove('open');
+    hero.style.display    = '';
+    marq.classList.remove('hidden');
+    dots.style.display    = '';
+    counter.style.display = '';
+    const kwWrapR = document.getElementById('heroKeywords');
+    if (kwWrapR) kwWrapR.style.display = '';
+    navHome.classList.add('active');
+    navGallery.classList.remove('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+// ── Lightbox ──────────────────────────────────────────────────────────────
+let lbImages = [];
+let lbIdx    = 0;
+
+function openLightbox(img, images) {
+  lbImages = images;
+  lbIdx    = images.indexOf(img);
+  showLightboxImage();
+  document.getElementById('lightbox').classList.add('open');
+}
+
+function showLightboxImage() {
+  const img = lbImages[lbIdx];
+  document.getElementById('lbImg').src = img.src;
+  document.getElementById('lbDate').textContent = img.date ? formatDate(img.date) : '';
+  document.getElementById('lbCounter').textContent = `${lbIdx + 1} / ${lbImages.length}`;
+
+  const kwWrap = document.getElementById('lbKeywords');
+  kwWrap.innerHTML = '';
+  (img.keywords || []).forEach(kw => {
+    const span = document.createElement('span');
+    span.className = 'lb-kw';
+    span.textContent = kw;
+    span.addEventListener('click', e => {
+      e.stopPropagation();
+      document.getElementById('lightbox').classList.remove('open');
+      toggleGallery(false);
+      document.getElementById('printsSearch').value = kw;
+      document.getElementById('printsClear').classList.add('visible');
+      printsPage = 0;
+      buildPrints(kw);
+      setTimeout(() => {
+        document.getElementById('printit').scrollIntoView({ behavior:'smooth' });
+      }, 100);
+    });
+    kwWrap.appendChild(span);
+  });
+}
+
+const shuffleBtn = document.getElementById('galleryShuffle');
+if (shuffleBtn) {
+  shuffleBtn.addEventListener('click', () => {
+    const btn = document.getElementById('galleryShuffle');
+    btn.style.transition = 'transform .4s ease';
+    btn.style.transform  = 'rotate(180deg) scale(1.3)';
+    setTimeout(() => {
+      btn.style.transform = 'rotate(-15deg)';
+      buildGallery();
+    }, 400);
+  });
+}
+
+document.getElementById('lbClose').addEventListener('click', () => {
+  document.getElementById('lightbox').classList.remove('open');
+});
+document.getElementById('lbPrev').addEventListener('click', e => {
+  e.stopPropagation();
+  lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length;
+  showLightboxImage();
+});
+document.getElementById('lbNext').addEventListener('click', e => {
+  e.stopPropagation();
+  lbIdx = (lbIdx + 1) % lbImages.length;
+  showLightboxImage();
+});
+document.getElementById('lightbox').addEventListener('click', e => {
+  if (e.target === document.getElementById('lightbox'))
+    document.getElementById('lightbox').classList.remove('open');
+});
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('lightbox').classList.contains('open')) return;
+  if (e.key === 'ArrowLeft')  { lbIdx = (lbIdx - 1 + lbImages.length) % lbImages.length; showLightboxImage(); }
+  if (e.key === 'ArrowRight') { lbIdx = (lbIdx + 1) % lbImages.length; showLightboxImage(); }
+  if (e.key === 'Escape')     { document.getElementById('lightbox').classList.remove('open'); }
+});
+
+// ── Prints shop ───────────────────────────────────────────────────────────
+const SIZES = [
+  { label:'A4  (21 × 29,7 cm)', price:'89 €' },
+  { label:'A3  (29,7 × 42 cm)', price:'149 €' },
+  { label:'A2  (42 × 59,4 cm)', price:'249 €' },
+];
+
+let printsPage    = 0;
+let printsFiltered = [];
+
+function buildPrints(filter = '') {
+  const hint  = document.getElementById('printsHint');
+  const q = filter.trim().toLowerCase();
+  printsFiltered = q
+    ? IMAGES.filter(img =>
+        (img.artist || '').toLowerCase().includes(q) ||
+        (img.keywords || []).some(k => k.toLowerCase().includes(q))
+      )
+    : [...IMAGES];
+
+  hint.textContent = q
+    ? `${printsFiltered.length} tulos${printsFiltered.length !== 1 ? 'ta' : ''}`
+    : `${IMAGES.length} kuvaa kokoelmassa`;
+
+  if (q) printsPage = 0;
+  renderPrintsPage();
+}
+
+function renderPrintsPage() {
+  const grid  = document.getElementById('printsGrid');
+  const empty = document.getElementById('printsEmpty');
+  const totalImages = IMAGES.length;
+
+  grid.innerHTML = '';
+
+  if (printsFiltered.length === 0) {
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  const totalPages = Math.ceil(printsFiltered.length / PRINTS_COUNT);
+  const start = printsPage * PRINTS_COUNT;
+  const toShow = printsFiltered.slice(start, start + PRINTS_COUNT);
+
+  toShow.forEach((img, i) => {
+    const card = document.createElement('div');
+    card.className = 'print-card';
+
+    const kwHtml = (img.keywords || [])
+      .map(k => `<span class="print-kw" data-kw="${k}">${k}</span>`)
+      .join('');
+
+    const sizesHtml = SIZES.map(s =>
+      `<div class="size-row">
+        <span class="size-label">${s.label}</span>
+        <span class="size-price">${s.price}</span>
+      </div>`
+    ).join('');
+
+    const totalForDisplay = printsFiltered.length;
+    const globalIdx = start + i + 1;
+
+    card.innerHTML = `
+      <div class="print-img-wrap">
+        <div class="print-img-frame">
+          <img src="${img.src}" alt="${img.artist || ''}" loading="lazy">
+        </div>
+        <button class="btn-zoom" data-src="${img.src}" title="Suurenna">⊕</button>
+      </div>
+      <div class="print-info">
+        <div class="print-nro">${globalIdx} / ${totalForDisplay}</div>
+        <div class="print-keywords">${kwHtml}</div>
+        <div class="print-date">${img.date ? formatDate(img.date) : ''}</div>
+        <div class="size-rows">${sizesHtml}</div>
+        <button class="btn-order" data-title="${img.artist || img.filename}">Tilaa vedos</button>
+      </div>
+    `;
+
+    // Zoom button
+    card.querySelector('.btn-zoom').addEventListener('click', e => {
+      e.stopPropagation();
+      openPrintLightbox(img.src);
+    });
+
+    // Keyword click → search
+    card.querySelectorAll('.print-kw').forEach(kwEl => {
+      kwEl.addEventListener('click', () => {
+        document.getElementById('printsSearch').value = kwEl.dataset.kw;
+        buildPrints(kwEl.dataset.kw);
+      });
+    });
+
+    // Order button
+    card.querySelector('.btn-order').addEventListener('click', function() {
+      alert(`Vedostilaus: "${this.dataset.title}"\n\nLähetä sähköpostia osoitteeseen martti@esimerkki.fi`);
+    });
+
+    grid.appendChild(card);
+  });
+
+  // Sivutusnapit ylä- ja alapuolella
+  ['printsPaginationTop','printsPaginationBottom'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (totalPages <= 1) { el.innerHTML = ''; return; }
+    el.innerHTML = `
+      <div class="prints-pagination">
+        <button class="prints-page-btn pp-prev">← Edellinen</button>
+        <span class="prints-page-info">${printsPage + 1} / ${totalPages}</span>
+        <button class="prints-page-btn pp-next">Seuraava →</button>
+      </div>`;
+    el.querySelector('.pp-prev').addEventListener('click', () => {
+      const tp = Math.ceil(printsFiltered.length / PRINTS_COUNT);
+      printsPage = printsPage <= 0 ? tp - 1 : printsPage - 1;
+      renderPrintsPage();
+      window.scrollTo({top: document.getElementById('printit').offsetTop - 80, behavior:'smooth'});
+    });
+    el.querySelector('.pp-next').addEventListener('click', () => {
+      const tp = Math.ceil(printsFiltered.length / PRINTS_COUNT);
+      printsPage = printsPage >= tp - 1 ? 0 : printsPage + 1;
+      renderPrintsPage();
+      window.scrollTo({top: document.getElementById('printit').offsetTop - 80, behavior:'smooth'});
+    });
+  });
+}
+
+// ── Print lightbox (zoom + pan + nav) ────────────────────────────────────
+let plbIdx = 0;
+
+function openPrintLightbox(src) {
+  const lb  = document.getElementById('printLightbox');
+  const img = document.getElementById('plbImg');
+  // find index in printsFiltered
+  plbIdx = printsFiltered.findIndex(i => i.src === src);
+  if (plbIdx < 0) plbIdx = 0;
+  showPlbImage();
+  isZoomed = false; panX = 0; panY = 0;
+  img.style.transform = 'scale(1)';
+  img.style.cursor = 'zoom-in';
+  lb.classList.add('open');
+}
+
+function showPlbImage() {
+  const img  = printsFiltered[plbIdx];
+  document.getElementById('plbImg').src = img ? img.src : '';
+  document.getElementById('plbCounter').textContent =
+    `${plbIdx + 1} / ${printsFiltered.length}`;
+  isZoomed = false; panX = 0; panY = 0;
+  document.getElementById('plbImg').style.transform = 'scale(1)';
+  document.getElementById('plbImg').style.cursor = 'zoom-in';
+}
+
+document.getElementById('plbPrev').addEventListener('click', e => {
+  e.stopPropagation();
+  plbIdx = (plbIdx - 1 + printsFiltered.length) % printsFiltered.length;
+  showPlbImage();
+});
+document.getElementById('plbNext').addEventListener('click', e => {
+  e.stopPropagation();
+  plbIdx = (plbIdx + 1) % printsFiltered.length;
+  showPlbImage();
+});
+
+let isZoomed = false;
+let isDragging = false;
+let panX = 0, panY = 0;
+let startX = 0, startY = 0;
+
+const plbImg = document.getElementById('plbImg');
+const plbFrame = document.querySelector('.plb-frame');
+
+plbImg.addEventListener('click', function(e) {
+  if (isDragging) return;
+  isZoomed = !isZoomed;
+  if (isZoomed) {
+    panX = 0; panY = 0;
+    this.style.transform = `scale(2) translate(0px, 0px)`;
+    this.style.cursor = 'grab';
+  } else {
+    panX = 0; panY = 0;
+    this.style.transform = 'scale(1)';
+    this.style.cursor = 'zoom-in';
+  }
+});
+
+function clampPan(img) {
+  // Kuvan koko zoomattuna
+  const rect    = img.getBoundingClientRect();
+  const vw      = window.innerWidth;
+  const vh      = window.innerHeight;
+  const imgW    = rect.width;   // jo zoomattu koko
+  const imgH    = rect.height;
+
+  // Maksimi siirto: kuva ei saa mennä kokonaan ulos ruudulta
+  // Sallitaan siirto kunnes kuvan reuna on ruudun reunassa
+  const maxX = Math.max(0, (imgW - vw) / 2);
+  const maxY = Math.max(0, (imgH - vh) / 2);
+
+  panX = Math.min(maxX, Math.max(-maxX, panX));
+  panY = Math.min(maxY, Math.max(-maxY, panY));
+}
+
+plbImg.addEventListener('mousedown', function(e) {
+  if (!isZoomed) return;
+  isDragging = false;
+  startX = e.clientX - panX;
+  startY = e.clientY - panY;
+  this.style.cursor = 'grabbing';
+  e.preventDefault();
+
+  function onMove(e) {
+    isDragging = true;
+    panX = e.clientX - startX;
+    panY = e.clientY - startY;
+    clampPan(plbImg);
+    plbImg.style.transform = `scale(2) translate(${panX/2}px, ${panY/2}px)`;
+  }
+  function onUp() {
+    plbImg.style.cursor = 'grab';
+    document.removeEventListener('mousemove', onMove);
+    document.removeEventListener('mouseup', onUp);
+    setTimeout(() => { isDragging = false; }, 50);
+  }
+  document.addEventListener('mousemove', onMove);
+  document.addEventListener('mouseup', onUp);
+});
+
+plbImg.addEventListener('touchstart', function(e) {
+  if (!isZoomed || e.touches.length !== 1) return;
+  startX = e.touches[0].clientX - panX;
+  startY = e.touches[0].clientY - panY;
+}, { passive:true });
+
+plbImg.addEventListener('touchmove', function(e) {
+  if (!isZoomed || e.touches.length !== 1) return;
+  panX = e.touches[0].clientX - startX;
+  panY = e.touches[0].clientY - startY;
+  clampPan(plbImg);
+  this.style.transform = `scale(2) translate(${panX/2}px, ${panY/2}px)`;
+  e.preventDefault();
+}, { passive:false });
+
+document.getElementById('plbClose').addEventListener('click', () => {
+  document.getElementById('printLightbox').classList.remove('open');
+  isZoomed = false; panX = 0; panY = 0;
+});
+document.getElementById('printLightbox').addEventListener('click', e => {
+  if (e.target === document.getElementById('printLightbox')) {
+    document.getElementById('printLightbox').classList.remove('open');
+    isZoomed = false; panX = 0; panY = 0;
+  }
+});
+
+document.getElementById('printsSearch').addEventListener('input', function() {
+  printsPage = 0;
+  buildPrints(this.value);
+  document.getElementById('printsClear').classList.toggle('visible', this.value.length > 0);
+});
+
+document.getElementById('printsClear').addEventListener('click', () => {
+  const input = document.getElementById('printsSearch');
+  input.value = '';
+  input.focus();
+  document.getElementById('printsClear').classList.remove('visible');
+  printsPage = 0;
+  buildPrints('');
+});
+
+// ── Scroll reveal ─────────────────────────────────────────────────────────
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      revealObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+function observeReveals() {
+  document.querySelectorAll('.reveal:not(.visible)').forEach(el => revealObserver.observe(el));
+}
+
+document.getElementById('copyrightYear').textContent = new Date().getFullYear();
+
+// ── Tekijänoikeussuoja ────────────────────────────────────────────────────
+document.addEventListener('contextmenu', e => {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+    return false;
+  }
+});
+document.addEventListener('dragstart', e => {
+  if (e.target.tagName === 'IMG') e.preventDefault();
+});
+// Estää pitkän painalluksen tallennusvalikon kaikissa kuvissa
+document.querySelectorAll && document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('contextmenu', e => e.preventDefault());
+  });
+});
+window.addEventListener('scroll', () => {
+  const heroH = document.getElementById('hero').offsetHeight || window.innerHeight;
+  const past  = window.scrollY > heroH * 0.8;
+  document.getElementById('nav').classList.toggle('solid', window.scrollY > 80);
+
+  if (!galleryOpen) {
+    const marq    = document.querySelector('.marquee-bar');
+    const counter = document.getElementById('heroCounter');
+    const dots    = document.getElementById('heroDots');
+    const kwWrap  = document.getElementById('heroKeywords');
+    marq.classList.toggle('hidden', past);
+    if (counter) counter.style.display = past ? 'none' : '';
+    if (dots)    dots.style.display    = past ? 'none' : '';
+    if (kwWrap)  kwWrap.style.display  = past ? 'none' : '';
+  }
+});
+
+// ── Custom cursor ─────────────────────────────────────────────────────────
+const cur  = document.getElementById('cursor');
+
+document.addEventListener('mousemove', e => {
+  cur.style.left = e.clientX + 'px';
+  cur.style.top  = e.clientY + 'px';
+});
+
+// ── INIT ──────────────────────────────────────────────────────────────────
+// Estetään selainta palauttamasta vanha scroll-positio — ENNEN kaikkea muuta
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+// Puhdistetaan myös hash jos selain navigoi siihen
+if (window.location.hash) {
+  history.replaceState(null, '', window.location.pathname);
+}
+
+(async function init() {
+  document.getElementById('galleria').classList.remove('open');
+  window.scrollTo(0, 0);
+
+  try {
+    await loadManifest();
+    printsFiltered = [...IMAGES];
+    buildHero();
+    buildMarquee();
+    renderPrintsPage();
+    observeReveals();
+  } catch(e) {
+    console.error('Init error:', e.message, e.stack);
+  }
+
+  // Hide loading screen always, even if errors
+  setTimeout(() => {
+    const l = document.getElementById('loading');
+    if (l) {
+      l.classList.add('hidden');
+      setTimeout(() => l.remove(), 900);
+    }
+  }, 1300);
+})();
+</script>
+</body>
+</html>
