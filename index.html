@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Martti Vilminko · Jazz Photography</title>
+<title>Martti Vilminko · Photography</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
 /* ── RESET & TOKENS ─────────────────────────────────────────────────────── */
@@ -1034,16 +1034,61 @@ img {
 <script>
 // ── Salasanasuojaus (poista kun sivusto valmis julkaistavaksi) ────────────
 (function() {
-  const PASS = 'jazz2026'; // vaihda haluamaksesi
+  const PASS = 'jazz2026';
   const key  = 'mv_access';
-  if (sessionStorage.getItem(key) !== '1') {
-    const input = prompt('Syötä salasana:');
-    if (input !== PASS) {
-      document.body.innerHTML = '<div style="background:#080808;color:#c8c0b0;font-family:monospace;display:flex;align-items:center;justify-content:center;height:100vh;font-size:.9rem;letter-spacing:.1em">Väärä salasana</div>';
-      throw new Error('Access denied');
+  if (sessionStorage.getItem(key) === '1') return;
+
+  // Luo kirjautumisruutu
+  const overlay = document.createElement('div');
+  overlay.id = 'loginOverlay';
+  overlay.style.cssText = `
+    position:fixed;inset:0;background:#080808;z-index:99999;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem;
+  `;
+  overlay.innerHTML = `
+    <div style="font-family:'Space Mono',monospace;font-size:.9rem;letter-spacing:.3em;color:#c9a84c;text-transform:uppercase;">
+      MARTTI VILMINKO<span style="color:#c8c0b0"> | PHOTOGRAPHY</span>
+    </div>
+    <div style="display:flex;gap:.8rem;align-items:center;">
+      <input id="loginInput" type="password" placeholder="Salasana"
+        style="background:transparent;border:1px solid rgba(255,255,255,.15);padding:.6rem 1rem;
+        font-family:'Space Mono',monospace;font-size:.75rem;color:#e8e0d0;outline:none;
+        letter-spacing:.1em;width:200px;"
+      >
+      <button id="loginBtn"
+        style="background:transparent;border:1px solid #8a6e2a;color:#c9a84c;
+        font-family:'Space Mono',monospace;font-size:.6rem;letter-spacing:.2em;
+        text-transform:uppercase;padding:.6rem 1.2rem;cursor:pointer;">
+        OK
+      </button>
+    </div>
+    <div id="loginError" style="font-family:'Space Mono',monospace;font-size:.6rem;
+      letter-spacing:.15em;color:#c0392b;opacity:0;transition:opacity .3s;">
+      Väärä salasana
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  function tryLogin() {
+    const val = document.getElementById('loginInput').value;
+    if (val === PASS) {
+      sessionStorage.setItem(key, '1');
+      overlay.style.opacity = '0';
+      overlay.style.transition = 'opacity .5s';
+      setTimeout(() => overlay.remove(), 500);
+    } else {
+      const err = document.getElementById('loginError');
+      err.style.opacity = '1';
+      document.getElementById('loginInput').value = '';
+      setTimeout(() => err.style.opacity = '0', 2000);
     }
-    sessionStorage.setItem(key, '1');
   }
+
+  document.getElementById('loginBtn').addEventListener('click', tryLogin);
+  document.getElementById('loginInput').addEventListener('keydown', e => {
+    if (e.key === 'Enter') tryLogin();
+  });
+  setTimeout(() => document.getElementById('loginInput').focus(), 100);
 })();
 // ── State ────────────────────────────────────────────────────────────────
 let IMAGES       = [];   // full manifest array
