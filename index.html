@@ -41,7 +41,7 @@ body {
 .section-panel {
   position: fixed;
   inset: 0;
-  top: calc(var(--nav-h) + env(safe-area-inset-top, 0px));
+  top: 72px; /* JS päivittää tämän dynaamisesti */
   overflow-y: scroll;
   overflow-x: hidden;
   display: none;
@@ -1676,6 +1676,7 @@ function animateInfoCounter() {
   requestAnimationFrame(step);
 }
 function showSection(name) {
+  adjustPanelTop();
   // Piilota kaikki paneelit
   document.querySelectorAll('.section-panel').forEach(el => el.classList.remove('active'));
   // Piilota/näytä hero
@@ -2140,7 +2141,18 @@ document.addEventListener('click', e => {
 });
 
 // ── Custom cursor ─────────────────────────────────────────────────────────
-// ── INIT ──────────────────────────────────────────────────────────────────
+// ── Dynaaminen navin korkeus ──────────────────────────────────────────────
+function adjustPanelTop() {
+  const navEl = document.getElementById('nav');
+  const h = navEl.offsetHeight;
+  document.querySelectorAll('.section-panel').forEach(el => {
+    el.style.top = h + 'px';
+  });
+  const mobileMenu = document.getElementById('navMobile');
+  if (mobileMenu) mobileMenu.style.top = h + 'px';
+}
+adjustPanelTop();
+window.addEventListener('resize', adjustPanelTop);
 // Estetään selainta palauttamasta vanha scroll-positio — ENNEN kaikkea muuta
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
