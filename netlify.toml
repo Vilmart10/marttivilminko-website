@@ -1,7 +1,6 @@
 [build]
-  command   = "npm install && pip install piexif Pillow opencv-python --quiet && node generate-manifest.js"
+  command   = "echo 'Deploy OK'"
   publish   = "."
 
 [build.environment]
-  NODE_VERSION   = "20"
-  PYTHON_VERSION = "3.11"
+  NODE_VERSION = "20"

@@ -40,5 +40,21 @@ images.sort((a,b) => {
   return b.date.localeCompare(a.date);
 });
 
+// ── Säilytetään manuaaliset korjaukset ───────────────────────────────────
+const CORRECTIONS = path.join(__dirname, 'corrections.json');
+if (fs.existsSync(CORRECTIONS)) {
+  const corrections = JSON.parse(fs.readFileSync(CORRECTIONS, 'utf8'));
+  let preserved = 0;
+  for (const img of images) {
+    if (corrections[img.filename] !== undefined) {
+      img.facePosition = `center ${corrections[img.filename]}%`;
+      preserved++;
+    }
+  }
+  if (preserved > 0) {
+    console.log(`🔒  Säilytetty ${preserved} manuaalista korjausta corrections.json:sta`);
+  }
+}
+
 fs.writeFileSync(MANIFEST, JSON.stringify({ generated: new Date().toISOString(), count: images.length, images }, null, 2));
 console.log(`\n✅  manifest.json kirjoitettu (${images.length} kuvaa)`);

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T19:09:56.592Z",
-  "count": 168,
+  "generated": "2026-06-06T08:58:35.484Z",
+  "count": 207,
   "images": [
     {
       "filename": "DSC03274_web.jpg",
@@ -11,8 +11,7 @@
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Joonas Riippa",
-        "People"
+        "Joonas Riippa"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -26,8 +25,7 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa",
-        "People"
+        "Joonas Riippa"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -41,13 +39,12 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Haavisto",
-        "People"
+        "Joonas Haavisto"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 2%"
+      "facePosition": "center 7%"
     },
     {
       "filename": "DSC03311_web.jpg",
@@ -56,13 +53,12 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Haavisto",
-        "People"
+        "Joonas Haavisto"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 47%"
+      "facePosition": "center 42%"
     },
     {
       "filename": "DSC03482_web.jpg",
@@ -71,8 +67,7 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Haavisto",
-        "People"
+        "Joonas Haavisto"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -87,13 +82,12 @@
       "keywords": [
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa",
-        "People"
+        "Joonas Riippa"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 50%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC03573_web.jpg",
@@ -104,8 +98,7 @@
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Joonas Riippa",
-        "People"
+        "Joonas Riippa"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -119,8 +112,7 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa",
-        "People"
+        "Joonas Riippa"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -134,8 +126,7 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "JOONAS HAAVISTO TRIO",
-        "People"
+        "JOONAS HAAVISTO TRIO"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -149,8 +140,7 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa",
-        "People"
+        "Joonas Riippa"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -164,13 +154,12 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "JOONAS HAAVISTO TRIO",
-        "People"
+        "JOONAS HAAVISTO TRIO"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 2%"
+      "facePosition": "center 67%"
     },
     {
       "filename": "DSC02772_web.jpg",
@@ -185,7 +174,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 27%"
+      "facePosition": "center 42%"
     },
     {
       "filename": "DSC02780_web.jpg",
@@ -215,7 +204,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 10%"
+      "facePosition": "center 15%"
     },
     {
       "filename": "DSC02848_web.jpg",
@@ -225,13 +214,12 @@
       "keywords": [
         "Kaisa Mäensivu",
         "MAX LIGHT QUINTET",
-        "People",
         "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 20%"
     },
     {
       "filename": "DSC02896_web.jpg",
@@ -246,7 +234,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 2%"
+      "facePosition": "center 7%"
     },
     {
       "filename": "DSC02932_web.jpg",
@@ -261,7 +249,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 14%"
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC02973_web.jpg",
@@ -270,30 +258,13 @@
       "artist": "Julian Shore",
       "keywords": [
         "Julian Shore",
-        "Keywords",
         "MAX LIGHT QUINTET",
         "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 5%"
-    },
-    {
-      "filename": "DSC02981_web.jpg",
-      "src": "images/DSC02981_web.jpg",
-      "date": "2026-04-10",
-      "artist": "Kaisa Mäensivu",
-      "keywords": [
-        "Kaisa Mäensivu",
-        "MAX LIGHT QUINTET",
-        "People",
-        "bass"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 13%"
+      "facePosition": "center 10%"
     },
     {
       "filename": "DSC03038_web.jpg",
@@ -319,7 +290,6 @@
       "keywords": [
         "Kaisa Mäensivu",
         "MAX LIGHT QUINTET",
-        "People",
         "bass"
       ],
       "orientation": "portrait",
@@ -356,7 +326,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 30%"
+      "facePosition": "center 50%"
     },
     {
       "filename": "DSC03242_web.jpg",
@@ -371,7 +341,78 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 31%"
+      "facePosition": "center 61%"
+    },
+    {
+      "filename": "DSC02208_web.jpg",
+      "src": "images/DSC02208_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Ville Herrala"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 90%"
+    },
+    {
+      "filename": "DSC02244_web.jpg",
+      "src": "images/DSC02244_web.jpg",
+      "date": "2026-02-06",
+      "artist": "Mikko Hassinen",
+      "keywords": [
+        "Mikko Hassinen",
+        "PEPA PÄIVINEN PEACEPIPE"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 38%"
+    },
+    {
+      "filename": "DSC02653_web.jpg",
+      "src": "images/DSC02653_web.jpg",
+      "date": "2026-02-06",
+      "artist": "Mikko Hassinen",
+      "keywords": [
+        "Mikko Hassinen",
+        "PEPA PÄIVINEN PEACEPIPE"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC01527_web.jpg",
+      "src": "images/DSC01527_web.jpg",
+      "date": "2025-12-19",
+      "artist": "PJC SIINA SUUTARINEN",
+      "keywords": [
+        "PJC SIINA SUUTARINEN",
+        "Siina Suutarinen"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC01068_web.jpg",
+      "src": "images/DSC01068_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Riitta Paakki",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC01093_web.jpg",
@@ -380,12 +421,13 @@
       "artist": "HETA HALONEN & RIITTA PAAKKI",
       "keywords": [
         "HETA HALONEN & RIITTA PAAKKI",
-        "Heta Halonen"
+        "Heta Halonen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 21%"
+      "facePosition": "center 31%"
     },
     {
       "filename": "DSC01096_web.jpg",
@@ -394,7 +436,8 @@
       "artist": "HETA HALONEN & RIITTA PAAKKI",
       "keywords": [
         "HETA HALONEN & RIITTA PAAKKI",
-        "Heta Halonen"
+        "Heta Halonen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -408,12 +451,28 @@
       "artist": "HETA HALONEN & RIITTA PAAKKI",
       "keywords": [
         "HETA HALONEN & RIITTA PAAKKI",
-        "Heta Halonen"
+        "Heta Halonen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 45%"
+    },
+    {
+      "filename": "DSC01168_web.jpg",
+      "src": "images/DSC01168_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Riitta Paakki",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
     },
     {
       "filename": "DSC01246_web.jpg",
@@ -427,7 +486,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 12%"
+      "facePosition": "center 32%"
     },
     {
       "filename": "DSC00627_web.jpg",
@@ -436,12 +495,13 @@
       "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
       "keywords": [
         "BAPTISTE HERBIN TRIO – DJANGO!",
-        "Sylvain Romano"
+        "Sylvain Romano",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 20%"
+      "facePosition": "center 30%"
     },
     {
       "filename": "DSC00663_web.jpg",
@@ -450,12 +510,13 @@
       "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
       "keywords": [
         "BAPTISTE HERBIN TRIO – DJANGO!",
-        "Sylvain Romano"
+        "Sylvain Romano",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 26%"
+      "facePosition": "center 56%"
     },
     {
       "filename": "DSC00807_web.jpg",
@@ -465,12 +526,14 @@
       "keywords": [
         "BAPTISTE HERBIN TRIO – DJANGO!",
         "Baptiste Herbin",
-        "Sylvain Romano"
+        "Sylvain Romano",
+        "bass",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 5%"
+      "facePosition": "center 10%"
     },
     {
       "filename": "DSC00923_web.jpg",
@@ -479,12 +542,13 @@
       "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
       "keywords": [
         "BAPTISTE HERBIN TRIO – DJANGO!",
-        "Baptiste Herbin"
+        "Baptiste Herbin",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC00016_web.jpg",
@@ -493,13 +557,28 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "People",
-        "Teppo Mäkynen"
+        "Teppo Mäkynen",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 12%"
+      "facePosition": "center 22%"
+    },
+    {
+      "filename": "DSC00046_web.jpg",
+      "src": "images/DSC00046_web.jpg",
+      "date": "2025-10-24",
+      "artist": "AKI RISSANEN TRIO",
+      "keywords": [
+        "AKI RISSANEN TRIO",
+        "Teppo Mäkynen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC09853_web.jpg",
@@ -508,13 +587,12 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Antti Lötjönen",
-        "People"
+        "Antti Lötjönen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 32%"
+      "facePosition": "center 25%"
     },
     {
       "filename": "DSC09864_web.jpg",
@@ -523,13 +601,12 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Antti Lötjönen",
-        "People"
+        "Antti Lötjönen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 63%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC09894_web.jpg",
@@ -538,13 +615,12 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Aki Rissanen",
-        "People"
+        "Aki Rissanen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 15%"
+      "facePosition": "center 35%"
     },
     {
       "filename": "DSC09908_web.jpg",
@@ -553,13 +629,12 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Aki Rissanen",
-        "People"
+        "Aki Rissanen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 8%"
+      "facePosition": "center 23%"
     },
     {
       "filename": "DSC09454_web.jpg",
@@ -574,7 +649,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 23%"
+      "facePosition": "center 53%"
     },
     {
       "filename": "DSC09584_web.jpg",
@@ -588,7 +663,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 54%"
+      "facePosition": "center 34%"
     },
     {
       "filename": "DSC09759_web.jpg",
@@ -602,7 +677,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 57%"
+      "facePosition": "center 32%"
     },
     {
       "filename": "DSC07947_web.jpg",
@@ -618,7 +693,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 11%"
+      "facePosition": "center 26%"
     },
     {
       "filename": "DSC08044_web.jpg",
@@ -689,7 +764,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 25%"
     },
     {
       "filename": "DSC08451_web.jpg",
@@ -703,7 +778,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 9%"
+      "facePosition": "center 14%"
     },
     {
       "filename": "DSC08577_web.jpg",
@@ -715,7 +790,6 @@
         "Felix Zenger",
         "Jay L",
         "Johannes Granroth",
-        "People",
         "Rafa Postel",
         "Tapio Backlund",
         "Tommy Lindgren"
@@ -792,13 +866,12 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen",
-        "People"
+        "Mikko Hassinen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC07105_web.jpg",
@@ -812,7 +885,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 4%"
+      "facePosition": "center 29%"
     },
     {
       "filename": "DSC07133_web.jpg",
@@ -821,13 +894,12 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Jaska Lukkarinen",
-        "People"
+        "Jaska Lukkarinen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 56%"
+      "facePosition": "center 12%"
     },
     {
       "filename": "DSC07184_web.jpg",
@@ -841,7 +913,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 37%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC07193_web.jpg",
@@ -850,13 +922,12 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen",
-        "People"
+        "Mikko Hassinen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 43%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC07212_web.jpg",
@@ -865,8 +936,7 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen",
-        "People"
+        "Mikko Hassinen"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -880,8 +950,7 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen",
-        "People"
+        "Mikko Hassinen"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -895,8 +964,7 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Jaska Lukkarinen",
-        "People"
+        "Jaska Lukkarinen"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -910,13 +978,12 @@
       "artist": "HELMI ANTILA QUARTET",
       "keywords": [
         "HELMI ANTILA QUARTET",
-        "Mikko Antila",
-        "People"
+        "Mikko Antila"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 64%"
+      "facePosition": "center 9%"
     },
     {
       "filename": "DSC07557_web.jpg",
@@ -930,7 +997,300 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 58%"
+      "facePosition": "center 90%"
+    },
+    {
+      "filename": "_R001322_web.jpg",
+      "src": "images/_R001322_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Sigurdur Rögnvaldsson"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
+    },
+    {
+      "filename": "_R001332_web.jpg",
+      "src": "images/_R001332_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Sam Ospovat",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 90%"
+    },
+    {
+      "filename": "_R001371_web.jpg",
+      "src": "images/_R001371_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Pauli Lyytinen",
+        "Sigurdur Rögnvaldsson"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 22%"
+    },
+    {
+      "filename": "_R001401_web.jpg",
+      "src": "images/_R001401_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Sam Ospovat"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 10%"
+    },
+    {
+      "filename": "_R001426_web.jpg",
+      "src": "images/_R001426_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Pauli Lyytinen"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC04202_web.jpg",
+      "src": "images/DSC04202_web.jpg",
+      "date": "2025-04-11",
+      "artist": "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+      "keywords": [
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "Roope Kantonen"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02915_web.jpg",
+      "src": "images/DSC02915_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Ebba Åsman"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC01280_web.jpg",
+      "src": "images/DSC01280_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Elina Brooks",
+      "keywords": [
+        "Elina Brooks",
+        "Esko Grundström",
+        "Jesse Ojajärvi",
+        "Maija Kurki",
+        "Mikko Iivanainen",
+        "Mikko Karjalainen",
+        "Mikko “Gunu” Karjalainen",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "Saana Trygg-Nevanlinna",
+        "drums",
+        "piano",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC01390_LR_web.jpg",
+      "src": "images/DSC01390_LR_web.jpg",
+      "date": "2025-02-14",
+      "artist": "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+      "keywords": [
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "Saana Trygg-Nevanlinna",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
+      "filename": "DSC01422_web.jpg",
+      "src": "images/DSC01422_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Elina Brooks",
+      "keywords": [
+        "Elina Brooks",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "DSC01501_web.jpg",
+      "src": "images/DSC01501_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Mikko “Gunu” Karjalainen",
+      "keywords": [
+        "Mikko “Gunu” Karjalainen",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 36%"
+    },
+    {
+      "filename": "DSC00817_web.jpg",
+      "src": "images/DSC00817_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Jimi Ahlroos",
+        "Mooses Kuloniemi",
+        "Tuomo Purhonen"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00829_web.jpg",
+      "src": "images/DSC00829_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Jimi Ahlroos",
+        "Tuomo Purhonen"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC00853_web.jpg",
+      "src": "images/DSC00853_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Mooses Kuloniemi",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 43%"
+    },
+    {
+      "filename": "DSC00934_web.jpg",
+      "src": "images/DSC00934_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Tuomo Purhonen",
+        "bass",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 10%"
+    },
+    {
+      "filename": "DSC01023_web.jpg",
+      "src": "images/DSC01023_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Jimi Ahlroos",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 31%"
+    },
+    {
+      "filename": "DSC01124_web.jpg",
+      "src": "images/DSC01124_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Mooses Kuloniemi",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC01229_web.jpg",
+      "src": "images/DSC01229_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Tuomo Purhonen"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 70%"
+    },
+    {
+      "filename": "DSC01243-Pano_web.jpg",
+      "src": "images/DSC01243-Pano_web.jpg",
+      "date": "2025-01-31",
+      "artist": "JIMI AHLROOS TRIO",
+      "keywords": [
+        "JIMI AHLROOS TRIO",
+        "Jimi Ahlroos",
+        "Mooses Kuloniemi",
+        "Tuomo Purhonen",
+        "bass",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 992,
+      "facePosition": null
     },
     {
       "filename": "DSC09919-Pano-2_LR_web.jpg",
@@ -949,6 +1309,166 @@
       "facePosition": null
     },
     {
+      "filename": "DSC09050_web.jpg",
+      "src": "images/DSC09050_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Kalevi Louhivuori"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC09112_web.jpg",
+      "src": "images/DSC09112_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Kalevi Louhivuori"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 29%"
+    },
+    {
+      "filename": "DSC09177_web.jpg",
+      "src": "images/DSC09177_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Kalevi Louhivuori"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08793_web.jpg",
+      "src": "images/DSC08793_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Joonas Tuuri",
+        "Josefiina Vannesluoma"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06069_web.jpg",
+      "src": "images/DSC06069_web.jpg",
+      "date": "2024-09-28",
+      "artist": "Kalle Kalima",
+      "keywords": [
+        "Kalle Kalima",
+        "LAMPEN"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC06214_web.jpg",
+      "src": "images/DSC06214_web.jpg",
+      "date": "2024-09-28",
+      "artist": "LAMPEN",
+      "keywords": [
+        "LAMPEN",
+        "Tatu Rönkkö"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 47%"
+    },
+    {
+      "filename": "DSC06258_web.jpg",
+      "src": "images/DSC06258_web.jpg",
+      "date": "2024-09-28",
+      "artist": "Kalle Kalima",
+      "keywords": [
+        "Kalle Kalima",
+        "LAMPEN",
+        "Tatu Rönkkö"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06334_web.jpg",
+      "src": "images/DSC06334_web.jpg",
+      "date": "2024-09-28",
+      "artist": "Kalle Kalima",
+      "keywords": [
+        "Kalle Kalima",
+        "LAMPEN"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04630_web.jpg",
+      "src": "images/DSC04630_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Otso Huhtala"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 90%"
+    },
+    {
+      "filename": "DSC02254_LRBW_web.jpg",
+      "src": "images/DSC02254_LRBW_web.jpg",
+      "date": "2024-03-15",
+      "artist": "Joe Peri",
+      "keywords": [
+        "Joe Peri",
+        "KAISA’S MACHINE",
+        "Kaisa Mäensivu",
+        "Max Light",
+        "Max Zenger",
+        "Rasmus Sörensen"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02401_web.jpg",
+      "src": "images/DSC02401_web.jpg",
+      "date": "2024-03-15",
+      "artist": "KAISA’S MACHINE",
+      "keywords": [
+        "KAISA’S MACHINE",
+        "Max Zenger"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 26%"
+    },
+    {
       "filename": "DSC00476_web.jpg",
       "src": "images/DSC00476_web.jpg",
       "date": "2024-02-10",
@@ -957,9 +1477,9 @@
         "Antti Hevosmaa",
         "Erik Fräki",
         "Heikki Selamo",
-        "People",
         "Porvoo Jazz Club",
-        "VIRTA"
+        "VIRTA",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -975,7 +1495,6 @@
         "Antti Hevosmaa",
         "Erik Fräki",
         "Heikki Selamo",
-        "People",
         "Porvoo Jazz Club",
         "VIRTA"
       ],
@@ -993,7 +1512,6 @@
         "Antti Hevosmaa",
         "Erik Fräki",
         "Heikki Selamo",
-        "People",
         "Porvoo Jazz Club",
         "VIRTA"
       ],
@@ -1009,14 +1527,30 @@
       "artist": "Antti Hevosmaa",
       "keywords": [
         "Antti Hevosmaa",
-        "People",
         "Porvoo Jazz Club",
-        "VIRTA"
+        "VIRTA",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC00743_web.jpg",
+      "src": "images/DSC00743_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Heikki Selamo",
+      "keywords": [
+        "Heikki Selamo",
+        "Porvoo Jazz Club",
+        "VIRTA",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC00276_BW_web.jpg",
@@ -1025,8 +1559,8 @@
       "artist": "Eero Tikkanen",
       "keywords": [
         "Eero Tikkanen",
-        "People",
-        "THE MYSTIC REVELATION of TEPPO REPO"
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1037,12 +1571,12 @@
       "filename": "DSC00072_BW_web.jpg",
       "src": "images/DSC00072_BW_web.jpg",
       "date": "2023-12-15",
-      "artist": "People",
+      "artist": "Porvoo Jazz Club",
       "keywords": [
-        "People",
         "Porvoo Jazz Club",
         "TEDDY ROK: ATONAL DRUMS",
-        "Teppo Mäkynen"
+        "Teppo Mäkynen",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1053,9 +1587,8 @@
       "filename": "DSC09459_BW_web.jpg",
       "src": "images/DSC09459_BW_web.jpg",
       "date": "2023-12-15",
-      "artist": "People",
+      "artist": "Porvoo Jazz Club",
       "keywords": [
-        "People",
         "Porvoo Jazz Club",
         "TEDDY ROK: ATONAL DRUMS",
         "Teppo Mäkynen"
@@ -1069,9 +1602,8 @@
       "filename": "DSC09531_BW_web.jpg",
       "src": "images/DSC09531_BW_web.jpg",
       "date": "2023-12-15",
-      "artist": "People",
+      "artist": "Porvoo Jazz Club",
       "keywords": [
-        "People",
         "Porvoo Jazz Club",
         "TEDDY ROK: ATONAL DRUMS",
         "Teppo Mäkynen"
@@ -1085,9 +1617,8 @@
       "filename": "DSC09783_BW_web.jpg",
       "src": "images/DSC09783_BW_web.jpg",
       "date": "2023-12-15",
-      "artist": "People",
+      "artist": "Porvoo Jazz Club",
       "keywords": [
-        "People",
         "Porvoo Jazz Club",
         "TEDDY ROK: ATONAL DRUMS",
         "Teppo Mäkynen"
@@ -1095,15 +1626,14 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 41%"
+      "facePosition": "center 26%"
     },
     {
       "filename": "DSC09870_BW_web.jpg",
       "src": "images/DSC09870_BW_web.jpg",
       "date": "2023-12-15",
-      "artist": "People",
+      "artist": "Porvoo Jazz Club",
       "keywords": [
-        "People",
         "Porvoo Jazz Club",
         "TEDDY ROK: ATONAL DRUMS",
         "Teppo Mäkynen"
@@ -1117,9 +1647,8 @@
       "filename": "DSC09982_BW_web.jpg",
       "src": "images/DSC09982_BW_web.jpg",
       "date": "2023-12-15",
-      "artist": "People",
+      "artist": "Porvoo Jazz Club",
       "keywords": [
-        "People",
         "Porvoo Jazz Club",
         "TEDDY ROK: ATONAL DRUMS",
         "Teppo Mäkynen"
@@ -1127,7 +1656,22 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 13%"
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "DSC09982_C_web.jpg",
+      "src": "images/DSC09982_C_web.jpg",
+      "date": "2023-12-15",
+      "artist": "Porvoo Jazz Club",
+      "keywords": [
+        "Porvoo Jazz Club",
+        "TEDDY ROK: ATONAL DRUMS",
+        "Teppo Mäkynen"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
     },
     {
       "filename": "DSC08483_web.jpg",
@@ -1155,7 +1699,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 33%"
+      "facePosition": "center 53%"
     },
     {
       "filename": "DSC07316_web.jpg",
@@ -1185,7 +1729,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 60%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC07696_web.jpg",
@@ -1214,7 +1758,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 11%"
+      "facePosition": "center 26%"
     },
     {
       "filename": "DSC06639_web.jpg",
@@ -1223,13 +1767,12 @@
       "artist": "MIKKO IIVANAINEN SOLO",
       "keywords": [
         "MIKKO IIVANAINEN SOLO",
-        "Mikko Iivanainen",
-        "People"
+        "Mikko Iivanainen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 24%"
+      "facePosition": "center 44%"
     },
     {
       "filename": "DSC06844_web.jpg",
@@ -1238,8 +1781,7 @@
       "artist": "MIKKO IIVANAINEN SOLO",
       "keywords": [
         "MIKKO IIVANAINEN SOLO",
-        "Mikko Iivanainen",
-        "People"
+        "Mikko Iivanainen"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1253,8 +1795,7 @@
       "artist": "MIKKO IIVANAINEN SOLO",
       "keywords": [
         "MIKKO IIVANAINEN SOLO",
-        "Mikko Iivanainen",
-        "People"
+        "Mikko Iivanainen"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1273,7 +1814,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 15%"
+      "facePosition": "center 35%"
     },
     {
       "filename": "DSC07238_web.jpg",
@@ -1282,7 +1823,6 @@
       "artist": "Antti Sarpila",
       "keywords": [
         "Antti Sarpila",
-        "People",
         "VALTTERI LAURELL NONET"
       ],
       "orientation": "portrait",
@@ -1325,13 +1865,12 @@
       "artist": "JORIS ROELOFS SOLO",
       "keywords": [
         "JORIS ROELOFS SOLO",
-        "Joris Roelofs",
-        "julkaistu Jazz Photographers FB ryhmässä"
+        "Joris Roelofs"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 15%"
+      "facePosition": "center 20%"
     },
     {
       "filename": "DSC05531_web.jpg",
@@ -1359,7 +1898,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC05860_web.jpg",
@@ -1369,13 +1908,12 @@
       "keywords": [
         "KARI IKONEN & KARIKKO 50/25",
         "Kalevi Louhivuori",
-        "Karikko",
-        "People"
+        "Karikko"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 11%"
+      "facePosition": "center 16%"
     },
     {
       "filename": "DSC05942_web.jpg",
@@ -1385,13 +1923,12 @@
       "keywords": [
         "KARI IKONEN & KARIKKO 50/25",
         "Karikko",
-        "Mika Kallio",
-        "People"
+        "Mika Kallio"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 14%"
+      "facePosition": "center 29%"
     },
     {
       "filename": "DSC05975_web.jpg",
@@ -1416,13 +1953,12 @@
       "keywords": [
         "KARI IKONEN & KARIKKO 50/25",
         "Karikko",
-        "People",
         "Ville Vannemaa"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC04729_web.jpg",
@@ -1451,7 +1987,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 61%"
+      "facePosition": "center 31%"
     },
     {
       "filename": "DSC04774_web.jpg",
@@ -1465,7 +2001,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 8%"
+      "facePosition": "center 13%"
     },
     {
       "filename": "DSC04856_web.jpg",
@@ -1474,13 +2010,12 @@
       "artist": "JUKKIS UOTILA PLAYS FINNISH JAZZ CLASSICS",
       "keywords": [
         "JUKKIS UOTILA PLAYS FINNISH JAZZ CLASSICS",
-        "Jukkis Uotila",
-        "julkaistu Jazz Photographers FB ryhmässä"
+        "Jukkis Uotila"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 60%"
     },
     {
       "filename": "DSC05071_web.jpg",
@@ -1489,13 +2024,12 @@
       "artist": "SELMA SAVOLAINEN HORROR VACUI",
       "keywords": [
         "SELMA SAVOLAINEN HORROR VACUI",
-        "Selma Savolainen",
-        "julkaistu Jazz Photographers FB ryhmässä"
+        "Selma Savolainen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 49%"
+      "facePosition": "center 34%"
     },
     {
       "filename": "DSC03175_web.jpg",
@@ -1505,13 +2039,12 @@
       "keywords": [
         "Antti Lötjönen",
         "JASKA LUKKARINEN ONE FOR JOE",
-        "People",
         "Timo Lassy"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 25%"
+      "facePosition": "center 15%"
     },
     {
       "filename": "DSC03220_web.jpg",
@@ -1520,13 +2053,12 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "JASKA LUKKARINEN ONE FOR JOE",
-        "People"
+        "JASKA LUKKARINEN ONE FOR JOE"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC03258_web.jpg",
@@ -1537,7 +2069,6 @@
         "Antti Lötjönen",
         "JASKA LUKKARINEN ONE FOR JOE",
         "Jaska Lukkarinen",
-        "People",
         "Timo Lassy",
         "Varre Vartiainen"
       ],
@@ -1553,13 +2084,27 @@
       "artist": "JASKA LUKKARINEN ONE FOR JOE",
       "keywords": [
         "JASKA LUKKARINEN ONE FOR JOE",
-        "Jaska Lukkarinen",
-        "People"
+        "Jaska Lukkarinen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 15%"
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC03511_web.jpg",
+      "src": "images/DSC03511_web.jpg",
+      "date": "2023-05-05",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "JASKA LUKKARINEN ONE FOR JOE",
+        "Varre Vartiainen"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 36%"
     },
     {
       "filename": "DSC02311_web.jpg",
@@ -1568,14 +2113,13 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "People",
         "RIITTA PAAKKI QUARTET",
         "Riitta Paakki"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 30%"
     },
     {
       "filename": "DSC02424_web.jpg",
@@ -1584,38 +2128,6 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "People",
-        "RIITTA PAAKKI QUARTET",
-        "Riitta Paakki"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 6%"
-    },
-    {
-      "filename": "DSC02435_web.jpg",
-      "src": "images/DSC02435_web.jpg",
-      "date": "2023-04-14",
-      "artist": "Antti Lötjönen",
-      "keywords": [
-        "Antti Lötjönen",
-        "People",
-        "RIITTA PAAKKI QUARTET"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 14%"
-    },
-    {
-      "filename": "DSC02437_web.jpg",
-      "src": "images/DSC02437_web.jpg",
-      "date": "2023-04-14",
-      "artist": "Antti Lötjönen",
-      "keywords": [
-        "Antti Lötjönen",
-        "People",
         "RIITTA PAAKKI QUARTET",
         "Riitta Paakki"
       ],
@@ -1625,6 +2137,35 @@
       "facePosition": "center 26%"
     },
     {
+      "filename": "DSC02435_web.jpg",
+      "src": "images/DSC02435_web.jpg",
+      "date": "2023-04-14",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "RIITTA PAAKKI QUARTET"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC02437_web.jpg",
+      "src": "images/DSC02437_web.jpg",
+      "date": "2023-04-14",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "RIITTA PAAKKI QUARTET",
+        "Riitta Paakki"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 46%"
+    },
+    {
       "filename": "DSC02158_web.jpg",
       "src": "images/DSC02158_web.jpg",
       "date": "2023-03-24",
@@ -1632,13 +2173,12 @@
       "keywords": [
         "Jaska Lukkarinen",
         "MIKA KALLIO GONG ODYSSEY",
-        "People",
         "Porvoo Jazz Club"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 12%"
+      "facePosition": "center 17%"
     },
     {
       "filename": "DSC01445_web.jpg",
@@ -1654,7 +2194,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 60%"
+      "facePosition": "center 10%"
     },
     {
       "filename": "DSC01538_web.jpg",
@@ -1695,7 +2235,6 @@
       "artist": "Markku Ounaskari",
       "keywords": [
         "Markku Ounaskari",
-        "People",
         "Porvoo Jazz Club",
         "SEIM/HENRIKSEN/JORMIN/OUNASKARI",
         "rummut"
@@ -1713,7 +2252,7 @@
       "keywords": [
         "ANTTI LÖTJÖNEN QUINTET EAST",
         "Antti Lötjönen",
-        "People",
+        "bass",
         "kontrabasso"
       ],
       "orientation": "portrait",
@@ -1733,7 +2272,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 2%"
+      "facePosition": "center 22%"
     },
     {
       "filename": "DSC07253_web.jpg",
@@ -1743,8 +2282,7 @@
       "keywords": [
         "LINDA FREDRIKSSON JUNIPER",
         "Linda Fredriksson",
-        "Mikael Saastamoinen",
-        "People"
+        "Mikael Saastamoinen"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1763,7 +2301,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 13%"
+      "facePosition": "center 23%"
     },
     {
       "filename": "DSC07548_web.jpg",
@@ -1772,13 +2310,12 @@
       "artist": "LINDA FREDRIKSSON JUNIPER",
       "keywords": [
         "LINDA FREDRIKSSON JUNIPER",
-        "Mikael Saastamoinen",
-        "People"
+        "Mikael Saastamoinen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC07841_web.jpg",
@@ -1792,7 +2329,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 2%"
+      "facePosition": "center 37%"
     },
     {
       "filename": "DSC07958_web.jpg",
@@ -1808,7 +2345,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 41%"
+      "facePosition": "center 16%"
     },
     {
       "filename": "DSC08058_web.jpg",
@@ -1831,7 +2368,6 @@
       "artist": "Markku Ounaskari",
       "keywords": [
         "Markku Ounaskari",
-        "People",
         "REIMAGINING JOHN'S SONS"
       ],
       "orientation": "landscape",
@@ -1846,7 +2382,6 @@
       "artist": "Aki Rissanen",
       "keywords": [
         "Aki Rissanen",
-        "People",
         "REIMAGINING JOHN'S SONS"
       ],
       "orientation": "portrait",
@@ -1860,8 +2395,7 @@
       "date": "2022-09-24",
       "artist": "Jaska Lukkarinen",
       "keywords": [
-        "Jaska Lukkarinen",
-        "People"
+        "Jaska Lukkarinen"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1879,7 +2413,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 57%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC08810_web.jpg",
@@ -1892,7 +2426,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 31%"
+      "facePosition": "center 90%"
     },
     {
       "filename": "DSC08928_web.jpg",
@@ -1913,13 +2447,12 @@
       "date": "2022-09-24",
       "artist": "Jaska Lukkarinen",
       "keywords": [
-        "Jaska Lukkarinen",
-        "People"
+        "Jaska Lukkarinen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 10%"
+      "facePosition": "center 20%"
     },
     {
       "filename": "DSC08975_web.jpg",
@@ -1945,7 +2478,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 42%"
+      "facePosition": "center 37%"
     },
     {
       "filename": "DSC09149_web.jpg",
@@ -1958,7 +2491,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 19%"
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC09256_web.jpg",
@@ -1971,7 +2504,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 45%"
+      "facePosition": "center 50%"
     },
     {
       "filename": "DSC05515_web.jpg",
@@ -1980,13 +2513,12 @@
       "artist": "Mikko Innanen",
       "keywords": [
         "Mikko Innanen",
-        "NUIJAMIEHET",
-        "People"
+        "NUIJAMIEHET"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 10%"
+      "facePosition": "center 30%"
     },
     {
       "filename": "DSC06061_web.jpg",
@@ -2027,7 +2559,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 48%"
+      "facePosition": "center 13%"
     },
     {
       "filename": "DSC06416_web.jpg",
@@ -2056,7 +2588,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 13%"
+      "facePosition": "center 33%"
     },
     {
       "filename": "DSC06672_web.jpg",
@@ -2065,13 +2597,12 @@
       "artist": "Jaska Lukkarinen",
       "keywords": [
         "Jaska Lukkarinen",
-        "OLLI AHVENLAHTI: THE POET",
-        "People"
+        "OLLI AHVENLAHTI: THE POET"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 20%"
     },
     {
       "filename": "DSC06838_web.jpg",
@@ -2085,7 +2616,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC03962_mix_web.jpg",
@@ -2095,7 +2626,6 @@
       "keywords": [
         "Antti Lötjönen",
         "ILMILIEKKI QUARTET",
-        "People",
         "Porvoo Jazz Festival 2021",
         "Verneri Pohjola"
       ],
@@ -2117,7 +2647,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 19%"
+      "facePosition": "center 34%"
     },
     {
       "filename": "DSC04232_web.jpg",
@@ -2128,7 +2658,6 @@
         "Antti Lötjönen",
         "ILMILIEKKI QUARTET",
         "Olavi Louhivuori",
-        "People",
         "Porvoo Jazz Festival 2021"
       ],
       "orientation": "landscape",
@@ -2149,7 +2678,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 34%"
+      "facePosition": "center 44%"
     },
     {
       "filename": "DSC02643_web.jpg",
@@ -2205,7 +2734,6 @@
         "Aleksi Tuomarila",
         "Eero Koivistoinen",
         "Juhani Aaltonen",
-        "People",
         "Porvoo Jazz Festival 2021",
         "REISKA LAINE QUINTET"
       ],
@@ -2248,9 +2776,8 @@
       "filename": "DSC03236_web.jpg",
       "src": "images/DSC03236_web.jpg",
       "date": "2021-09-25",
-      "artist": "People",
+      "artist": "Porvoo Jazz Festival 2021",
       "keywords": [
-        "People",
         "Porvoo Jazz Festival 2021",
         "REISKA LAINE QUINTET",
         "Ulf Krokfors"
@@ -2268,7 +2795,6 @@
       "keywords": [
         "Eero Koivistoinen",
         "Juhani Aaltonen",
-        "People",
         "Porvoo Jazz Festival 2021",
         "REISKA LAINE QUINTET",
         "Ulf Krokfors"
@@ -2285,14 +2811,13 @@
       "artist": "Jaska Lukkarinen",
       "keywords": [
         "Jaska Lukkarinen",
-        "People",
         "Porvoo Jazz Festival 2021",
         "SAMI SAARI JA JAZZPOJAT"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 22%"
+      "facePosition": "center 47%"
     },
     {
       "filename": "DSC02127_web.jpg",
@@ -2316,7 +2841,6 @@
       "artist": "Joonas Tuuri",
       "keywords": [
         "Joonas Tuuri",
-        "People",
         "Porvoo Jazz Festival 2021",
         "Susanna Aleksandra Quartet"
       ],
@@ -2338,7 +2862,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 47%"
+      "facePosition": "center 52%"
     },
     {
       "filename": "DSC02370_web.jpg",
@@ -2353,7 +2877,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 34%"
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC02386_web.jpg",
@@ -2363,17 +2887,16 @@
       "keywords": [
         "Antti Lötjönen",
         "MIKKO KARJALAINEN FELLOWSHIP QUINTET FEAT. PALEFACE",
-        "People",
         "Porvoo Jazz Festival 2021"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 45%"
+      "facePosition": "center 40%"
     },
     {
-      "filename": "DSC02401_web.jpg",
-      "src": "images/DSC02401_web.jpg",
+      "filename": "DSC02401_web-2.jpg",
+      "src": "images/DSC02401_web-2.jpg",
       "date": "2021-09-24",
       "artist": "Jukkis Uotila",
       "keywords": [
@@ -2394,7 +2917,6 @@
       "keywords": [
         "MIKKO KARJALAINEN FELLOWSHIP QUINTET FEAT. PALEFACE",
         "Mikko Karjalainen",
-        "People",
         "Porvoo Jazz Festival 2021"
       ],
       "orientation": "portrait",
@@ -2406,9 +2928,8 @@
       "filename": "kolme teemua_web.jpg",
       "src": "images/kolme teemua_web.jpg",
       "date": "2020-08-16",
-      "artist": "People",
+      "artist": "Teemu Viinikainen",
       "keywords": [
-        "People",
         "Teemu Viinikainen",
         "julkaistu Jazz Photographers FB ryhmässä"
       ],
@@ -2421,10 +2942,8 @@
       "filename": "DSC00036_web.jpg",
       "src": "images/DSC00036_web.jpg",
       "date": "2020-08-14",
-      "artist": "People",
+      "artist": "Teemu Viinikainen",
       "keywords": [
-        "People",
-        "Porvoo Jazz Klubi",
         "Teemu Viinikainen"
       ],
       "orientation": "landscape",
@@ -2436,9 +2955,8 @@
       "filename": "DSC09862 1_web.jpg",
       "src": "images/DSC09862 1_web.jpg",
       "date": "2020-08-14",
-      "artist": "People",
+      "artist": "Porvoo Jazz Klubi",
       "keywords": [
-        "People",
         "Porvoo Jazz Klubi",
         "Teemu Viinikainen"
       ],
@@ -2451,24 +2969,22 @@
       "filename": "DSC09922_web.jpg",
       "src": "images/DSC09922_web.jpg",
       "date": "2020-08-14",
-      "artist": "People",
+      "artist": "Porvoo Jazz Klubi",
       "keywords": [
-        "People",
         "Porvoo Jazz Klubi",
         "Teemu Viinikainen"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 14%"
+      "facePosition": "center 24%"
     },
     {
       "filename": "DSC09943_web.jpg",
       "src": "images/DSC09943_web.jpg",
       "date": "2020-08-14",
-      "artist": "People",
+      "artist": "Porvoo Jazz Klubi",
       "keywords": [
-        "People",
         "Porvoo Jazz Klubi",
         "Teemu Viinikainen"
       ],
@@ -2483,13 +2999,12 @@
       "date": "2019-12-13",
       "artist": "Elina Brooks",
       "keywords": [
-        "Elina Brooks",
-        "People"
+        "Elina Brooks"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 11%"
+      "facePosition": "center 16%"
     },
     {
       "filename": "DSC05694_print_web.jpg",
@@ -2502,7 +3017,7 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 61%"
+      "facePosition": "center 56%"
     },
     {
       "filename": "DSC05761_web.jpg",
@@ -2511,7 +3026,6 @@
       "artist": "Juhani Aaltonen",
       "keywords": [
         "Juhani Aaltonen",
-        "People",
         "Raoul Björkenheim"
       ],
       "orientation": "landscape",
@@ -2525,8 +3039,7 @@
       "date": "2019-12-13",
       "artist": "Juhani Aaltonen",
       "keywords": [
-        "Juhani Aaltonen",
-        "People"
+        "Juhani Aaltonen"
       ],
       "orientation": "landscape",
       "width": 2000,
