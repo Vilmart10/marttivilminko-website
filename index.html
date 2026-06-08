@@ -1213,10 +1213,57 @@ img {
     </div>
   </div>
   <!-- Footer Info-osion pohjalla -->
-  <footer style="margin-top:3rem;justify-content:center;">
-    <div class="footer-copy" style="text-align:center;"><span style="font-size:1.1rem;vertical-align:middle;line-height:1">&copy;</span> <span id="copyrightYear"></span> Martti Vilminko · Kuvien käyttö, kopiointi tai jakelu ainoastaan luvan kanssa</div>
+  <footer style="margin-top:3rem;justify-content:center;flex-direction:column;align-items:center;gap:.4rem;">
+    <div class="footer-copy" style="text-align:center;font-size:.78rem;">
+      <span style="font-size:1.1rem;vertical-align:middle;line-height:1">&copy;</span>
+      <span id="copyrightYear"></span> Martti Vilminko
+    </div>
+    <div style="text-align:center;">
+      <button onclick="document.getElementById('copyrightModal').style.display='flex'"
+        style="background:none;border:none;color:var(--gold-dim);font-family:'Space Mono',monospace;
+        font-size:.72rem;letter-spacing:.12em;cursor:pointer;text-decoration:underline;
+        text-underline-offset:3px;padding:0;transition:color .2s;"
+        onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--gold-dim)'">
+        Copyright &amp; Licensing ↗
+      </button>
+    </div>
   </footer>
 </section>
+
+<!-- COPYRIGHT MODAL -->
+<div id="copyrightModal" onclick="if(event.target===this)this.style.display='none'"
+  style="display:none;position:fixed;inset:0;z-index:800;background:rgba(8,8,8,.92);
+  align-items:center;justify-content:center;padding:1.5rem;">
+  <div style="max-width:560px;width:100%;background:var(--deep);border:1px solid rgba(201,168,76,.2);
+    padding:2.5rem;position:relative;font-family:'Merriweather',serif;
+    max-height:90vh;overflow-y:auto;-webkit-overflow-scrolling:touch;">
+    <button onclick="document.getElementById('copyrightModal').style.display='none'"
+      style="position:absolute;top:1rem;right:1.2rem;background:none;border:none;
+      color:var(--dim);font-family:'Space Mono',monospace;font-size:.6rem;
+      letter-spacing:.15em;cursor:pointer;transition:color .2s;"
+      onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--dim)'">
+      SULJE ✕
+    </button>
+    <div style="font-family:'Space Mono',monospace;font-size:.75rem;letter-spacing:.18em;
+      color:var(--gold-dim);text-transform:uppercase;margin-bottom:1.5rem;">
+      Copyright &amp; Licensing
+    </div>
+    <div style="font-size:.88rem;line-height:1.9;color:var(--light);font-weight:300;">
+      <p>All photographs on this website and in associated communications are the exclusive intellectual property of <em style="color:var(--white);font-style:normal;">Martti Vilminko</em> and are protected under Finnish copyright law (Tekijänoikeuslaki 404/1961) and international copyright conventions.</p>
+      <p style="margin-top:1.2rem;">No image may be reproduced, distributed, transmitted, displayed, published, or used in any form — including digital, print, or broadcast — without prior written permission from the photographer. This applies to all commercial and non-commercial use, including social media, advertising, editorial, and promotional purposes.</p>
+      <p style="margin-top:1.2rem;">The photographer actively monitors the online use of these images using current automated detection technology. Unauthorized use is identified and will be pursued accordingly, including claims for compensation and damages under applicable law.</p>
+      <p style="margin-top:1.2rem;">Licensing inquiries are welcome.</p>
+    </div>
+    <div style="margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.06);
+      font-family:'Space Mono',monospace;font-size:.68rem;letter-spacing:.12em;color:var(--dim);">
+      <a href="mailto:martti.vilminko.photo@gmail.com"
+        style="color:var(--gold-dim);text-decoration:none;transition:color .2s;"
+        onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--gold-dim)'">
+        martti.vilminko.photo@gmail.com
+      </a>
+    </div>
+  </div>
+</div>
 
 <!-- LIGHTBOX -->
 <div id="lightbox">
