@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Martti Vilminko · Photography</title>
 <meta property="og:title" content="Martti Vilminko · Photography">
+<meta name="description" content="Martti Vilminko is a photographer based in Porvoo, Finland.">
 <meta property="og:description" content="Martti Vilminko is a photographer based in Porvoo, Finland.">
 <meta property="og:image" content="https://marttivilminko.com/og/DSC05694_OG_image.jpeg">
 <meta property="og:url" content="https://marttivilminko.com">
@@ -1242,7 +1243,7 @@ img {
       color:var(--dim);font-family:'Space Mono',monospace;font-size:.6rem;
       letter-spacing:.15em;cursor:pointer;transition:color .2s;"
       onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--dim)'">
-      SULJE ✕
+      CLOSE ✕
     </button>
     <div style="font-family:'Space Mono',monospace;font-size:.75rem;letter-spacing:.18em;
       color:var(--gold-dim);text-transform:uppercase;margin-bottom:1.5rem;">
@@ -1295,71 +1296,7 @@ img {
 <!-- ═══ JAVASCRIPT ═══════════════════════════════════════════════════════ -->
 <script>
 // ── Salasanasuojaus (poista kun sivusto valmis julkaistavaksi) ────────────
-(function() {
-  const PASS = 'jazz2026';
-  const key  = 'mv_access';
-  if (sessionStorage.getItem(key) === '1') return;
 
-  // Luo kirjautumisruutu
-  const overlay = document.createElement('div');
-  overlay.id = 'loginOverlay';
-  overlay.style.cssText = `
-    position:fixed;inset:0;background:#080808;z-index:99999;
-    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.8rem;
-  `;
-  overlay.innerHTML = `
-    <div style="display:flex;flex-direction:column;align-items:center;gap:.3rem;">
-      <span style="font-family:'Space Mono',monospace;font-size:.9rem;letter-spacing:.3em;color:#c9a84c;text-transform:uppercase;">MARTTI VILMINKO</span>
-      <div style="height:1px;width:100%;background:linear-gradient(to right,transparent,#c9a84c,transparent);position:relative;overflow:hidden;">
-        <div style="position:absolute;top:0;left:0;height:100%;width:100%;background:#c9a84c;animation:loadBar 1.4s ease forwards;"></div>
-      </div>
-      <span style="font-family:'Space Mono',monospace;font-size:.72rem;letter-spacing:.3em;color:#c8c0b0;text-transform:uppercase;">PHOTOGRAPHY</span>
-    </div>
-    <div style="font-family:'Space Mono',monospace;font-size:.58rem;letter-spacing:.2em;color:#555;text-transform:uppercase;display:flex;align-items:center;gap:.7rem;">
-      <span style="font-size:1rem;display:inline-block;animation:spin 3s linear infinite;">⚙</span>
-      SIVUSTO KEHITTEILLÄ · AVAUTUU KOHTA
-    </div>
-    <div style="display:flex;gap:.8rem;align-items:center;">
-      <input id="loginInput" type="password" placeholder="Salasana"
-        style="background:transparent;border:1px solid rgba(255,255,255,.15);padding:.7rem 1.2rem;
-        font-family:'Space Mono',monospace;font-size:.75rem;color:#e8e0d0;outline:none;
-        letter-spacing:.1em;width:200px;"
-      >
-      <button id="loginBtn"
-        style="background:transparent;border:1px solid #8a6e2a;color:#c9a84c;
-        font-family:'Space Mono',monospace;font-size:.65rem;letter-spacing:.2em;
-        text-transform:uppercase;padding:.7rem 1.4rem;cursor:pointer;transition:background .2s;">
-        OK
-      </button>
-    </div>
-    <div id="loginError" style="font-family:'Space Mono',monospace;font-size:.6rem;
-      letter-spacing:.15em;color:#c0392b;opacity:0;transition:opacity .3s;text-transform:uppercase;">
-      Väärä salasana
-    </div>
-  `;
-  document.body.appendChild(overlay);
-
-  function tryLogin() {
-    const val = document.getElementById('loginInput').value;
-    if (val === PASS) {
-      sessionStorage.setItem(key, '1');
-      overlay.style.opacity = '0';
-      overlay.style.transition = 'opacity .5s';
-      setTimeout(() => overlay.remove(), 500);
-    } else {
-      const err = document.getElementById('loginError');
-      err.style.opacity = '1';
-      document.getElementById('loginInput').value = '';
-      setTimeout(() => err.style.opacity = '0', 2000);
-    }
-  }
-
-  document.getElementById('loginBtn').addEventListener('click', tryLogin);
-  document.getElementById('loginInput').addEventListener('keydown', e => {
-    if (e.key === 'Enter') tryLogin();
-  });
-  setTimeout(() => document.getElementById('loginInput').focus(), 100);
-})();
 // ── State ────────────────────────────────────────────────────────────────
 let IMAGES       = [];   // full manifest array
 let heroImages   = [];   // shuffled subset for slideshow
