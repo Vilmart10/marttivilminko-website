@@ -1900,6 +1900,20 @@ function renderPrintsPage() {
       const date     = this.dataset.date;
       const selectedSizes = checks.map(c => c.dataset.size).join(', ');
 
+      // Kioski-tila: näytä huomio sähköpostin sijaan
+      if (new URLSearchParams(window.location.search).get('kiosk') === '1') {
+        const hint = card.querySelector('.print-info');
+        const existing = card.querySelector('.kiosk-msg');
+        if (existing) return;
+        const msg = document.createElement('div');
+        msg.className = 'kiosk-msg';
+        msg.textContent = 'Tältä koneelta ei voi tehdä printtikyselyitä. Tule sivustolle uudestaan omalla koneellasi ja tee kysely oman henkilökohtaisen sähköpostisi kautta.';
+        msg.style.cssText = 'font-family:Space Mono,monospace;font-size:.75rem;color:#c9a84c;margin-bottom:.5rem;letter-spacing:.08em;line-height:1.6;';
+        hint.insertBefore(msg, card.querySelector('.btn-order'));
+        setTimeout(() => msg.remove(), 6000);
+        return;
+      }
+
       const subject = encodeURIComponent(`Printtitiedustelu: ${artist || filename}`);
       const body = encodeURIComponent(
         `Hei,\n\nHaluaisin tiedustella printtitilauksen mahdollisuutta seuraavasta kuvasta:\n\n` +
