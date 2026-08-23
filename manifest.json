@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T08:58:35.484Z",
-  "count": 207,
+  "generated": "2026-08-23T18:11:41.423Z",
+  "count": 556,
   "images": [
     {
       "filename": "DSC03274_web.jpg",
@@ -162,6 +162,91 @@
       "facePosition": "center 67%"
     },
     {
+      "filename": "_R006277_web.jpg",
+      "src": "images/_R006277_web.jpg",
+      "date": "2026-04-25",
+      "artist": "ANTONIO LIZANA QUINTET",
+      "keywords": [
+        "ANTONIO LIZANA QUINTET",
+        "Antonio Lizana",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "_R006292_web.jpg",
+      "src": "images/_R006292_web.jpg",
+      "date": "2026-04-25",
+      "artist": "ANTONIO LIZANA QUINTET",
+      "keywords": [
+        "ANTONIO LIZANA QUINTET",
+        "Antonio Lizana",
+        "El Mawi",
+        "flamenco",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "_R006308_web.jpg",
+      "src": "images/_R006308_web.jpg",
+      "date": "2026-04-25",
+      "artist": "ANTONIO LIZANA QUINTET",
+      "keywords": [
+        "ANTONIO LIZANA QUINTET",
+        "Arin Keshishi",
+        "El Mawi",
+        "flamenco"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 45%"
+    },
+    {
+      "filename": "_R006337_web.jpg",
+      "src": "images/_R006337_web.jpg",
+      "date": "2026-04-25",
+      "artist": "ANTONIO LIZANA QUINTET",
+      "keywords": [
+        "ANTONIO LIZANA QUINTET",
+        "Antonio Lizana",
+        "David Sancho",
+        "El Mawi",
+        "flamenco"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "_R006365_web.jpg",
+      "src": "images/_R006365_web.jpg",
+      "date": "2026-04-25",
+      "artist": "ANTONIO LIZANA QUINTET",
+      "keywords": [
+        "ANTONIO LIZANA QUINTET",
+        "Antonio Lizana",
+        "Arin Keshishi",
+        "David Sancho",
+        "El Mawi",
+        "Shayan Fathi",
+        "flamenco",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
       "filename": "DSC02772_web.jpg",
       "src": "images/DSC02772_web.jpg",
       "date": "2026-04-10",
@@ -321,6 +406,7 @@
       "keywords": [
         "Joe Peri",
         "MAX LIGHT QUINTET",
+        "bass",
         "drums"
       ],
       "orientation": "portrait",
@@ -344,18 +430,130 @@
       "facePosition": "center 61%"
     },
     {
+      "filename": "DSC01886_web.jpg",
+      "src": "images/DSC01886_web.jpg",
+      "date": "2026-02-06",
+      "artist": "Mikko Hassinen",
+      "keywords": [
+        "Mikko Hassinen",
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Pertti Pepa Päivinen",
+        "Timo Kämäräinen",
+        "Ville Herrala",
+        "bass",
+        "drums",
+        "guitar",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC01952_web.jpg",
+      "src": "images/DSC01952_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Timo Kämäräinen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 47%"
+    },
+    {
+      "filename": "DSC02004_web-2.jpg",
+      "src": "images/DSC02004_web-2.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Ville Herrala",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 53%"
+    },
+    {
+      "filename": "DSC02036_web.jpg",
+      "src": "images/DSC02036_web.jpg",
+      "date": "2026-02-06",
+      "artist": "Mikko Hassinen",
+      "keywords": [
+        "Mikko Hassinen",
+        "PEPA PÄIVINEN PEACEPIPE",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
+      "filename": "DSC02090_web.jpg",
+      "src": "images/DSC02090_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Pertti Pepa Päivinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC02172_web.jpg",
+      "src": "images/DSC02172_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Ville Herrala",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 22%"
+    },
+    {
       "filename": "DSC02208_web.jpg",
       "src": "images/DSC02208_web.jpg",
       "date": "2026-02-06",
       "artist": "PEPA PÄIVINEN PEACEPIPE",
       "keywords": [
         "PEPA PÄIVINEN PEACEPIPE",
-        "Ville Herrala"
+        "Ville Herrala",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 90%"
+    },
+    {
+      "filename": "DSC02233_web.jpg",
+      "src": "images/DSC02233_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Pertti Pepa Päivinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
     },
     {
       "filename": "DSC02244_web.jpg",
@@ -364,12 +562,58 @@
       "artist": "Mikko Hassinen",
       "keywords": [
         "Mikko Hassinen",
-        "PEPA PÄIVINEN PEACEPIPE"
+        "PEPA PÄIVINEN PEACEPIPE",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 38%"
+    },
+    {
+      "filename": "DSC02421_web.jpg",
+      "src": "images/DSC02421_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Timo Kämäräinen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 3%"
+    },
+    {
+      "filename": "DSC02466_web.jpg",
+      "src": "images/DSC02466_web.jpg",
+      "date": "2026-02-06",
+      "artist": "Mikko Hassinen",
+      "keywords": [
+        "Mikko Hassinen",
+        "PEPA PÄIVINEN PEACEPIPE",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 18%"
+    },
+    {
+      "filename": "DSC02571_web.jpg",
+      "src": "images/DSC02571_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Timo Kämäräinen",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
     },
     {
       "filename": "DSC02653_web.jpg",
@@ -378,12 +622,43 @@
       "artist": "Mikko Hassinen",
       "keywords": [
         "Mikko Hassinen",
-        "PEPA PÄIVINEN PEACEPIPE"
+        "PEPA PÄIVINEN PEACEPIPE",
+        "drums"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC02662-Edit_web.jpg",
+      "src": "images/DSC02662-Edit_web.jpg",
+      "date": "2026-02-06",
+      "artist": "PEPA PÄIVINEN PEACEPIPE",
+      "keywords": [
+        "PEPA PÄIVINEN PEACEPIPE",
+        "Pertti Pepa Päivinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
+    },
+    {
+      "filename": "DSC01463_web.jpg",
+      "src": "images/DSC01463_web.jpg",
+      "date": "2025-12-19",
+      "artist": "Johannes Granroth",
+      "keywords": [
+        "Johannes Granroth",
+        "PJC SIINA SUUTARINEN",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
     },
     {
       "filename": "DSC01527_web.jpg",
@@ -392,12 +667,62 @@
       "artist": "PJC SIINA SUUTARINEN",
       "keywords": [
         "PJC SIINA SUUTARINEN",
-        "Siina Suutarinen"
+        "Siina Suutarinen",
+        "piano"
       ],
-      "orientation": "landscape",
-      "width": 2000,
-      "height": 1333,
-      "facePosition": null
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 59%"
+    },
+    {
+      "filename": "DSC01621_web.jpg",
+      "src": "images/DSC01621_web.jpg",
+      "date": "2025-12-19",
+      "artist": "Antti Ahoniemi",
+      "keywords": [
+        "Antti Ahoniemi",
+        "PJC SIINA SUUTARINEN",
+        "Siina Suutarinen",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 27%"
+    },
+    {
+      "filename": "DSC01761_web.jpg",
+      "src": "images/DSC01761_web.jpg",
+      "date": "2025-12-19",
+      "artist": "PJC SIINA SUUTARINEN",
+      "keywords": [
+        "PJC SIINA SUUTARINEN",
+        "Siina Suutarinen",
+        "piano",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
+      "filename": "DSC01055_web.jpg",
+      "src": "images/DSC01055_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Heta Halonen",
+        "Riitta Paakki",
+        "piano",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 20%"
     },
     {
       "filename": "DSC01068_web.jpg",
@@ -445,6 +770,21 @@
       "facePosition": "center 2%"
     },
     {
+      "filename": "DSC01141_web.jpg",
+      "src": "images/DSC01141_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Riitta Paakki",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
       "filename": "DSC01148_web.jpg",
       "src": "images/DSC01148_web.jpg",
       "date": "2025-11-28",
@@ -475,18 +815,64 @@
       "facePosition": "center 13%"
     },
     {
+      "filename": "DSC01213_web.jpg",
+      "src": "images/DSC01213_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Heta Halonen",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
       "filename": "DSC01246_web.jpg",
       "src": "images/DSC01246_web.jpg",
       "date": "2025-11-28",
       "artist": "HETA HALONEN & RIITTA PAAKKI",
       "keywords": [
         "HETA HALONEN & RIITTA PAAKKI",
-        "Heta Halonen"
+        "Heta Halonen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 32%"
+    },
+    {
+      "filename": "DSC01250_web.jpg",
+      "src": "images/DSC01250_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Heta Halonen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 16%"
+    },
+    {
+      "filename": "DSC01272_web.jpg",
+      "src": "images/DSC01272_web.jpg",
+      "date": "2025-11-28",
+      "artist": "HETA HALONEN & RIITTA PAAKKI",
+      "keywords": [
+        "HETA HALONEN & RIITTA PAAKKI",
+        "Heta Halonen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 7%"
     },
     {
       "filename": "DSC00627_web.jpg",
@@ -519,6 +905,57 @@
       "facePosition": "center 56%"
     },
     {
+      "filename": "DSC00679_web-2.jpg",
+      "src": "images/DSC00679_web-2.jpg",
+      "date": "2025-11-07",
+      "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
+      "keywords": [
+        "BAPTISTE HERBIN TRIO – DJANGO!",
+        "Baptiste Herbin",
+        "Sylvain Romano",
+        "bass",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00730_web.jpg",
+      "src": "images/DSC00730_web.jpg",
+      "date": "2025-11-07",
+      "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
+      "keywords": [
+        "BAPTISTE HERBIN TRIO – DJANGO!",
+        "Elvire Jouve",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC00769_web.jpg",
+      "src": "images/DSC00769_web.jpg",
+      "date": "2025-11-07",
+      "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
+      "keywords": [
+        "BAPTISTE HERBIN TRIO – DJANGO!",
+        "Baptiste Herbin",
+        "Elvire Jouve",
+        "Sylvain Romano",
+        "bass",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
       "filename": "DSC00807_web.jpg",
       "src": "images/DSC00807_web.jpg",
       "date": "2025-11-07",
@@ -536,6 +973,36 @@
       "facePosition": "center 10%"
     },
     {
+      "filename": "DSC00847_web.jpg",
+      "src": "images/DSC00847_web.jpg",
+      "date": "2025-11-07",
+      "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
+      "keywords": [
+        "BAPTISTE HERBIN TRIO – DJANGO!",
+        "Elvire Jouve",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 20%"
+    },
+    {
+      "filename": "DSC00869_web.jpg",
+      "src": "images/DSC00869_web.jpg",
+      "date": "2025-11-07",
+      "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
+      "keywords": [
+        "BAPTISTE HERBIN TRIO – DJANGO!",
+        "Elvire Jouve",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
       "filename": "DSC00923_web.jpg",
       "src": "images/DSC00923_web.jpg",
       "date": "2025-11-07",
@@ -549,6 +1016,168 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 60%"
+    },
+    {
+      "filename": "DSC00957_web.jpg",
+      "src": "images/DSC00957_web.jpg",
+      "date": "2025-11-07",
+      "artist": "BAPTISTE HERBIN TRIO – DJANGO!",
+      "keywords": [
+        "BAPTISTE HERBIN TRIO – DJANGO!",
+        "Baptiste Herbin",
+        "Elvire Jouve",
+        "Sylvain Romano",
+        "bass",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00069_web.jpg",
+      "src": "images/DSC00069_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00163_web.jpg",
+      "src": "images/DSC00163_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC00164_web.jpg",
+      "src": "images/DSC00164_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
+    },
+    {
+      "filename": "DSC00207_web.jpg",
+      "src": "images/DSC00207_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC00267_web.jpg",
+      "src": "images/DSC00267_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC00382_web.jpg",
+      "src": "images/DSC00382_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC00548_web.jpg",
+      "src": "images/DSC00548_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00589_web.jpg",
+      "src": "images/DSC00589_web.jpg",
+      "date": "2025-10-25",
+      "artist": "Emil Holmström",
+      "keywords": [
+        "Emil Holmström",
+        "SOIVA TAIDEHALLI : DUO KARAKORPI JA HOLMSTRÖM -KAIKKI ORKESTERI",
+        "Tiina Karakorpi",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00004_web.jpg",
+      "src": "images/DSC00004_web.jpg",
+      "date": "2025-10-24",
+      "artist": "AKI RISSANEN TRIO",
+      "keywords": [
+        "AKI RISSANEN TRIO",
+        "Aki Rissanen",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
     },
     {
       "filename": "DSC00016_web.jpg",
@@ -581,13 +1210,48 @@
       "facePosition": "center 24%"
     },
     {
+      "filename": "DSC09795-Pano_web.jpg",
+      "src": "images/DSC09795-Pano_web.jpg",
+      "date": "2025-10-24",
+      "artist": "AKI RISSANEN TRIO",
+      "keywords": [
+        "AKI RISSANEN TRIO",
+        "Aki Rissanen",
+        "Antti Lötjönen",
+        "Teppo Mäkynen",
+        "bass",
+        "drums",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1088,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC09828_web.jpg",
+      "src": "images/DSC09828_web.jpg",
+      "date": "2025-10-24",
+      "artist": "AKI RISSANEN TRIO",
+      "keywords": [
+        "AKI RISSANEN TRIO",
+        "Teppo Mäkynen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
+    },
+    {
       "filename": "DSC09853_web.jpg",
       "src": "images/DSC09853_web.jpg",
       "date": "2025-10-24",
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Antti Lötjönen"
+        "Antti Lötjönen",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -601,7 +1265,8 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Antti Lötjönen"
+        "Antti Lötjönen",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -629,12 +1294,28 @@
       "artist": "AKI RISSANEN TRIO",
       "keywords": [
         "AKI RISSANEN TRIO",
-        "Aki Rissanen"
+        "Aki Rissanen",
+        "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 23%"
+    },
+    {
+      "filename": "DSC09946_web.jpg",
+      "src": "images/DSC09946_web.jpg",
+      "date": "2025-10-24",
+      "artist": "AKI RISSANEN TRIO",
+      "keywords": [
+        "AKI RISSANEN TRIO",
+        "Aki Rissanen",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
     },
     {
       "filename": "DSC09454_web.jpg",
@@ -644,7 +1325,9 @@
       "keywords": [
         "Ben van Gelder",
         "REINIER BAAS & BEN VAN GELDER (NL)",
-        "Reinier Baas"
+        "Reinier Baas",
+        "guitar",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -652,8 +1335,57 @@
       "facePosition": "center 53%"
     },
     {
+      "filename": "DSC09462_web.jpg",
+      "src": "images/DSC09462_web.jpg",
+      "date": "2025-09-28",
+      "artist": "Ben van Gelder",
+      "keywords": [
+        "Ben van Gelder",
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 10%"
+    },
+    {
+      "filename": "DSC09535_web.jpg",
+      "src": "images/DSC09535_web.jpg",
+      "date": "2025-09-28",
+      "artist": "Ben van Gelder",
+      "keywords": [
+        "Ben van Gelder",
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 7%"
+    },
+    {
       "filename": "DSC09584_web.jpg",
       "src": "images/DSC09584_web.jpg",
+      "date": "2025-09-28",
+      "artist": "REINIER BAAS & BEN VAN GELDER (NL)",
+      "keywords": [
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 34%"
+    },
+    {
+      "filename": "DSC09621_web.jpg",
+      "src": "images/DSC09621_web.jpg",
       "date": "2025-09-28",
       "artist": "REINIER BAAS & BEN VAN GELDER (NL)",
       "keywords": [
@@ -663,7 +1395,71 @@
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 34%"
+      "facePosition": "center 50%"
+    },
+    {
+      "filename": "DSC09637_web.jpg",
+      "src": "images/DSC09637_web.jpg",
+      "date": "2025-09-28",
+      "artist": "Ben van Gelder",
+      "keywords": [
+        "Ben van Gelder",
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC09653_web.jpg",
+      "src": "images/DSC09653_web.jpg",
+      "date": "2025-09-28",
+      "artist": "REINIER BAAS & BEN VAN GELDER (NL)",
+      "keywords": [
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC09705_web.jpg",
+      "src": "images/DSC09705_web.jpg",
+      "date": "2025-09-28",
+      "artist": "Ben van Gelder",
+      "keywords": [
+        "Ben van Gelder",
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC09739_web.jpg",
+      "src": "images/DSC09739_web.jpg",
+      "date": "2025-09-28",
+      "artist": "REINIER BAAS & BEN VAN GELDER (NL)",
+      "keywords": [
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "Reinier Baas",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 62%"
     },
     {
       "filename": "DSC09759_web.jpg",
@@ -672,12 +1468,80 @@
       "artist": "Ben van Gelder",
       "keywords": [
         "Ben van Gelder",
-        "REINIER BAAS & BEN VAN GELDER (NL)"
+        "REINIER BAAS & BEN VAN GELDER (NL)",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 32%"
+    },
+    {
+      "filename": "DSC07862_web.jpg",
+      "src": "images/DSC07862_web.jpg",
+      "date": "2025-09-27",
+      "artist": "JAZZLÖYLYTYS À LA SAARI & KORTEHISTO",
+      "keywords": [
+        "JAZZLÖYLYTYS À LA SAARI & KORTEHISTO",
+        "Jarmo Saari",
+        "Jay Kortehisto",
+        "guitar",
+        "trombone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC07903_web.jpg",
+      "src": "images/DSC07903_web.jpg",
+      "date": "2025-09-27",
+      "artist": "JAZZLÖYLYTYS À LA SAARI & KORTEHISTO",
+      "keywords": [
+        "JAZZLÖYLYTYS À LA SAARI & KORTEHISTO",
+        "Jay Kortehisto",
+        "singer",
+        "trombone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 58%"
+    },
+    {
+      "filename": "DSC07916_web.jpg",
+      "src": "images/DSC07916_web.jpg",
+      "date": "2025-09-27",
+      "artist": "JAZZLÖYLYTYS À LA SAARI & KORTEHISTO",
+      "keywords": [
+        "JAZZLÖYLYTYS À LA SAARI & KORTEHISTO",
+        "Jarmo Saari",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC07947_web-2.jpg",
+      "src": "images/DSC07947_web-2.jpg",
+      "date": "2025-09-27",
+      "artist": "Filemon von Numers",
+      "keywords": [
+        "Filemon von Numers",
+        "Max Zenger",
+        "RUNON JAZZBRUNSSI: MAX ZENGER 3 PLAYS JIMMY GIUFFRE 3",
+        "Rene Willman",
+        "bass",
+        "guitar",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 2000,
+      "facePosition": null
     },
     {
       "filename": "DSC07947_web.jpg",
@@ -688,12 +1552,142 @@
         "Filemon von Numers",
         "Max Zenger",
         "RUNON JAZZBRUNSSI: MAX ZENGER 3 PLAYS JIMMY GIUFFRE 3",
-        "Rene Willman"
+        "Rene Willman",
+        "bass",
+        "guitar",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC07963_web.jpg",
+      "src": "images/DSC07963_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Jaime Estevéz",
+      "keywords": [
+        "Jaime Estevéz",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
+      "filename": "DSC07980_web.jpg",
+      "src": "images/DSC07980_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Fanny Söderström",
+      "keywords": [
+        "Fanny Söderström",
+        "Jaime Estevéz",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "piano",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07986_web.jpg",
+      "src": "images/DSC07986_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "Valtteri Malmivirta",
+        "balloon"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07998_web.jpg",
+      "src": "images/DSC07998_web.jpg",
+      "date": "2025-09-27",
+      "artist": "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+      "keywords": [
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "Valtteri Malmivirta",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 44%"
+    },
+    {
+      "filename": "DSC08001_web.jpg",
+      "src": "images/DSC08001_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "Valtteri Malmivirta",
+        "balloon"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08003_web.jpg",
+      "src": "images/DSC08003_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 59%"
+    },
+    {
+      "filename": "DSC08029_web.jpg",
+      "src": "images/DSC08029_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 5%"
+    },
+    {
+      "filename": "DSC08033_web.jpg",
+      "src": "images/DSC08033_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 57%"
     },
     {
       "filename": "DSC08044_web.jpg",
@@ -702,7 +1696,225 @@
       "artist": "Jaime Estevéz",
       "keywords": [
         "Jaime Estevéz",
-        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!"
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08068_web.jpg",
+      "src": "images/DSC08068_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "Valtteri Malmivirta",
+        "trombone",
+        "trumpet",
+        "tuba"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08086_web.jpg",
+      "src": "images/DSC08086_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Ilkka Marttila",
+      "keywords": [
+        "Ilkka Marttila",
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "Valtteri Malmivirta",
+        "trombone",
+        "trumpet",
+        "tuba"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08107_web.jpg",
+      "src": "images/DSC08107_web.jpg",
+      "date": "2025-09-27",
+      "artist": "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+      "keywords": [
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "balloon"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08123_web.jpg",
+      "src": "images/DSC08123_web.jpg",
+      "date": "2025-09-27",
+      "artist": "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+      "keywords": [
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Valtteri Malmivirta",
+        "balloon"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08124-Edit_web.jpg",
+      "src": "images/DSC08124-Edit_web.jpg",
+      "date": "2025-09-27",
+      "artist": "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+      "keywords": [
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 23%"
+    },
+    {
+      "filename": "DSC08125-Edit_web.jpg",
+      "src": "images/DSC08125-Edit_web.jpg",
+      "date": "2025-09-27",
+      "artist": "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+      "keywords": [
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC08126-Edit_web.jpg",
+      "src": "images/DSC08126-Edit_web.jpg",
+      "date": "2025-09-27",
+      "artist": "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+      "keywords": [
+        "PORVOO JAZZ FESTIVAL X AVANTI!: FRICTION!",
+        "Tomas Gricius",
+        "balloon"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 52%"
+    },
+    {
+      "filename": "DSC08142_web.jpg",
+      "src": "images/DSC08142_web.jpg",
+      "date": "2025-09-27",
+      "artist": "AGNAS BROS. (SE)",
+      "keywords": [
+        "AGNAS BROS. (SE)",
+        "Kasper Agnas",
+        "Konrad Agnas",
+        "Mauritz Agnas",
+        "Max Agnas",
+        "bass",
+        "drums",
+        "guitar",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08155_web.jpg",
+      "src": "images/DSC08155_web.jpg",
+      "date": "2025-09-27",
+      "artist": "AGNAS BROS. (SE)",
+      "keywords": [
+        "AGNAS BROS. (SE)",
+        "Mauritz Agnas",
+        "Max Agnas",
+        "bass",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC08162_web.jpg",
+      "src": "images/DSC08162_web.jpg",
+      "date": "2025-09-27",
+      "artist": "AGNAS BROS. (SE)",
+      "keywords": [
+        "AGNAS BROS. (SE)",
+        "Mauritz Agnas",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
+    },
+    {
+      "filename": "DSC08208_web.jpg",
+      "src": "images/DSC08208_web.jpg",
+      "date": "2025-09-27",
+      "artist": "AGNAS BROS. (SE)",
+      "keywords": [
+        "AGNAS BROS. (SE)",
+        "Konrad Agnas",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 3%"
+    },
+    {
+      "filename": "DSC08226_web.jpg",
+      "src": "images/DSC08226_web.jpg",
+      "date": "2025-09-27",
+      "artist": "AGNAS BROS. (SE)",
+      "keywords": [
+        "AGNAS BROS. (SE)",
+        "Kasper Agnas",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 51%"
+    },
+    {
+      "filename": "DSC08304_web.jpg",
+      "src": "images/DSC08304_web.jpg",
+      "date": "2025-09-27",
+      "artist": "AGNAS BROS. (SE)",
+      "keywords": [
+        "AGNAS BROS. (SE)",
+        "Kasper Agnas",
+        "Konrad Agnas",
+        "Mauritz Agnas",
+        "Max Agnas",
+        "bass",
+        "drums",
+        "guitar",
+        "piano"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -717,12 +1929,29 @@
       "keywords": [
         "Juho Valjakka",
         "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
-        "Riikka Keränen"
+        "Riikka Keränen",
+        "piano",
+        "singer"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC08395_web.jpg",
+      "src": "images/DSC08395_web.jpg",
+      "date": "2025-09-27",
+      "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+      "keywords": [
+        "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+        "Riikka Keränen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
     },
     {
       "filename": "DSC08403_web.jpg",
@@ -731,12 +1960,28 @@
       "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
       "keywords": [
         "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
-        "Riikka Keränen"
+        "Riikka Keränen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 16%"
+      "facePosition": "center 63%"
+    },
+    {
+      "filename": "DSC08415_web.jpg",
+      "src": "images/DSC08415_web.jpg",
+      "date": "2025-09-27",
+      "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+      "keywords": [
+        "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+        "Riikka Keränen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 40%"
     },
     {
       "filename": "DSC08430_web.jpg",
@@ -745,7 +1990,8 @@
       "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
       "keywords": [
         "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
-        "Riikka Keränen"
+        "Riikka Keränen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -759,7 +2005,8 @@
       "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
       "keywords": [
         "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
-        "Riikka Keränen"
+        "Riikka Keränen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -773,12 +2020,58 @@
       "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
       "keywords": [
         "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
-        "Riikka Keränen"
+        "Riikka Keränen",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 14%"
+    },
+    {
+      "filename": "DSC08466_web.jpg",
+      "src": "images/DSC08466_web.jpg",
+      "date": "2025-09-27",
+      "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+      "keywords": [
+        "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+        "Riikka Keränen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC08491_web.jpg",
+      "src": "images/DSC08491_web.jpg",
+      "date": "2025-09-27",
+      "artist": "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+      "keywords": [
+        "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+        "Riikka Keränen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 60%"
+    },
+    {
+      "filename": "DSC08502_web.jpg",
+      "src": "images/DSC08502_web.jpg",
+      "date": "2025-09-27",
+      "artist": "Juho Valjakka",
+      "keywords": [
+        "Juho Valjakka",
+        "RIIKKA KERÄNEN & JUHO VALJAKKA – ON CANVAS",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 50%"
     },
     {
       "filename": "DSC08577_web.jpg",
@@ -792,7 +2085,11 @@
         "Johannes Granroth",
         "Rafa Postel",
         "Tapio Backlund",
-        "Tommy Lindgren"
+        "Tommy Lindgren",
+        "bass",
+        "guitar",
+        "singer",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -807,12 +2104,29 @@
       "keywords": [
         "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
         "Rafa Postel",
-        "Tommy Lindgren"
+        "Tommy Lindgren",
+        "singer",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 2000,
       "facePosition": null
+    },
+    {
+      "filename": "DSC08620_web.jpg",
+      "src": "images/DSC08620_web.jpg",
+      "date": "2025-09-27",
+      "artist": "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+      "keywords": [
+        "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+        "Felix Zenger",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
     },
     {
       "filename": "DSC08637_web.jpg",
@@ -822,12 +2136,28 @@
       "keywords": [
         "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
         "Felix Zenger",
-        "Tommy Lindgren"
+        "Tommy Lindgren",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 20%"
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC08688_web.jpg",
+      "src": "images/DSC08688_web.jpg",
+      "date": "2025-09-27",
+      "artist": "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+      "keywords": [
+        "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+        "Jay L",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 5%"
     },
     {
       "filename": "DSC08720_web.jpg",
@@ -837,12 +2167,14 @@
       "keywords": [
         "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
         "Jay L",
-        "Rafa Postel"
+        "Rafa Postel",
+        "singer",
+        "trumpet"
       ],
       "orientation": "portrait",
       "width": 1892,
       "height": 2000,
-      "facePosition": "center 65%"
+      "facePosition": "center 9%"
     },
     {
       "filename": "DSC08747_web.jpg",
@@ -852,12 +2184,44 @@
       "keywords": [
         "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
         "Rafa Postel",
-        "Tommy Lindgren"
+        "Tommy Lindgren",
+        "singer",
+        "trumpet"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC08750_web.jpg",
+      "src": "images/DSC08750_web.jpg",
+      "date": "2025-09-27",
+      "artist": "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+      "keywords": [
+        "FELIX ZENGER & THE REAL INSTRUMENTS FEAT. TOMMY LINDGREN",
+        "Felix Zenger",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC07078_web.jpg",
+      "src": "images/DSC07078_web.jpg",
+      "date": "2025-09-26",
+      "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+      "keywords": [
+        "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
     },
     {
       "filename": "DSC07084_web.jpg",
@@ -866,12 +2230,47 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen"
+        "Mikko Hassinen",
+        "conductor"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 40%"
+    },
+    {
+      "filename": "DSC07086_web.jpg",
+      "src": "images/DSC07086_web.jpg",
+      "date": "2025-09-26",
+      "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+      "keywords": [
+        "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+        "Mikko Hassinen",
+        "conductor"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 47%"
+    },
+    {
+      "filename": "DSC07100_web.jpg",
+      "src": "images/DSC07100_web.jpg",
+      "date": "2025-09-26",
+      "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+      "keywords": [
+        "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+        "Jaska Lukkarinen",
+        "Mikko Hassinen",
+        "bass",
+        "conductor",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
     },
     {
       "filename": "DSC07105_web.jpg",
@@ -880,7 +2279,8 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Max Zenger"
+        "Max Zenger",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -894,7 +2294,8 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Jaska Lukkarinen"
+        "Jaska Lukkarinen",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -908,7 +2309,8 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Joonatan Rautio"
+        "Joonatan Rautio",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -922,12 +2324,28 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen"
+        "Mikko Hassinen",
+        "conductor"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 90%"
+    },
+    {
+      "filename": "DSC07201_web.jpg",
+      "src": "images/DSC07201_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Filemon von Numers",
+      "keywords": [
+        "Filemon von Numers",
+        "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
     },
     {
       "filename": "DSC07212_web.jpg",
@@ -936,7 +2354,8 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen"
+        "Mikko Hassinen",
+        "conductor"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -950,12 +2369,31 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Mikko Hassinen"
+        "Mikko Hassinen",
+        "bass",
+        "conductor",
+        "drums",
+        "saxophone"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC07227_web.jpg",
+      "src": "images/DSC07227_web.jpg",
+      "date": "2025-09-26",
+      "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+      "keywords": [
+        "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
     },
     {
       "filename": "DSC07293_web.jpg",
@@ -964,7 +2402,30 @@
       "artist": "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
       "keywords": [
         "JASKA LUKKARINEN & UMO HELSINKI JAZZ ORCHESTRA – RAINBOW BLUE",
-        "Jaska Lukkarinen"
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07412_web.jpg",
+      "src": "images/DSC07412_web.jpg",
+      "date": "2025-09-26",
+      "artist": "HELMI ANTILA QUARTET",
+      "keywords": [
+        "HELMI ANTILA QUARTET",
+        "Helmi Antila",
+        "Mikko Antila",
+        "Mooses Kuloniemi",
+        "Tuomo Purhonen",
+        "bass",
+        "drums",
+        "piano",
+        "singer",
+        "vibraphone"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -978,12 +2439,59 @@
       "artist": "HELMI ANTILA QUARTET",
       "keywords": [
         "HELMI ANTILA QUARTET",
-        "Mikko Antila"
+        "Mikko Antila",
+        "vibraphone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC07448_web.jpg",
+      "src": "images/DSC07448_web.jpg",
+      "date": "2025-09-26",
+      "artist": "HELMI ANTILA QUARTET",
+      "keywords": [
+        "HELMI ANTILA QUARTET",
+        "Helmi Antila",
+        "piano",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC07504_web.jpg",
+      "src": "images/DSC07504_web.jpg",
+      "date": "2025-09-26",
+      "artist": "HELMI ANTILA QUARTET",
+      "keywords": [
+        "HELMI ANTILA QUARTET",
+        "Helmi Antila",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 46%"
+    },
+    {
+      "filename": "DSC07533_web.jpg",
+      "src": "images/DSC07533_web.jpg",
+      "date": "2025-09-26",
+      "artist": "HELMI ANTILA QUARTET",
+      "keywords": [
+        "HELMI ANTILA QUARTET",
+        "Mooses Kuloniemi",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 17%"
     },
     {
       "filename": "DSC07557_web.jpg",
@@ -992,12 +2500,641 @@
       "artist": "HELMI ANTILA QUARTET",
       "keywords": [
         "HELMI ANTILA QUARTET",
-        "Tuomo Purhonen"
+        "Tuomo Purhonen",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 90%"
+    },
+    {
+      "filename": "DSC07568_web.jpg",
+      "src": "images/DSC07568_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Johnny Åman",
+      "keywords": [
+        "Johnny Åman",
+        "KANNASTE4",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 46%"
+    },
+    {
+      "filename": "DSC07580_web.jpg",
+      "src": "images/DSC07580_web.jpg",
+      "date": "2025-09-26",
+      "artist": "KANNASTE4",
+      "keywords": [
+        "KANNASTE4",
+        "Tomi Nikku",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 18%"
+    },
+    {
+      "filename": "DSC07585_web.jpg",
+      "src": "images/DSC07585_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Johnny Åman",
+      "keywords": [
+        "Johnny Åman",
+        "KANNASTE4",
+        "Tomi Nikku",
+        "bass",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 57%"
+    },
+    {
+      "filename": "DSC07638_web.jpg",
+      "src": "images/DSC07638_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Joonas Riippa",
+      "keywords": [
+        "Joonas Riippa",
+        "KANNASTE4"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC07658_web.jpg",
+      "src": "images/DSC07658_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Johnny Åman",
+      "keywords": [
+        "Johnny Åman",
+        "Joonas Riippa",
+        "Jussi Kannaste",
+        "KANNASTE4",
+        "Tomi Nikku",
+        "bass",
+        "drums",
+        "saxophone",
+        "trumpet"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07692_web.jpg",
+      "src": "images/DSC07692_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Jussi Kannaste",
+      "keywords": [
+        "Jussi Kannaste",
+        "KANNASTE4",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "DSC07698_web.jpg",
+      "src": "images/DSC07698_web.jpg",
+      "date": "2025-09-26",
+      "artist": "KANNASTE4",
+      "keywords": [
+        "KANNASTE4",
+        "Tomi Nikku",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 41%"
+    },
+    {
+      "filename": "DSC07715_web.jpg",
+      "src": "images/DSC07715_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Johnny Åman",
+      "keywords": [
+        "Johnny Åman",
+        "KANNASTE4",
+        "bass"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1500,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07726_web.jpg",
+      "src": "images/DSC07726_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Johnny Åman",
+      "keywords": [
+        "Johnny Åman",
+        "KANNASTE4",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "DSC07767_web.jpg",
+      "src": "images/DSC07767_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Aku Painilainen",
+      "keywords": [
+        "Aku Painilainen",
+        "Ami Kajan",
+        "Ilkka Arola",
+        "Ilmari Aitoaho",
+        "Johanna Rauma",
+        "Lauri Laine",
+        "Lauri Levanto",
+        "PUNOMO",
+        "Victor Hugo Regalado",
+        "bass",
+        "drums",
+        "guitar",
+        "keyboard",
+        "saxophone",
+        "singer",
+        "trumpet"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07785_web.jpg",
+      "src": "images/DSC07785_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Aku Painilainen",
+      "keywords": [
+        "Aku Painilainen",
+        "Ami Kajan",
+        "Ilkka Arola",
+        "Ilmari Aitoaho",
+        "Johanna Rauma",
+        "Lauri Laine",
+        "Lauri Levanto",
+        "PUNOMO",
+        "Victor Hugo Regalado",
+        "bass",
+        "drums",
+        "guitar",
+        "saxophone",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07794_web.jpg",
+      "src": "images/DSC07794_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Johanna Rauma",
+      "keywords": [
+        "Johanna Rauma",
+        "PUNOMO",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC07855_web.jpg",
+      "src": "images/DSC07855_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Ami Kajan",
+      "keywords": [
+        "Ami Kajan",
+        "Johanna Rauma",
+        "PUNOMO",
+        "bass",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC07872_web.jpg",
+      "src": "images/DSC07872_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Ami Kajan",
+      "keywords": [
+        "Ami Kajan",
+        "Johanna Rauma",
+        "PUNOMO",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 34%"
+    },
+    {
+      "filename": "DSC07895_web.jpg",
+      "src": "images/DSC07895_web.jpg",
+      "date": "2025-09-26",
+      "artist": "Ilkka Arola",
+      "keywords": [
+        "Ilkka Arola",
+        "Lauri Laine",
+        "PUNOMO",
+        "Victor Hugo Regalado",
+        "guitar",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 33%"
+    },
+    {
+      "filename": "DSC06987_web-2.jpg",
+      "src": "images/DSC06987_web-2.jpg",
+      "date": "2025-09-13",
+      "artist": "Carolina Stenbäck",
+      "keywords": [
+        "Carolina Stenbäck",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "kantele"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC06997_web.jpg",
+      "src": "images/DSC06997_web.jpg",
+      "date": "2025-09-13",
+      "artist": "Carolina Stenbäck",
+      "keywords": [
+        "Carolina Stenbäck",
+        "Pihla Perämäki",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "Tuike Suomalainen",
+        "cello",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07006_web.jpg",
+      "src": "images/DSC07006_web.jpg",
+      "date": "2025-09-13",
+      "artist": "Pihla Perämäki",
+      "keywords": [
+        "Pihla Perämäki",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07024_web.jpg",
+      "src": "images/DSC07024_web.jpg",
+      "date": "2025-09-13",
+      "artist": "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+      "keywords": [
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "Tuike Suomalainen",
+        "violin"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC07037_web.jpg",
+      "src": "images/DSC07037_web.jpg",
+      "date": "2025-09-13",
+      "artist": "Pihla Perämäki",
+      "keywords": [
+        "Pihla Perämäki",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "violin"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 39%"
+    },
+    {
+      "filename": "DSC07041_web.jpg",
+      "src": "images/DSC07041_web.jpg",
+      "date": "2025-09-13",
+      "artist": "Carolina Stenbäck",
+      "keywords": [
+        "Carolina Stenbäck",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "cello",
+        "violin"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 56%"
+    },
+    {
+      "filename": "DSC07049_web.jpg",
+      "src": "images/DSC07049_web.jpg",
+      "date": "2025-09-13",
+      "artist": "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+      "keywords": [
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "Tuike Suomalainen",
+        "violin"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 22%"
+    },
+    {
+      "filename": "DSC07062_web.jpg",
+      "src": "images/DSC07062_web.jpg",
+      "date": "2025-09-13",
+      "artist": "Carolina Stenbäck",
+      "keywords": [
+        "Carolina Stenbäck",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "cello"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 60%"
+    },
+    {
+      "filename": "DSC07069_web.jpg",
+      "src": "images/DSC07069_web.jpg",
+      "date": "2025-09-13",
+      "artist": "Carolina Stenbäck",
+      "keywords": [
+        "Carolina Stenbäck",
+        "Pihla Perämäki",
+        "SOIVA TAIDEHALLI: KOTVE-KOLLEKTIIVI",
+        "Tuike Suomalainen",
+        "cello",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06172_web.jpg",
+      "src": "images/DSC06172_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jaska Lukkarinen",
+      "keywords": [
+        "Jaska Lukkarinen",
+        "Jussi Fredriksson",
+        "MIKA KALLIO GONG ODYSSEY",
+        "Max Zenger",
+        "Mika Kallio",
+        "drums",
+        "keyboard",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06182_web.jpg",
+      "src": "images/DSC06182_web.jpg",
+      "date": "2025-06-27",
+      "artist": "MIKA KALLIO GONG ODYSSEY",
+      "keywords": [
+        "MIKA KALLIO GONG ODYSSEY",
+        "Max Zenger",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "DSC06192_web.jpg",
+      "src": "images/DSC06192_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jussi Fredriksson",
+      "keywords": [
+        "Jussi Fredriksson",
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "keyboard"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 17%"
+    },
+    {
+      "filename": "DSC06193_web.jpg",
+      "src": "images/DSC06193_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jussi Fredriksson",
+      "keywords": [
+        "Jussi Fredriksson",
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "keyboard"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 18%"
+    },
+    {
+      "filename": "DSC06220_web.jpg",
+      "src": "images/DSC06220_web.jpg",
+      "date": "2025-06-27",
+      "artist": "MIKA KALLIO GONG ODYSSEY",
+      "keywords": [
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC06250_web.jpg",
+      "src": "images/DSC06250_web.jpg",
+      "date": "2025-06-27",
+      "artist": "MIKA KALLIO GONG ODYSSEY",
+      "keywords": [
+        "MIKA KALLIO GONG ODYSSEY",
+        "Max Zenger",
+        "Mika Kallio",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "DSC06372_web.jpg",
+      "src": "images/DSC06372_web.jpg",
+      "date": "2025-06-27",
+      "artist": "MIKA KALLIO GONG ODYSSEY",
+      "keywords": [
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "drums"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06459_web.jpg",
+      "src": "images/DSC06459_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jaska Lukkarinen",
+      "keywords": [
+        "Jaska Lukkarinen",
+        "MIKA KALLIO GONG ODYSSEY",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC06472_web.jpg",
+      "src": "images/DSC06472_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jaska Lukkarinen",
+      "keywords": [
+        "Jaska Lukkarinen",
+        "MIKA KALLIO GONG ODYSSEY",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC06493_web.jpg",
+      "src": "images/DSC06493_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jaska Lukkarinen",
+      "keywords": [
+        "Jaska Lukkarinen",
+        "MIKA KALLIO GONG ODYSSEY",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 48%"
+    },
+    {
+      "filename": "DSC06540_web.jpg",
+      "src": "images/DSC06540_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jaska Lukkarinen",
+      "keywords": [
+        "Jaska Lukkarinen",
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 20%"
+    },
+    {
+      "filename": "DSC06586_web.jpg",
+      "src": "images/DSC06586_web.jpg",
+      "date": "2025-06-27",
+      "artist": "Jaska Lukkarinen",
+      "keywords": [
+        "Jaska Lukkarinen",
+        "Jussi Fredriksson",
+        "MIKA KALLIO GONG ODYSSEY",
+        "drums",
+        "keyboard"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06620_web.jpg",
+      "src": "images/DSC06620_web.jpg",
+      "date": "2025-06-27",
+      "artist": "MIKA KALLIO GONG ODYSSEY",
+      "keywords": [
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "drums",
+        "keyboard"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC06631_web.jpg",
+      "src": "images/DSC06631_web.jpg",
+      "date": "2025-06-27",
+      "artist": "MIKA KALLIO GONG ODYSSEY",
+      "keywords": [
+        "MIKA KALLIO GONG ODYSSEY",
+        "Mika Kallio",
+        "drums",
+        "keyboard"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
     },
     {
       "filename": "_R001322_web.jpg",
@@ -1006,12 +3143,28 @@
       "artist": "EQUALLY STUPID",
       "keywords": [
         "EQUALLY STUPID",
-        "Sigurdur Rögnvaldsson"
+        "Sigurdur Rögnvaldsson",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 12%"
+    },
+    {
+      "filename": "_R001326_web.jpg",
+      "src": "images/_R001326_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Sigurdur Rögnvaldsson",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 40%"
     },
     {
       "filename": "_R001332_web.jpg",
@@ -1029,6 +3182,24 @@
       "facePosition": "center 90%"
     },
     {
+      "filename": "_R001338_web.jpg",
+      "src": "images/_R001338_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Pauli Lyytinen",
+        "Sam Ospovat",
+        "Sigurdur Rögnvaldsson",
+        "drums",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 3%"
+    },
+    {
       "filename": "_R001371_web.jpg",
       "src": "images/_R001371_web.jpg",
       "date": "2025-05-26",
@@ -1036,12 +3207,44 @@
       "keywords": [
         "EQUALLY STUPID",
         "Pauli Lyytinen",
-        "Sigurdur Rögnvaldsson"
+        "Sigurdur Rögnvaldsson",
+        "guitar",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 22%"
+    },
+    {
+      "filename": "_R001386_web.jpg",
+      "src": "images/_R001386_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Sam Ospovat",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 53%"
+    },
+    {
+      "filename": "_R001390_web.jpg",
+      "src": "images/_R001390_web.jpg",
+      "date": "2025-05-26",
+      "artist": "EQUALLY STUPID",
+      "keywords": [
+        "EQUALLY STUPID",
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
     },
     {
       "filename": "_R001401_web.jpg",
@@ -1050,7 +3253,8 @@
       "artist": "EQUALLY STUPID",
       "keywords": [
         "EQUALLY STUPID",
-        "Sam Ospovat"
+        "Sam Ospovat",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1064,12 +3268,466 @@
       "artist": "EQUALLY STUPID",
       "keywords": [
         "EQUALLY STUPID",
-        "Pauli Lyytinen"
+        "Pauli Lyytinen",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC04514_web.jpg",
+      "src": "images/DSC04514_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Markku Luolajan-Mikkola",
+      "keywords": [
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 62%"
+    },
+    {
+      "filename": "DSC04516_web.jpg",
+      "src": "images/DSC04516_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Markku Luolajan-Mikkola",
+      "keywords": [
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 7%"
+    },
+    {
+      "filename": "DSC04520_web.jpg",
+      "src": "images/DSC04520_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Markku Luolajan-Mikkola",
+      "keywords": [
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "DSC04612_web.jpg",
+      "src": "images/DSC04612_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Anthony Marini",
+      "keywords": [
+        "Anthony Marini",
+        "Louna Hosia",
+        "Marianna Henriksson",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "cembalo",
+        "viola da gamba",
+        "violin"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 44%"
+    },
+    {
+      "filename": "DSC04629_web.jpg",
+      "src": "images/DSC04629_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Anthony Marini",
+      "keywords": [
+        "Anthony Marini",
+        "Louna Hosia",
+        "Marianna Henriksson",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "cembalo",
+        "viola da gamba",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04674_web.jpg",
+      "src": "images/DSC04674_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Louna Hosia",
+      "keywords": [
+        "Louna Hosia",
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 20%"
+    },
+    {
+      "filename": "DSC04682_web.jpg",
+      "src": "images/DSC04682_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Marianna Henriksson",
+      "keywords": [
+        "Marianna Henriksson",
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 30%"
+    },
+    {
+      "filename": "DSC04709_web.jpg",
+      "src": "images/DSC04709_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Louna Hosia",
+      "keywords": [
+        "Louna Hosia",
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
+      "filename": "DSC04743_web.jpg",
+      "src": "images/DSC04743_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Anthony Marini",
+      "keywords": [
+        "Anthony Marini",
+        "Louna Hosia",
+        "Marianna Henriksson",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "cembalo",
+        "viola da gamba",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04794_web-2.jpg",
+      "src": "images/DSC04794_web-2.jpg",
+      "date": "2025-04-13",
+      "artist": "Anthony Marini",
+      "keywords": [
+        "Anthony Marini",
+        "Louna Hosia",
+        "Marianna Henriksson",
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "cembalo",
+        "viola da gamba",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04801_web.jpg",
+      "src": "images/DSC04801_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Anthony Marini",
+      "keywords": [
+        "Anthony Marini",
+        "Louna Hosia",
+        "Marianna Henriksson",
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "cembalo",
+        "viola da gamba",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04807_web.jpg",
+      "src": "images/DSC04807_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Markku Luolajan-Mikkola",
+      "keywords": [
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 60%"
+    },
+    {
+      "filename": "DSC04845_web.jpg",
+      "src": "images/DSC04845_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Louna Hosia",
+      "keywords": [
+        "Louna Hosia",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
+    },
+    {
+      "filename": "DSC04856_web-2.jpg",
+      "src": "images/DSC04856_web-2.jpg",
+      "date": "2025-04-13",
+      "artist": "Marianna Henriksson",
+      "keywords": [
+        "Marianna Henriksson",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "cembalo"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 41%"
+    },
+    {
+      "filename": "DSC04872_web.jpg",
+      "src": "images/DSC04872_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Markku Luolajan-Mikkola",
+      "keywords": [
+        "Markku Luolajan-Mikkola",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "viola da gamba"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04921_web.jpg",
+      "src": "images/DSC04921_web.jpg",
+      "date": "2025-04-13",
+      "artist": "Anthony Marini",
+      "keywords": [
+        "Anthony Marini",
+        "SOIVA TAIDEHALLI: FIBO – VERSAILLES’N TUOKSUJA",
+        "violin"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03819-Pano_web.jpg",
+      "src": "images/DSC03819-Pano_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Joris Roelofs",
+      "keywords": [
+        "Joris Roelofs",
+        "Juuso Rinta",
+        "Max Zenger",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "Roope Kantonen",
+        "bass",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1374,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03865_web.jpg",
+      "src": "images/DSC03865_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Juuso Rinta",
+      "keywords": [
+        "Juuso Rinta",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 34%"
+    },
+    {
+      "filename": "DSC03879_web.jpg",
+      "src": "images/DSC03879_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Joris Roelofs",
+      "keywords": [
+        "Joris Roelofs",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC03896_web.jpg",
+      "src": "images/DSC03896_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Joris Roelofs",
+      "keywords": [
+        "Joris Roelofs",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC03908_web.jpg",
+      "src": "images/DSC03908_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Joris Roelofs",
+      "keywords": [
+        "Joris Roelofs",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC03933_web.jpg",
+      "src": "images/DSC03933_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Max Zenger",
+      "keywords": [
+        "Max Zenger",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 37%"
+    },
+    {
+      "filename": "DSC03960_web.jpg",
+      "src": "images/DSC03960_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Juuso Rinta",
+      "keywords": [
+        "Juuso Rinta",
+        "Max Zenger",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC03965_web.jpg",
+      "src": "images/DSC03965_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Joris Roelofs",
+      "keywords": [
+        "Joris Roelofs",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 45%"
+    },
+    {
+      "filename": "DSC04077_web.jpg",
+      "src": "images/DSC04077_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Joris Roelofs",
+      "keywords": [
+        "Joris Roelofs",
+        "Juuso Rinta",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "bass",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 39%"
+    },
+    {
+      "filename": "DSC04118_web.jpg",
+      "src": "images/DSC04118_web.jpg",
+      "date": "2025-04-11",
+      "artist": "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+      "keywords": [
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "Roope Kantonen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 43%"
+    },
+    {
+      "filename": "DSC04150_web.jpg",
+      "src": "images/DSC04150_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Juuso Rinta",
+      "keywords": [
+        "Juuso Rinta",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04174_web.jpg",
+      "src": "images/DSC04174_web.jpg",
+      "date": "2025-04-11",
+      "artist": "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+      "keywords": [
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "Roope Kantonen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 57%"
     },
     {
       "filename": "DSC04202_web.jpg",
@@ -1078,7 +3736,400 @@
       "artist": "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
       "keywords": [
         "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
-        "Roope Kantonen"
+        "Roope Kantonen",
+        "drums"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04244_web.jpg",
+      "src": "images/DSC04244_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Juuso Rinta",
+      "keywords": [
+        "Juuso Rinta",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "bass"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04264_web-2.jpg",
+      "src": "images/DSC04264_web-2.jpg",
+      "date": "2025-04-11",
+      "artist": "Juuso Rinta",
+      "keywords": [
+        "Juuso Rinta",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 50%"
+    },
+    {
+      "filename": "DSC04274_web.jpg",
+      "src": "images/DSC04274_web.jpg",
+      "date": "2025-04-11",
+      "artist": "Juuso Rinta",
+      "keywords": [
+        "Juuso Rinta",
+        "ROOPE KANTONEN 3 + JORIS ROELOFS (NL)",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 7%"
+    },
+    {
+      "filename": "DSC03407_web.jpg",
+      "src": "images/DSC03407_web.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Harri Kuusijärvi",
+        "accordion"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC03424_web-2.jpg",
+      "src": "images/DSC03424_web-2.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Harri Kuusijärvi",
+        "accordion"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 58%"
+    },
+    {
+      "filename": "DSC03546_web.jpg",
+      "src": "images/DSC03546_web.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Jori Huhtala",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 3%"
+    },
+    {
+      "filename": "DSC03593_web-2.jpg",
+      "src": "images/DSC03593_web-2.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Jori Huhtala",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 38%"
+    },
+    {
+      "filename": "DSC03602_web.jpg",
+      "src": "images/DSC03602_web.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Harri Kuusijärvi",
+        "Jori Huhtala",
+        "Mika Kallio",
+        "accordion",
+        "bass",
+        "drums"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03627_web-2.jpg",
+      "src": "images/DSC03627_web-2.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Harri Kuusijärvi",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC03730_web.jpg",
+      "src": "images/DSC03730_web.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Mika Kallio",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 38%"
+    },
+    {
+      "filename": "DSC03787_web.jpg",
+      "src": "images/DSC03787_web.jpg",
+      "date": "2025-03-28",
+      "artist": "HARRI KUUSIJÄRVI TRIO",
+      "keywords": [
+        "HARRI KUUSIJÄRVI TRIO",
+        "Jori Huhtala"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 43%"
+    },
+    {
+      "filename": "DSC03203_web.jpg",
+      "src": "images/DSC03203_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "DSC03227_web.jpg",
+      "src": "images/DSC03227_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 40%"
+    },
+    {
+      "filename": "DSC03254_web.jpg",
+      "src": "images/DSC03254_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC03288_web.jpg",
+      "src": "images/DSC03288_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC03299_web.jpg",
+      "src": "images/DSC03299_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
+    },
+    {
+      "filename": "DSC03309_web.jpg",
+      "src": "images/DSC03309_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC03316_web.jpg",
+      "src": "images/DSC03316_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "DSC03338_web.jpg",
+      "src": "images/DSC03338_web.jpg",
+      "date": "2025-03-15",
+      "artist": "Heli Hartikainen",
+      "keywords": [
+        "Heli Hartikainen",
+        "SOIVA TAIDEHALLI: HELI HARTIKAINEN CHRONOVARIATIONS",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02269_web.jpg",
+      "src": "images/DSC02269_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Ebba Åsman",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC02337_web.jpg",
+      "src": "images/DSC02337_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Ebba Åsman",
+        "trombone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC02663_web.jpg",
+      "src": "images/DSC02663_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Mikko Antila",
+        "vibraphone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC02694_web.jpg",
+      "src": "images/DSC02694_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Mikael Saastamoinen",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 22%"
+    },
+    {
+      "filename": "DSC02723_web.jpg",
+      "src": "images/DSC02723_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Ebba Åsman"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC02835_web.jpg",
+      "src": "images/DSC02835_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Ebba Åsman",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC02894_web.jpg",
+      "src": "images/DSC02894_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Teppo Mäkynen",
+        "drums"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1092,12 +4143,197 @@
       "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
       "keywords": [
         "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
-        "Ebba Åsman"
+        "Ebba Åsman",
+        "trombone"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC03060_web.jpg",
+      "src": "images/DSC03060_web.jpg",
+      "date": "2025-03-14",
+      "artist": "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+      "keywords": [
+        "ANTILA SAASTAMOINEN MÄKYNEN with EBBA ÅSMAN (SE)",
+        "Ebba Åsman",
+        "Mikael Saastamoinen",
+        "Mikko Antila",
+        "Teppo Mäkynen",
+        "bass",
+        "drums",
+        "singer",
+        "trombone",
+        "vibraphone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "_R000915_web.jpg",
+      "src": "images/_R000915_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "_R000926_web.jpg",
+      "src": "images/_R000926_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
+    },
+    {
+      "filename": "_R000940_web.jpg",
+      "src": "images/_R000940_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "_R000942_web.jpg",
+      "src": "images/_R000942_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "_R000952_web.jpg",
+      "src": "images/_R000952_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "_R000995_web.jpg",
+      "src": "images/_R000995_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 56%"
+    },
+    {
+      "filename": "_R001007_web.jpg",
+      "src": "images/_R001007_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 60%"
+    },
+    {
+      "filename": "_R001011_web.jpg",
+      "src": "images/_R001011_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 17%"
+    },
+    {
+      "filename": "_R001014_web.jpg",
+      "src": "images/_R001014_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "_R001037_web.jpg",
+      "src": "images/_R001037_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "_R001064_web.jpg",
+      "src": "images/_R001064_web.jpg",
+      "date": "2025-03-07",
+      "artist": "Samuli Putro",
+      "keywords": [
+        "Samuli Putro",
+        "guitar",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 58%"
     },
     {
       "filename": "DSC01280_web.jpg",
@@ -1114,7 +4350,9 @@
         "Mikko “Gunu” Karjalainen",
         "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
         "Saana Trygg-Nevanlinna",
+        "bass",
         "drums",
+        "guitar",
         "piano",
         "singer"
       ],
@@ -1139,6 +4377,22 @@
       "facePosition": "center 19%"
     },
     {
+      "filename": "DSC01390_web.jpg",
+      "src": "images/DSC01390_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Elina Brooks",
+      "keywords": [
+        "Elina Brooks",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "keyboard",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 64%"
+    },
+    {
       "filename": "DSC01422_web.jpg",
       "src": "images/DSC01422_web.jpg",
       "date": "2025-02-14",
@@ -1146,7 +4400,8 @@
       "keywords": [
         "Elina Brooks",
         "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
-        "piano"
+        "piano",
+        "singer"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1160,12 +4415,137 @@
       "artist": "Mikko “Gunu” Karjalainen",
       "keywords": [
         "Mikko “Gunu” Karjalainen",
-        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION"
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "trumpet"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 36%"
+    },
+    {
+      "filename": "DSC01560_web.jpg",
+      "src": "images/DSC01560_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Elina Brooks",
+      "keywords": [
+        "Elina Brooks",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
+      "filename": "DSC01583_web.jpg",
+      "src": "images/DSC01583_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Mikko Iivanainen",
+      "keywords": [
+        "Mikko Iivanainen",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 16%"
+    },
+    {
+      "filename": "DSC01592_web.jpg",
+      "src": "images/DSC01592_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Elina Brooks",
+      "keywords": [
+        "Elina Brooks",
+        "Esko Grundström",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
+      "filename": "DSC01654_web.jpg",
+      "src": "images/DSC01654_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Jesse Ojajärvi",
+      "keywords": [
+        "Jesse Ojajärvi",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
+    },
+    {
+      "filename": "DSC01703_web.jpg",
+      "src": "images/DSC01703_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Maija Kurki",
+      "keywords": [
+        "Maija Kurki",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 38%"
+    },
+    {
+      "filename": "DSC01966_web.jpg",
+      "src": "images/DSC01966_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Esko Grundström",
+      "keywords": [
+        "Esko Grundström",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
+      "filename": "DSC01973_web.jpg",
+      "src": "images/DSC01973_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Esko Grundström",
+      "keywords": [
+        "Esko Grundström",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "Saana Trygg-Nevanlinna",
+        "accordion",
+        "bass",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 23%"
+    },
+    {
+      "filename": "DSC01992_web.jpg",
+      "src": "images/DSC01992_web.jpg",
+      "date": "2025-02-14",
+      "artist": "Maija Kurki",
+      "keywords": [
+        "Maija Kurki",
+        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 30%"
     },
     {
       "filename": "DSC00817_web.jpg",
@@ -1176,7 +4556,10 @@
         "JIMI AHLROOS TRIO",
         "Jimi Ahlroos",
         "Mooses Kuloniemi",
-        "Tuomo Purhonen"
+        "Tuomo Purhonen",
+        "bass",
+        "drums",
+        "saxophone"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1191,7 +4574,9 @@
       "keywords": [
         "JIMI AHLROOS TRIO",
         "Jimi Ahlroos",
-        "Tuomo Purhonen"
+        "Tuomo Purhonen",
+        "bass",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1266,7 +4651,8 @@
       "artist": "JIMI AHLROOS TRIO",
       "keywords": [
         "JIMI AHLROOS TRIO",
-        "Tuomo Purhonen"
+        "Tuomo Purhonen",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1293,6 +4679,129 @@
       "facePosition": null
     },
     {
+      "filename": "DSC00020_web.jpg",
+      "src": "images/DSC00020_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "Simon Jermyn",
+        "bass",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC00059_web.jpg",
+      "src": "images/DSC00059_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "Sam Ospovat",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 47%"
+    },
+    {
+      "filename": "DSC00098_web.jpg",
+      "src": "images/DSC00098_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Simon Jermyn",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC00290_web.jpg",
+      "src": "images/DSC00290_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "Simon Jermyn",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC00372_web.jpg",
+      "src": "images/DSC00372_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC00515_web.jpg",
+      "src": "images/DSC00515_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC00547_web.jpg",
+      "src": "images/DSC00547_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Sam Ospovat",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 8%"
+    },
+    {
+      "filename": "DSC00573_web.jpg",
+      "src": "images/DSC00573_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Simon Jermyn"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
       "filename": "DSC09919-Pano-2_LR_web.jpg",
       "src": "images/DSC09919-Pano-2_LR_web.jpg",
       "date": "2024-12-14",
@@ -1309,13 +4818,272 @@
       "facePosition": null
     },
     {
+      "filename": "DSC09919-Pano-2_web.jpg",
+      "src": "images/DSC09919-Pano-2_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "Sam Ospovat",
+        "Simon Jermyn",
+        "bass",
+        "drums",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 908,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC09971_web.jpg",
+      "src": "images/DSC09971_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Olli Hirvonen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 57%"
+    },
+    {
+      "filename": "DSC09989_web.jpg",
+      "src": "images/DSC09989_web.jpg",
+      "date": "2024-12-14",
+      "artist": "OLLI HIRVONEN TRIO",
+      "keywords": [
+        "OLLI HIRVONEN TRIO",
+        "Sam Ospovat",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "R0000091_web.jpg",
+      "src": "images/R0000091_web.jpg",
+      "date": "2024-12-13",
+      "artist": "JOSÉN PIMEÄ PUOLI",
+      "keywords": [
+        "JOSÉN PIMEÄ PUOLI",
+        "Jussi Miettola",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "R0000094_web.jpg",
+      "src": "images/R0000094_web.jpg",
+      "date": "2024-12-13",
+      "artist": "Arto Nurmi",
+      "keywords": [
+        "Arto Nurmi",
+        "JOSÉN PIMEÄ PUOLI",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "R0000110_web.jpg",
+      "src": "images/R0000110_web.jpg",
+      "date": "2024-12-13",
+      "artist": "Arto Nurmi",
+      "keywords": [
+        "Arto Nurmi",
+        "JOSÉN PIMEÄ PUOLI",
+        "Jussi Miettola",
+        "bass",
+        "drums"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "R0000150_web.jpg",
+      "src": "images/R0000150_web.jpg",
+      "date": "2024-12-13",
+      "artist": "Arto Nurmi",
+      "keywords": [
+        "Arto Nurmi",
+        "JOSÉN PIMEÄ PUOLI",
+        "Jose Mäenpää",
+        "Jussi Miettola",
+        "bass",
+        "drums",
+        "keyboard"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "R0000152_web.jpg",
+      "src": "images/R0000152_web.jpg",
+      "date": "2024-12-13",
+      "artist": "Arto Nurmi",
+      "keywords": [
+        "Arto Nurmi",
+        "JOSÉN PIMEÄ PUOLI",
+        "Jose Mäenpää",
+        "Jussi Miettola",
+        "bass",
+        "drums",
+        "keyboard"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "R0000155_web.jpg",
+      "src": "images/R0000155_web.jpg",
+      "date": "2024-12-13",
+      "artist": "JOSÉN PIMEÄ PUOLI",
+      "keywords": [
+        "JOSÉN PIMEÄ PUOLI",
+        "Jose Mäenpää",
+        "keyboard"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 10%"
+    },
+    {
+      "filename": "R0000168_web.jpg",
+      "src": "images/R0000168_web.jpg",
+      "date": "2024-12-13",
+      "artist": "Arto Nurmi",
+      "keywords": [
+        "Arto Nurmi",
+        "JOSÉN PIMEÄ PUOLI",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC08820_web.jpg",
+      "src": "images/DSC08820_web.jpg",
+      "date": "2024-11-22",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Kalevi Louhivuori",
+        "Olavi Louhivuori",
+        "bass",
+        "drums",
+        "trumpet"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08871_web.jpg",
+      "src": "images/DSC08871_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Olavi Louhivuori",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 28%"
+    },
+    {
+      "filename": "DSC08947_web.jpg",
+      "src": "images/DSC08947_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Olavi Louhivuori",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 53%"
+    },
+    {
+      "filename": "DSC08974_web.jpg",
+      "src": "images/DSC08974_web.jpg",
+      "date": "2024-11-22",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC08980_web.jpg",
+      "src": "images/DSC08980_web.jpg",
+      "date": "2024-11-22",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
+      "filename": "DSC08994_web.jpg",
+      "src": "images/DSC08994_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Kalevi Louhivuori",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
       "filename": "DSC09050_web.jpg",
       "src": "images/DSC09050_web.jpg",
       "date": "2024-11-22",
       "artist": "KALEVI LOUHIVUORI SUN TRIO",
       "keywords": [
         "KALEVI LOUHIVUORI SUN TRIO",
-        "Kalevi Louhivuori"
+        "Kalevi Louhivuori",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1329,12 +5097,28 @@
       "artist": "KALEVI LOUHIVUORI SUN TRIO",
       "keywords": [
         "KALEVI LOUHIVUORI SUN TRIO",
-        "Kalevi Louhivuori"
+        "Kalevi Louhivuori",
+        "trumpet"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 29%"
+    },
+    {
+      "filename": "DSC09174_web.jpg",
+      "src": "images/DSC09174_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Kalevi Louhivuori",
+        "trumpet"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
     },
     {
       "filename": "DSC09177_web.jpg",
@@ -1343,12 +5127,171 @@
       "artist": "KALEVI LOUHIVUORI SUN TRIO",
       "keywords": [
         "KALEVI LOUHIVUORI SUN TRIO",
-        "Kalevi Louhivuori"
+        "Kalevi Louhivuori",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC09229_web.jpg",
+      "src": "images/DSC09229_web.jpg",
+      "date": "2024-11-22",
+      "artist": "KALEVI LOUHIVUORI SUN TRIO",
+      "keywords": [
+        "KALEVI LOUHIVUORI SUN TRIO",
+        "Olavi Louhivuori",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 23%"
+    },
+    {
+      "filename": "DSC07955_web.jpg",
+      "src": "images/DSC07955_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Joonas Tuuri",
+        "Josefiina Vannesluoma",
+        "Mikael Myrskog",
+        "Sampo Kasurinen",
+        "Ville Luukkonen",
+        "bass",
+        "drums",
+        "flute",
+        "piano",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08110_web.jpg",
+      "src": "images/DSC08110_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Mikael Myrskog",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 44%"
+    },
+    {
+      "filename": "DSC08338_web.jpg",
+      "src": "images/DSC08338_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Sampo Kasurinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC08503_web.jpg",
+      "src": "images/DSC08503_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Ville Luukkonen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 36%"
+    },
+    {
+      "filename": "DSC08521_web.jpg",
+      "src": "images/DSC08521_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Josefiina Vannesluoma",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
+    },
+    {
+      "filename": "DSC08556_web.jpg",
+      "src": "images/DSC08556_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Josefiina Vannesluoma",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08560_web.jpg",
+      "src": "images/DSC08560_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Josefiina Vannesluoma",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC08656_web.jpg",
+      "src": "images/DSC08656_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Josefiina Vannesluoma",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 8%"
+    },
+    {
+      "filename": "DSC08678_web.jpg",
+      "src": "images/DSC08678_web.jpg",
+      "date": "2024-11-08",
+      "artist": "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+      "keywords": [
+        "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
+        "Joonas Tuuri",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 38%"
     },
     {
       "filename": "DSC08793_web.jpg",
@@ -1358,7 +5301,229 @@
       "keywords": [
         "JOSEFIINA VANNESLUOMA & MORTAL LEASE",
         "Joonas Tuuri",
-        "Josefiina Vannesluoma"
+        "Josefiina Vannesluoma",
+        "bass",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07592-Pano_web.jpg",
+      "src": "images/DSC07592-Pano_web.jpg",
+      "date": "2024-10-25",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "JASKA LUKKARINEN TRIO",
+        "Jaska Lukkarinen",
+        "bass",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1443,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC07643_web.jpg",
+      "src": "images/DSC07643_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jussi Kannaste",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 13%"
+    },
+    {
+      "filename": "DSC07672_web.jpg",
+      "src": "images/DSC07672_web.jpg",
+      "date": "2024-10-25",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "JASKA LUKKARINEN TRIO",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC07775_web.jpg",
+      "src": "images/DSC07775_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jussi Kannaste",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 54%"
+    },
+    {
+      "filename": "DSC07849_web.jpg",
+      "src": "images/DSC07849_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
+    },
+    {
+      "filename": "DSC07850_web.jpg",
+      "src": "images/DSC07850_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC07851_web.jpg",
+      "src": "images/DSC07851_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC07852_web.jpg",
+      "src": "images/DSC07852_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 58%"
+    },
+    {
+      "filename": "DSC07854_web.jpg",
+      "src": "images/DSC07854_web.jpg",
+      "date": "2024-10-25",
+      "artist": "JASKA LUKKARINEN TRIO",
+      "keywords": [
+        "JASKA LUKKARINEN TRIO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 8%"
+    },
+    {
+      "filename": "DSC07885_web.jpg",
+      "src": "images/DSC07885_web.jpg",
+      "date": "2024-10-25",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "JASKA LUKKARINEN TRIO",
+        "bass",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC07911_web.jpg",
+      "src": "images/DSC07911_web.jpg",
+      "date": "2024-10-25",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "JASKA LUKKARINEN TRIO",
+        "Jussi Kannaste",
+        "bass",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 49%"
+    },
+    {
+      "filename": "DSC07949_web.jpg",
+      "src": "images/DSC07949_web.jpg",
+      "date": "2024-10-25",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "JASKA LUKKARINEN TRIO",
+        "bass"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06035_web.jpg",
+      "src": "images/DSC06035_web.jpg",
+      "date": "2024-09-28",
+      "artist": "Antti Lötjönen",
+      "keywords": [
+        "Antti Lötjönen",
+        "Markku Ounaskari",
+        "SEPPO KANTONEN TRIO",
+        "bass",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 47%"
+    },
+    {
+      "filename": "DSC06065_web.jpg",
+      "src": "images/DSC06065_web.jpg",
+      "date": "2024-09-28",
+      "artist": "Kalle Kalima",
+      "keywords": [
+        "Kalle Kalima",
+        "LAMPEN",
+        "Tatu Rönkkö",
+        "drums",
+        "guitar"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1372,7 +5537,8 @@
       "artist": "Kalle Kalima",
       "keywords": [
         "Kalle Kalima",
-        "LAMPEN"
+        "LAMPEN",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -1401,7 +5567,8 @@
       "keywords": [
         "Kalle Kalima",
         "LAMPEN",
-        "Tatu Rönkkö"
+        "Tatu Rönkkö",
+        "guitar"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1415,12 +5582,242 @@
       "artist": "Kalle Kalima",
       "keywords": [
         "Kalle Kalima",
-        "LAMPEN"
+        "LAMPEN",
+        "guitar"
       ],
       "orientation": "landscape",
       "width": 2000,
       "height": 1333,
       "facePosition": null
+    },
+    {
+      "filename": "DSC06395_web.jpg",
+      "src": "images/DSC06395_web.jpg",
+      "date": "2024-09-28",
+      "artist": "LAMPEN",
+      "keywords": [
+        "LAMPEN",
+        "Tatu Rönkkö",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC06763_web.jpg",
+      "src": "images/DSC06763_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Jaska Lukkarinen",
+        "Jose Mäenpää",
+        "Max Zenger",
+        "Pekka Lehti",
+        "Rasmus Pailos",
+        "Valtteri Laurell Pöyhönen",
+        "bass",
+        "drums",
+        "guitar",
+        "keyboard",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC06771_web.jpg",
+      "src": "images/DSC06771_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Valtteri Laurell Pöyhönen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
+    },
+    {
+      "filename": "DSC06790_web.jpg",
+      "src": "images/DSC06790_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Valtteri Laurell Pöyhönen",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
+    },
+    {
+      "filename": "DSC06836_web.jpg",
+      "src": "images/DSC06836_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Pekka Lehti",
+        "Valtteri Laurell Pöyhönen",
+        "bass",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 22%"
+    },
+    {
+      "filename": "DSC06875_web.jpg",
+      "src": "images/DSC06875_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "DSC06888_web.jpg",
+      "src": "images/DSC06888_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Jaska Lukkarinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
+    },
+    {
+      "filename": "DSC06987_web.jpg",
+      "src": "images/DSC06987_web.jpg",
+      "date": "2024-09-28",
+      "artist": "DALINDÈO",
+      "keywords": [
+        "DALINDÈO",
+        "Jose Mäenpää",
+        "keyboard"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 17%"
+    },
+    {
+      "filename": "DSC04500_web.jpg",
+      "src": "images/DSC04500_web.jpg",
+      "date": "2024-09-27",
+      "artist": "Eero Dunkel",
+      "keywords": [
+        "Eero Dunkel",
+        "JOONATAN HENRIKSSON QUINTET",
+        "Joonatan Henriksson",
+        "Kasper Halttunen",
+        "Otso Huhtala",
+        "Pessi Pohjola",
+        "bass",
+        "clarinet",
+        "drums",
+        "guitar",
+        "piano"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04504_web.jpg",
+      "src": "images/DSC04504_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Pessi Pohjola",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04533_web.jpg",
+      "src": "images/DSC04533_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Joonatan Henriksson",
+        "clarinet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC04578_web.jpg",
+      "src": "images/DSC04578_web.jpg",
+      "date": "2024-09-27",
+      "artist": "Eero Dunkel",
+      "keywords": [
+        "Eero Dunkel",
+        "JOONATAN HENRIKSSON QUINTET",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04596_web.jpg",
+      "src": "images/DSC04596_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Kasper Halttunen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 10%"
+    },
+    {
+      "filename": "DSC04602_web.jpg",
+      "src": "images/DSC04602_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Kasper Halttunen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 48%"
     },
     {
       "filename": "DSC04630_web.jpg",
@@ -1429,12 +5826,756 @@
       "artist": "JOONATAN HENRIKSSON QUINTET",
       "keywords": [
         "JOONATAN HENRIKSSON QUINTET",
-        "Otso Huhtala"
+        "Otso Huhtala",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 90%"
+    },
+    {
+      "filename": "DSC04645_web.jpg",
+      "src": "images/DSC04645_web.jpg",
+      "date": "2024-09-27",
+      "artist": "Eero Dunkel",
+      "keywords": [
+        "Eero Dunkel",
+        "JOONATAN HENRIKSSON QUINTET",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 8%"
+    },
+    {
+      "filename": "DSC04668_web.jpg",
+      "src": "images/DSC04668_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Otso Huhtala",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04676_web.jpg",
+      "src": "images/DSC04676_web.jpg",
+      "date": "2024-09-27",
+      "artist": "JOONATAN HENRIKSSON QUINTET",
+      "keywords": [
+        "JOONATAN HENRIKSSON QUINTET",
+        "Otso Huhtala",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 56%"
+    },
+    {
+      "filename": "DSC04786_web.jpg",
+      "src": "images/DSC04786_web.jpg",
+      "date": "2024-09-27",
+      "artist": "EXPAND",
+      "keywords": [
+        "EXPAND",
+        "Kaisa Mäensivu",
+        "Mareike Wiening",
+        "Sara Decker",
+        "Vid Šketa",
+        "Yuhan Su",
+        "bass",
+        "drums",
+        "singer",
+        "trumpet",
+        "vibraphone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1255,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04794_web.jpg",
+      "src": "images/DSC04794_web.jpg",
+      "date": "2024-09-27",
+      "artist": "EXPAND",
+      "keywords": [
+        "EXPAND",
+        "Vid Šketa",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 59%"
+    },
+    {
+      "filename": "DSC04918_web.jpg",
+      "src": "images/DSC04918_web.jpg",
+      "date": "2024-09-27",
+      "artist": "EXPAND",
+      "keywords": [
+        "EXPAND",
+        "Mareike Wiening",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC04991_web.jpg",
+      "src": "images/DSC04991_web.jpg",
+      "date": "2024-09-27",
+      "artist": "EXPAND",
+      "keywords": [
+        "EXPAND",
+        "Kaisa Mäensivu",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 34%"
+    },
+    {
+      "filename": "DSC05014_web.jpg",
+      "src": "images/DSC05014_web.jpg",
+      "date": "2024-09-27",
+      "artist": "EXPAND",
+      "keywords": [
+        "EXPAND",
+        "Kaisa Mäensivu",
+        "Yuhan Su",
+        "bass",
+        "vibraphone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC05102_web.jpg",
+      "src": "images/DSC05102_web.jpg",
+      "date": "2024-09-27",
+      "artist": "EXPAND",
+      "keywords": [
+        "EXPAND",
+        "Sara Decker",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 32%"
+    },
+    {
+      "filename": "DSC04396_web.jpg",
+      "src": "images/DSC04396_web.jpg",
+      "date": "2024-09-26",
+      "artist": "Pauli Lyytinen",
+      "keywords": [
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC04418_web.jpg",
+      "src": "images/DSC04418_web.jpg",
+      "date": "2024-09-26",
+      "artist": "Pauli Lyytinen",
+      "keywords": [
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 9%"
+    },
+    {
+      "filename": "DSC04421_web.jpg",
+      "src": "images/DSC04421_web.jpg",
+      "date": "2024-09-26",
+      "artist": "Pauli Lyytinen",
+      "keywords": [
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 45%"
+    },
+    {
+      "filename": "DSC04429_web.jpg",
+      "src": "images/DSC04429_web.jpg",
+      "date": "2024-09-26",
+      "artist": "Pauli Lyytinen",
+      "keywords": [
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 11%"
+    },
+    {
+      "filename": "DSC04458_web.jpg",
+      "src": "images/DSC04458_web.jpg",
+      "date": "2024-09-26",
+      "artist": "Pauli Lyytinen",
+      "keywords": [
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 62%"
+    },
+    {
+      "filename": "DSC04477_web.jpg",
+      "src": "images/DSC04477_web.jpg",
+      "date": "2024-09-26",
+      "artist": "Pauli Lyytinen",
+      "keywords": [
+        "Pauli Lyytinen",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC03907_web.jpg",
+      "src": "images/DSC03907_web.jpg",
+      "date": "2024-09-06",
+      "artist": "Antti Ahoniemi",
+      "keywords": [
+        "Antti Ahoniemi",
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Max Zenger",
+        "Mikko Antila",
+        "Mikko Hassinen",
+        "bass",
+        "drums",
+        "saxophone",
+        "vibraphone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03923_web.jpg",
+      "src": "images/DSC03923_web.jpg",
+      "date": "2024-09-06",
+      "artist": "Antti Ahoniemi",
+      "keywords": [
+        "Antti Ahoniemi",
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Max Zenger",
+        "bass",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC03928_web.jpg",
+      "src": "images/DSC03928_web.jpg",
+      "date": "2024-09-06",
+      "artist": "MIKKO HASSINEN FUTURE FOOD FACTORY",
+      "keywords": [
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Mikko Hassinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 42%"
+    },
+    {
+      "filename": "DSC04106_web.jpg",
+      "src": "images/DSC04106_web.jpg",
+      "date": "2024-09-06",
+      "artist": "MIKKO HASSINEN FUTURE FOOD FACTORY",
+      "keywords": [
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Mikko Antila",
+        "vibraphone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04151_web.jpg",
+      "src": "images/DSC04151_web.jpg",
+      "date": "2024-09-06",
+      "artist": "MIKKO HASSINEN FUTURE FOOD FACTORY",
+      "keywords": [
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Mikko Hassinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 27%"
+    },
+    {
+      "filename": "DSC04200_web.jpg",
+      "src": "images/DSC04200_web.jpg",
+      "date": "2024-09-06",
+      "artist": "MIKKO HASSINEN FUTURE FOOD FACTORY",
+      "keywords": [
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Mikko Hassinen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04264_web.jpg",
+      "src": "images/DSC04264_web.jpg",
+      "date": "2024-09-06",
+      "artist": "Antti Ahoniemi",
+      "keywords": [
+        "Antti Ahoniemi",
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04299_web.jpg",
+      "src": "images/DSC04299_web.jpg",
+      "date": "2024-09-06",
+      "artist": "MIKKO HASSINEN FUTURE FOOD FACTORY",
+      "keywords": [
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Max Zenger",
+        "Mikko Hassinen",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 47%"
+    },
+    {
+      "filename": "DSC04328_web.jpg",
+      "src": "images/DSC04328_web.jpg",
+      "date": "2024-09-06",
+      "artist": "MIKKO HASSINEN FUTURE FOOD FACTORY",
+      "keywords": [
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "Max Zenger",
+        "Mikko Hassinen",
+        "drums",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC04346_web.jpg",
+      "src": "images/DSC04346_web.jpg",
+      "date": "2024-09-06",
+      "artist": "Antti Ahoniemi",
+      "keywords": [
+        "Antti Ahoniemi",
+        "MIKKO HASSINEN FUTURE FOOD FACTORY",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC03593_web.jpg",
+      "src": "images/DSC03593_web.jpg",
+      "date": "2024-05-24",
+      "artist": "Mathias Eick",
+      "keywords": [
+        "Mathias Eick",
+        "Rasmus Soini",
+        "SOINTI JAZZ ORCHESTRA FEAT. MATHIAS EICK",
+        "conductor"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03596_web.jpg",
+      "src": "images/DSC03596_web.jpg",
+      "date": "2024-05-24",
+      "artist": "Mathias Eick",
+      "keywords": [
+        "Mathias Eick",
+        "SOINTI JAZZ ORCHESTRA FEAT. MATHIAS EICK",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 22%"
+    },
+    {
+      "filename": "DSC03627_web.jpg",
+      "src": "images/DSC03627_web.jpg",
+      "date": "2024-05-24",
+      "artist": "Mathias Eick",
+      "keywords": [
+        "Mathias Eick",
+        "SOINTI JAZZ ORCHESTRA FEAT. MATHIAS EICK",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 14%"
+    },
+    {
+      "filename": "DSC03640_web.jpg",
+      "src": "images/DSC03640_web.jpg",
+      "date": "2024-05-24",
+      "artist": "Mathias Eick",
+      "keywords": [
+        "Mathias Eick",
+        "SOINTI JAZZ ORCHESTRA FEAT. MATHIAS EICK",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 37%"
+    },
+    {
+      "filename": "DSC03686_web.jpg",
+      "src": "images/DSC03686_web.jpg",
+      "date": "2024-05-24",
+      "artist": "Mathias Eick",
+      "keywords": [
+        "Mathias Eick",
+        "Rasmus Soini",
+        "SOINTI JAZZ ORCHESTRA FEAT. MATHIAS EICK",
+        "conductor",
+        "trumpet"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC03769_web.jpg",
+      "src": "images/DSC03769_web.jpg",
+      "date": "2024-05-24",
+      "artist": "Pekka Seppänen",
+      "keywords": [
+        "Pekka Seppänen",
+        "SOINTI JAZZ ORCHESTRA FEAT. MATHIAS EICK",
+        "saxophone"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 44%"
+    },
+    {
+      "filename": "DSC03164-Pano_web.jpg",
+      "src": "images/DSC03164-Pano_web.jpg",
+      "date": "2024-05-10",
+      "artist": "Aino Juutilainen",
+      "keywords": [
+        "Aino Juutilainen",
+        "Jesse Ojajärvi",
+        "Josefiina Vannesluoma",
+        "MIKKO SARVANNE GARDEN",
+        "Mikko Sarvanne",
+        "Oskari Siirtola",
+        "Selma Savolainen",
+        "bass",
+        "cello",
+        "conductor",
+        "drums",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 777,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03190_web.jpg",
+      "src": "images/DSC03190_web.jpg",
+      "date": "2024-05-10",
+      "artist": "Jesse Ojajärvi",
+      "keywords": [
+        "Jesse Ojajärvi",
+        "MIKKO SARVANNE GARDEN",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 23%"
+    },
+    {
+      "filename": "DSC03199_web.jpg",
+      "src": "images/DSC03199_web.jpg",
+      "date": "2024-05-10",
+      "artist": "MIKKO SARVANNE GARDEN",
+      "keywords": [
+        "MIKKO SARVANNE GARDEN",
+        "Mikko Sarvanne",
+        "conductor"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 21%"
+    },
+    {
+      "filename": "DSC03219_web.jpg",
+      "src": "images/DSC03219_web.jpg",
+      "date": "2024-05-10",
+      "artist": "Josefiina Vannesluoma",
+      "keywords": [
+        "Josefiina Vannesluoma",
+        "MIKKO SARVANNE GARDEN",
+        "flute"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03228_web.jpg",
+      "src": "images/DSC03228_web.jpg",
+      "date": "2024-05-10",
+      "artist": "Josefiina Vannesluoma",
+      "keywords": [
+        "Josefiina Vannesluoma",
+        "MIKKO SARVANNE GARDEN",
+        "Oskari Siirtola",
+        "Selma Savolainen",
+        "Virva Immonen",
+        "bass",
+        "singer"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC03349_web.jpg",
+      "src": "images/DSC03349_web.jpg",
+      "date": "2024-05-10",
+      "artist": "Josefiina Vannesluoma",
+      "keywords": [
+        "Josefiina Vannesluoma",
+        "MIKKO SARVANNE GARDEN",
+        "Selma Savolainen",
+        "Virva Immonen",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC03484_web.jpg",
+      "src": "images/DSC03484_web.jpg",
+      "date": "2024-05-10",
+      "artist": "MIKKO SARVANNE GARDEN",
+      "keywords": [
+        "MIKKO SARVANNE GARDEN",
+        "Oskari Siirtola",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 12%"
+    },
+    {
+      "filename": "DSC02632_web.jpg",
+      "src": "images/DSC02632_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Mathias Sandberg",
+        "Ville Luukkonen",
+        "Zacharias Holmkvist",
+        "bass",
+        "drums",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02935_web.jpg",
+      "src": "images/DSC02935_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Mathias Sandberg",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 30%"
+    },
+    {
+      "filename": "DSC03024_web.jpg",
+      "src": "images/DSC03024_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Zacharias Holmkvist",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 24%"
+    },
+    {
+      "filename": "DSC03037_web.jpg",
+      "src": "images/DSC03037_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Zacharias Holmkvist",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 19%"
+    },
+    {
+      "filename": "DSC03042_web.jpg",
+      "src": "images/DSC03042_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Mathias Sandberg",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 56%"
+    },
+    {
+      "filename": "DSC03074 1_web.jpg",
+      "src": "images/DSC03074 1_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Ville Luukkonen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC03100_web.jpg",
+      "src": "images/DSC03100_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Zacharias Holmkvist",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC03112_web.jpg",
+      "src": "images/DSC03112_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Ville Luukkonen",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 40%"
+    },
+    {
+      "filename": "DSC03126_web.jpg",
+      "src": "images/DSC03126_web.jpg",
+      "date": "2024-04-19",
+      "artist": "MATHIAS SANDBERG TRIO",
+      "keywords": [
+        "MATHIAS SANDBERG TRIO",
+        "Mathias Sandberg",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
     },
     {
       "filename": "DSC02254_LRBW_web.jpg",
@@ -1455,18 +6596,219 @@
       "facePosition": null
     },
     {
+      "filename": "DSC02254_web.jpg",
+      "src": "images/DSC02254_web.jpg",
+      "date": "2024-03-15",
+      "artist": "Joe Peri",
+      "keywords": [
+        "Joe Peri",
+        "KAISA’S MACHINE",
+        "Kaisa Mäensivu",
+        "Max Light",
+        "Max Zenger",
+        "Rasmus Sörensen",
+        "bass",
+        "drums",
+        "guitar",
+        "piano",
+        "saxophone"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02270_web.jpg",
+      "src": "images/DSC02270_web.jpg",
+      "date": "2024-03-15",
+      "artist": "Joe Peri",
+      "keywords": [
+        "Joe Peri",
+        "KAISA’S MACHINE",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 35%"
+    },
+    {
+      "filename": "DSC02356_web.jpg",
+      "src": "images/DSC02356_web.jpg",
+      "date": "2024-03-15",
+      "artist": "KAISA’S MACHINE",
+      "keywords": [
+        "KAISA’S MACHINE",
+        "Kaisa Mäensivu",
+        "Max Light",
+        "bass",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC02369_web.jpg",
+      "src": "images/DSC02369_web.jpg",
+      "date": "2024-03-15",
+      "artist": "KAISA’S MACHINE",
+      "keywords": [
+        "KAISA’S MACHINE",
+        "Kaisa Mäensivu",
+        "Max Light",
+        "bass",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 4%"
+    },
+    {
+      "filename": "DSC02378_web.jpg",
+      "src": "images/DSC02378_web.jpg",
+      "date": "2024-03-15",
+      "artist": "KAISA’S MACHINE",
+      "keywords": [
+        "KAISA’S MACHINE",
+        "Kaisa Mäensivu",
+        "Max Light",
+        "bass",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 36%"
+    },
+    {
       "filename": "DSC02401_web.jpg",
       "src": "images/DSC02401_web.jpg",
       "date": "2024-03-15",
       "artist": "KAISA’S MACHINE",
       "keywords": [
         "KAISA’S MACHINE",
-        "Max Zenger"
+        "Max Zenger",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
       "facePosition": "center 26%"
+    },
+    {
+      "filename": "DSC02531_web.jpg",
+      "src": "images/DSC02531_web.jpg",
+      "date": "2024-03-15",
+      "artist": "KAISA’S MACHINE",
+      "keywords": [
+        "KAISA’S MACHINE",
+        "Rasmus Sörensen",
+        "piano"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 6%"
+    },
+    {
+      "filename": "DSC02041_web.jpg",
+      "src": "images/DSC02041_web.jpg",
+      "date": "2024-03-03",
+      "artist": "Ahmed Ag Kaedy",
+      "keywords": [
+        "Ahmed Ag Kaedy",
+        "Soiva Taidehalli",
+        "Tuareg",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02043_web.jpg",
+      "src": "images/DSC02043_web.jpg",
+      "date": "2024-03-03",
+      "artist": "Ahmed Ag Kaedy",
+      "keywords": [
+        "Ahmed Ag Kaedy",
+        "Soiva Taidehalli",
+        "Tuareg",
+        "guitar"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC02066_web.jpg",
+      "src": "images/DSC02066_web.jpg",
+      "date": "2024-03-03",
+      "artist": "Ahmed Ag Kaedy",
+      "keywords": [
+        "Ahmed Ag Kaedy",
+        "Soiva Taidehalli",
+        "Tuareg",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 61%"
+    },
+    {
+      "filename": "DSC02130_web.jpg",
+      "src": "images/DSC02130_web.jpg",
+      "date": "2024-03-03",
+      "artist": "Ahmed Ag Kaedy",
+      "keywords": [
+        "Ahmed Ag Kaedy",
+        "Soiva Taidehalli",
+        "Tuareg",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC02141_web.jpg",
+      "src": "images/DSC02141_web.jpg",
+      "date": "2024-03-03",
+      "artist": "Ahmed Ag Kaedy",
+      "keywords": [
+        "Ahmed Ag Kaedy",
+        "Soiva Taidehalli",
+        "Tuareg",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 64%"
+    },
+    {
+      "filename": "DSC02186_web.jpg",
+      "src": "images/DSC02186_web.jpg",
+      "date": "2024-03-03",
+      "artist": "Ahmed Ag Kaedy",
+      "keywords": [
+        "Ahmed Ag Kaedy",
+        "Soiva Taidehalli",
+        "Tuareg",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
     },
     {
       "filename": "DSC00476_web.jpg",
@@ -1477,8 +6819,10 @@
         "Antti Hevosmaa",
         "Erik Fräki",
         "Heikki Selamo",
-        "Porvoo Jazz Club",
         "VIRTA",
+        "bass",
+        "drums",
+        "keyboard",
         "trumpet"
       ],
       "orientation": "landscape",
@@ -1495,8 +6839,10 @@
         "Antti Hevosmaa",
         "Erik Fräki",
         "Heikki Selamo",
-        "Porvoo Jazz Club",
-        "VIRTA"
+        "VIRTA",
+        "bass",
+        "drums",
+        "trumpet"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1512,8 +6858,10 @@
         "Antti Hevosmaa",
         "Erik Fräki",
         "Heikki Selamo",
-        "Porvoo Jazz Club",
-        "VIRTA"
+        "VIRTA",
+        "bass",
+        "drums",
+        "singer"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1527,7 +6875,36 @@
       "artist": "Antti Hevosmaa",
       "keywords": [
         "Antti Hevosmaa",
-        "Porvoo Jazz Club",
+        "VIRTA",
+        "trumpet"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00679_web.jpg",
+      "src": "images/DSC00679_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Erik Fräki",
+      "keywords": [
+        "Erik Fräki",
+        "VIRTA",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC00694_web.jpg",
+      "src": "images/DSC00694_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
         "VIRTA",
         "trumpet"
       ],
@@ -1543,14 +6920,221 @@
       "artist": "Heikki Selamo",
       "keywords": [
         "Heikki Selamo",
-        "Porvoo Jazz Club",
         "VIRTA",
         "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 40%"
+      "facePosition": "center 41%"
+    },
+    {
+      "filename": "DSC00798_web.jpg",
+      "src": "images/DSC00798_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC01041_web.jpg",
+      "src": "images/DSC01041_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC01060_web.jpg",
+      "src": "images/DSC01060_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Erik Fräki",
+      "keywords": [
+        "Erik Fräki",
+        "VIRTA",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 5%"
+    },
+    {
+      "filename": "DSC01158_web.jpg",
+      "src": "images/DSC01158_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Erik Fräki",
+      "keywords": [
+        "Erik Fräki",
+        "VIRTA",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 18%"
+    },
+    {
+      "filename": "DSC01440_web.jpg",
+      "src": "images/DSC01440_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 61%"
+    },
+    {
+      "filename": "DSC01448_web.jpg",
+      "src": "images/DSC01448_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
+      "filename": "DSC01482_web.jpg",
+      "src": "images/DSC01482_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 8%"
+    },
+    {
+      "filename": "DSC01510_web.jpg",
+      "src": "images/DSC01510_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA",
+        "singer"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 43%"
+    },
+    {
+      "filename": "DSC01979_web.jpg",
+      "src": "images/DSC01979_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 65%"
+    },
+    {
+      "filename": "DSC02004_web.jpg",
+      "src": "images/DSC02004_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 15%"
+    },
+    {
+      "filename": "DSC02013_web.jpg",
+      "src": "images/DSC02013_web.jpg",
+      "date": "2024-02-10",
+      "artist": "Antti Hevosmaa",
+      "keywords": [
+        "Antti Hevosmaa",
+        "VIRTA"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 2%"
+    },
+    {
+      "filename": "DSC00148_web.jpg",
+      "src": "images/DSC00148_web.jpg",
+      "date": "2024-01-19",
+      "artist": "Arwi Lind",
+      "keywords": [
+        "Arwi Lind",
+        "Eero Tikkanen",
+        "Otto Eskelinen",
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "bass",
+        "drums"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00172_web.jpg",
+      "src": "images/DSC00172_web.jpg",
+      "date": "2024-01-19",
+      "artist": "Eero Tikkanen",
+      "keywords": [
+        "Eero Tikkanen",
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "bass"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
+    },
+    {
+      "filename": "DSC00266_web.jpg",
+      "src": "images/DSC00266_web.jpg",
+      "date": "2024-01-19",
+      "artist": "Otto Eskelinen",
+      "keywords": [
+        "Otto Eskelinen",
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "flute"
+      ],
+      "orientation": "landscape",
+      "width": 2000,
+      "height": 1333,
+      "facePosition": null
     },
     {
       "filename": "DSC00276_BW_web.jpg",
@@ -1566,6 +7150,51 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 5%"
+    },
+    {
+      "filename": "DSC00276_web.jpg",
+      "src": "images/DSC00276_web.jpg",
+      "date": "2024-01-19",
+      "artist": "Eero Tikkanen",
+      "keywords": [
+        "Eero Tikkanen",
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "bass"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 54%"
+    },
+    {
+      "filename": "DSC00306_web.jpg",
+      "src": "images/DSC00306_web.jpg",
+      "date": "2024-01-19",
+      "artist": "Otto Eskelinen",
+      "keywords": [
+        "Otto Eskelinen",
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "flute"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 5%"
+    },
+    {
+      "filename": "DSC00412_web.jpg",
+      "src": "images/DSC00412_web.jpg",
+      "date": "2024-01-19",
+      "artist": "Arwi Lind",
+      "keywords": [
+        "Arwi Lind",
+        "THE MYSTIC REVELATION of TEPPO REPO",
+        "drums"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 63%"
     },
     {
       "filename": "DSC00072_BW_web.jpg",
@@ -1709,7 +7338,8 @@
       "keywords": [
         "Bastien Weeger",
         "Julien Stella",
-        "PORVOO JAZZ CLUB GOES TAIDEHALLI: NOSAX NOCLAR"
+        "PORVOO JAZZ CLUB GOES TAIDEHALLI: NOSAX NOCLAR",
+        "saxophone"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -1865,7 +7495,8 @@
       "artist": "JORIS ROELOFS SOLO",
       "keywords": [
         "JORIS ROELOFS SOLO",
-        "Joris Roelofs"
+        "Joris Roelofs",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2010,7 +7641,8 @@
       "artist": "JUKKIS UOTILA PLAYS FINNISH JAZZ CLASSICS",
       "keywords": [
         "JUKKIS UOTILA PLAYS FINNISH JAZZ CLASSICS",
-        "Jukkis Uotila"
+        "Jukkis Uotila",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2039,7 +7671,8 @@
       "keywords": [
         "Antti Lötjönen",
         "JASKA LUKKARINEN ONE FOR JOE",
-        "Timo Lassy"
+        "Timo Lassy",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2084,7 +7717,8 @@
       "artist": "JASKA LUKKARINEN ONE FOR JOE",
       "keywords": [
         "JASKA LUKKARINEN ONE FOR JOE",
-        "Jaska Lukkarinen"
+        "Jaska Lukkarinen",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2184,12 +7818,12 @@
       "filename": "DSC01445_web.jpg",
       "src": "images/DSC01445_web.jpg",
       "date": "2023-03-04",
-      "artist": "Porvoo Jazz Club",
+      "artist": "SEIM/HENRIKSEN/JORMIN/OUNASKARI",
       "keywords": [
-        "Porvoo Jazz Club",
         "SEIM/HENRIKSEN/JORMIN/OUNASKARI",
         "Trygve Seim",
-        "saksofoni"
+        "saksofoni",
+        "saxophone"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2259,20 +7893,6 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 65%"
-    },
-    {
-      "filename": "DSC07049_web.jpg",
-      "src": "images/DSC07049_web.jpg",
-      "date": "2022-09-24",
-      "artist": "LINDA FREDRIKSSON JUNIPER",
-      "keywords": [
-        "LINDA FREDRIKSSON JUNIPER",
-        "Linda Fredriksson"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 22%"
     },
     {
       "filename": "DSC07253_web.jpg",
@@ -2354,7 +7974,8 @@
       "artist": "Marcus Söderström",
       "keywords": [
         "Marcus Söderström",
-        "OSTROBOTHNIA JAZZ SEXTET"
+        "OSTROBOTHNIA JAZZ SEXTET",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2408,7 +8029,8 @@
       "date": "2022-09-24",
       "artist": "Georg Koller",
       "keywords": [
-        "Georg Koller"
+        "Georg Koller",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2554,7 +8176,8 @@
       "artist": "David Kikoski",
       "keywords": [
         "David Kikoski",
-        "KIKOSKI-MÄENSIVU-PERI"
+        "KIKOSKI-MÄENSIVU-PERI",
+        "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -2969,10 +8592,10 @@
       "filename": "DSC09922_web.jpg",
       "src": "images/DSC09922_web.jpg",
       "date": "2020-08-14",
-      "artist": "Porvoo Jazz Klubi",
+      "artist": "Teemu Viinikainen",
       "keywords": [
-        "Porvoo Jazz Klubi",
-        "Teemu Viinikainen"
+        "Teemu Viinikainen",
+        "guitar"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -3018,6 +8641,20 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 56%"
+    },
+    {
+      "filename": "DSC05694_web.jpg",
+      "src": "images/DSC05694_web.jpg",
+      "date": "2019-12-13",
+      "artist": "Raoul Björkenheim",
+      "keywords": [
+        "Raoul Björkenheim",
+        "guitar"
+      ],
+      "orientation": "portrait",
+      "width": 1333,
+      "height": 2000,
+      "facePosition": "center 61%"
     },
     {
       "filename": "DSC05761_web.jpg",
