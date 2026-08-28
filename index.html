@@ -1447,6 +1447,10 @@ function startSlideTimer() {
 
 // ── Kioskimoodi: uusi kuvasetti 10 min välein ─────────────────────────────
 setInterval(() => {
+  // Sulje lightboxit jos auki
+  document.getElementById('lightbox').classList.remove('open');
+  document.getElementById('printLightbox').classList.remove('open');
+
   // Näytä loading-logo uudelleen
   const loadingHtml = `
     <div id="loading">
