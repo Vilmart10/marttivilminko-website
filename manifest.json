@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T18:11:41.423Z",
+  "generated": "2026-08-28T16:59:07.884Z",
   "count": 556,
   "images": [
     {
@@ -11,7 +11,10 @@
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Joonas Riippa"
+        "Joonas Riippa",
+        "bass",
+        "drums",
+        "piano"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -25,7 +28,8 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa"
+        "Joonas Riippa",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -39,7 +43,8 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Haavisto"
+        "Joonas Haavisto",
+        "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -53,7 +58,8 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Haavisto"
+        "Joonas Haavisto",
+        "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -67,12 +73,13 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Haavisto"
+        "Joonas Haavisto",
+        "piano"
       ],
       "orientation": "portrait",
       "width": 1333,
       "height": 2000,
-      "facePosition": "center 29%"
+      "facePosition": "center 2%"
     },
     {
       "filename": "DSC03505_web.jpg",
@@ -82,7 +89,9 @@
       "keywords": [
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa"
+        "Joonas Riippa",
+        "bass",
+        "drums"
       ],
       "orientation": "portrait",
       "width": 1333,
@@ -98,7 +107,10 @@
         "Antti Lötjönen",
         "JOONAS HAAVISTO TRIO",
         "Joonas Haavisto",
-        "Joonas Riippa"
+        "Joonas Riippa",
+        "bass",
+        "drums",
+        "piano"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -126,7 +138,8 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "JOONAS HAAVISTO TRIO"
+        "JOONAS HAAVISTO TRIO",
+        "bass"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -140,7 +153,8 @@
       "artist": "JOONAS HAAVISTO TRIO",
       "keywords": [
         "JOONAS HAAVISTO TRIO",
-        "Joonas Riippa"
+        "Joonas Riippa",
+        "drums"
       ],
       "orientation": "landscape",
       "width": 2000,
@@ -154,7 +168,8 @@
       "artist": "Antti Lötjönen",
       "keywords": [
         "Antti Lötjönen",
-        "JOONAS HAAVISTO TRIO"
+        "JOONAS HAAVISTO TRIO",
+        "bass"
       ],
       "orientation": "portrait",
       "width": 1333,
