@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T16:59:07.884Z",
-  "count": 556,
+  "generated": "2026-08-29T07:11:43.503Z",
+  "count": 552,
   "images": [
     {
       "filename": "DSC03274_web.jpg",
@@ -4377,21 +4377,6 @@
       "facePosition": null
     },
     {
-      "filename": "DSC01390_LR_web.jpg",
-      "src": "images/DSC01390_LR_web.jpg",
-      "date": "2025-02-14",
-      "artist": "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
-      "keywords": [
-        "PORVOO JAZZ CLUB GOES PORVOON VALOT: MIMIE MOORE JAZZ EDITION",
-        "Saana Trygg-Nevanlinna",
-        "singer"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 19%"
-    },
-    {
       "filename": "DSC01390_web.jpg",
       "src": "images/DSC01390_web.jpg",
       "date": "2025-02-14",
@@ -4815,22 +4800,6 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 17%"
-    },
-    {
-      "filename": "DSC09919-Pano-2_LR_web.jpg",
-      "src": "images/DSC09919-Pano-2_LR_web.jpg",
-      "date": "2024-12-14",
-      "artist": "OLLI HIRVONEN TRIO",
-      "keywords": [
-        "OLLI HIRVONEN TRIO",
-        "Olli Hirvonen",
-        "Sam Ospovat",
-        "Simon Jermyn"
-      ],
-      "orientation": "landscape",
-      "width": 2000,
-      "height": 908,
-      "facePosition": null
     },
     {
       "filename": "DSC09919-Pano-2_web.jpg",
@@ -7152,21 +7121,6 @@
       "facePosition": null
     },
     {
-      "filename": "DSC00276_BW_web.jpg",
-      "src": "images/DSC00276_BW_web.jpg",
-      "date": "2024-01-19",
-      "artist": "Eero Tikkanen",
-      "keywords": [
-        "Eero Tikkanen",
-        "THE MYSTIC REVELATION of TEPPO REPO",
-        "bass"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 2%"
-    },
-    {
       "filename": "DSC00276_web.jpg",
       "src": "images/DSC00276_web.jpg",
       "date": "2024-01-19",
@@ -8643,19 +8597,6 @@
       "width": 1333,
       "height": 2000,
       "facePosition": "center 16%"
-    },
-    {
-      "filename": "DSC05694_print_web.jpg",
-      "src": "images/DSC05694_print_web.jpg",
-      "date": "2019-12-13",
-      "artist": "Raoul Björkenheim",
-      "keywords": [
-        "Raoul Björkenheim"
-      ],
-      "orientation": "portrait",
-      "width": 1333,
-      "height": 2000,
-      "facePosition": "center 56%"
     },
     {
       "filename": "DSC05694_web.jpg",
